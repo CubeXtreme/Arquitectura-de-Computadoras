@@ -1,0 +1,125 @@
+Tareas para el segundo pariodo parcial
+del periodo escolar enero-junio de 219
+3CM2
+************************************************************
+1.- Investigar las definiciones de los conceptos
+A).- BIT
+
+B).- NIBBLE
+C).- BYTE
+D).- WORD
+E).- HALFWORD
+F).- DOUBLEWORD
+G).- QUADWORD
+
+Entregar Tarea  01 segundo parcial el lunes 11 de marzo
+***********************************************************
+TAREA 2
+Explicar El diagrama de la Figura 4.1
+Patterson Hennessy
+5Th Edition
+Entregar el lunes 01 de abril de 2019
+***********************************************************
+TAREA 3
+En en contexto de las computadoras,
+
+Explicar el ciclo de instrucción, las etapas de ejecución de una instrucción
+*****************
+1).-Fetch Instruction (FI)
+2).-Decode Instruction (DI)
+3).-Calculate Operand (Address calculation) (CO)
+4).-Fetch Operand (FO)
+5).-Execute Operation (data operation) (EI) or (Execute Instruction).
+6).-WO --> Write Operand (The result is store in memory)
+
+ENTREGAR EL MARTES 09 DE ABRIL 2019
+******************************************************************
+TAREA 4
+
+Explicar la Figura 4.2
+Patterson Hennessy
+5Th Edition
+
+(Pueden Revisar también la página 69, y citarla si es que la utilizaron)
+
+
+Incluir en la misma tarea los conceptos de
+a).- asserted
+b).- assert
+c).- deassert
+d).- deasserted
+
+Entregar el jueves 11 de abril de 2019
+************************************************************
+************************************************************
+**********Cuestionario de evaluación de*********************
+***********el segundo periodo parcial***********************
+***********lunes 15 de abril del 2019***********************
+************************************************************
+************************************************************
+*************************************************************************************
+TAREA 5
+
+DEFINICIÓN DE LOS SIGUIENTES CONCEPTOS
+    *****************************
+A).- Index register
+Patterson Hennessy
+5Th Edition
+Page 68
+*************************************************************************************
+B).- Load Instruction
+Patterson Hennessy
+5Th Edition
+page 68
+*************************************************************************************
+C).- store instruction
+Patterson Hennessy
+5Th Edition
+page 70
+*************************************************************************************
+D).- alignment restriction
+Patterson Hennessy
+5Th Edition
+page 69
+*************************************************************************************
+E).- Explicar la instrucción     [   lw $t0,8($s3)    ]
+en el contexto de las otras dos instrucciones de la página 69
+Dar una explicación puntual del rol, papel o función que realiza.
+página 69
+*************************************************************************************
+F).- starting address, base register, and  index register
+pages 69, 73, y 128.
+*************************************************************************************
+G).- Convensión para los registros en el procesador del modelo MIPS
+pagina 80
+*************************************************************************************
+H).-
+a).- machine language
+b).- machine code
+page 81
+*************************************************************************************
+I).-
+a).- Big-Endian
+b).- Little-Endian
+*************************************************************************************
+J).- Conditional Branch (page 91)
+a).- beq
+b).- bnq
+c).- blt
+d).- ble
+f).- bgt
+g).- bge
+patterson 162
+*************************************************************************************
+*************************************************************************************
+ENTREGAR, TAREA 5, EL LUNES 15 DE ABRIL DE 2019
+*************************************************************************************
+
+
+
+
+
+
+
+
+

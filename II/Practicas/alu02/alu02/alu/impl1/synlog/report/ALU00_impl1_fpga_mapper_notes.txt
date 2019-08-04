@@ -1,0 +1,16 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotr00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelrotR00(barrelrotr0)); safe FSM implementation is not required.
+@N: MF179 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotr00.vhdl":37:6:37:33|Found 8 by 8 bit equality operator ('==') pxora\.un7_functbarrelrotr (in view: work.barrelrotR00(barrelrotr0))
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotl00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelrotL00(barrelrotl0)); safe FSM implementation is not required.
+@N: MF179 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotl00.vhdl":37:6:37:33|Found 8 by 8 bit equality operator ('==') pxora\.un7_functbarrelrotl (in view: work.barrelrotL00(barrelrotl0))
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftr00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelshiftR00(barrelshiftr0)); safe FSM implementation is not required.
+@N: MF179 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftr00.vhdl":37:6:37:35|Found 8 by 8 bit equality operator ('==') pxora\.un7_functbarrelshiftr (in view: work.barrelshiftR00(barrelshiftr0))
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftl00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelshiftL00(barrelshiftl0)); safe FSM implementation is not required.
+@N: MF179 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftl00.vhdl":37:6:37:35|Found 8 by 8 bit equality operator ('==') pxora\.un7_functbarrelshiftl (in view: work.barrelshiftL00(barrelshiftl0))
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: C:\Users\Yair\Desktop\alu02\alu02\alu\impl1\ALU00_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,33 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topram00.vhd":9:7:9:14|Top entity is set to topram00.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topram00.vhd":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\contRead00.vhd":9:7:9:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\contRead00.vhd":37:5:37:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\mux00.vhd":8:7:8:11|Synthesizing work.mux00.mux0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\ram00.vhd":10:7:10:11|Synthesizing work.ram00.ram0.
+@N: CL134 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\ram00.vhd":26:7:26:14|Found RAM swordram, depth=64, width=7
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":10:7:10:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":48:7:48:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":87:7:87:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":126:7:126:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":165:7:165:14|Removing redundant assignment.
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd":31:2:31:3|Register bit outflagc is always 1.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl":88:6:88:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topram00.vhd":9:7:9:14|Selected library: work cell: topram00 view topram0 as top level
+@N: NF107 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topram00.vhd":9:7:9:14|Selected library: work cell: topram00 view topram0 as top level
+

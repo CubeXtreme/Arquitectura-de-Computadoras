@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="ark00" device="LCMXO2-7000HE-4TG144C" default_implementation="ark0">
+    <Options/>
+    <Implementation title="ark0" dir="ark0" description="ark0" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+        <Source name="div00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="osc00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagediv00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topdiv00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topdiv00"/>
+        </Source>
+        <Source name="romData00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="romData00"/>
+        </Source>
+        <Source name="uc00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="uc00"/>
+        </Source>
+        <Source name="memProg00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="memProg00"/>
+        </Source>
+        <Source name="decoderInst00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="decoderInst00"/>
+        </Source>
+        <Source name="ark00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="ark001.sty"/>
+</BaliProject>

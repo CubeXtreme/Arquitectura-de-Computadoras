@@ -1,0 +1,20 @@
+#Start recording tcl command: 8/22/2018 08:36:25
+#Project Location: C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00; Project name: mux00
+prj_project open "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux00.ldf"
+pgr_project save "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux/mux.xcf"
+prj_src add -exclude "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux/mux.xcf"
+prj_src enable "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux/mux.xcf"
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux/mux.xcf"
+prj_run Export -impl mux -task Jedecgen
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/erik_/Documents/cursoArqui/projectMachX02/mux00/mux/mux.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 8/22/2018 09:21:19

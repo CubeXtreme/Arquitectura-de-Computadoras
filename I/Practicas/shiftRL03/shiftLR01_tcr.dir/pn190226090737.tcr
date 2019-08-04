@@ -1,0 +1,11 @@
+#Start recording tcl command: 2/26/2019 08:50:36
+#Project Location: C:/Users/elite/OneDrive/Escritorio/shiftRL03; Project name: shiftLR01
+prj_project open "C:/Users/elite/OneDrive/Escritorio/shiftRL03/shiftLR01.ldf"
+pgr_project open "C:/Users/elite/OneDrive/Escritorio/shiftRL03/shiftLR00/shiftLR00.xcf"
+pgr_program run
+prj_run Export -impl shiftLR00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/elite/OneDrive/Escritorio/shiftRL03/shiftLR00/shiftLR00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 2/26/2019 09:07:37

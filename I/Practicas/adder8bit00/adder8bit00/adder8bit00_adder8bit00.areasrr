@@ -1,0 +1,151 @@
+----------------------------------------------------------------------
+Report for cell topadder8bit00.topadder8bit0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       26
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB       17       100.0
+                                 OB        9       100.0
+                           ORCALUT4       10       100.0
+                                PUR        1       100.0
+                                VHI       12       100.0
+                                VLO       12       100.0
+SUB MODULES 
+                           and00_10        1       100.0
+                            and00_3        1       100.0
+                            and00_4        1       100.0
+                            and00_5        1       100.0
+                            and00_6        1       100.0
+                            and00_7        1       100.0
+                            and00_8        1       100.0
+                            and00_9        1       100.0
+                             fa00_6        1       100.0
+                             or00_0        1       100.0
+                             xnor00        1       100.0
+                            
+                         TOTAL            73           
+----------------------------------------------------------------------
+Report for cell xnor00.netlist
+     Instance path:  AD24
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_10.netlist
+  Original Cell name and00
+     Instance path:  AD23
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_9.netlist
+  Original Cell name and00
+     Instance path:  AD22
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_8.netlist
+  Original Cell name and00
+     Instance path:  AD21
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_7.netlist
+  Original Cell name and00
+     Instance path:  AD20
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_6.netlist
+  Original Cell name and00
+     Instance path:  AD19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_5.netlist
+  Original Cell name and00
+     Instance path:  AD18
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_4.netlist
+  Original Cell name and00
+     Instance path:  AD17
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell and00_3.netlist
+  Original Cell name and00
+     Instance path:  AD16
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell fa00_6.netlist
+  Original Cell name fa00
+     Instance path:  AD15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        2        16.7
+                                VLO        2        16.7
+SUB MODULES 
+                             or00_0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell or00_0.netlist
+  Original Cell name or00
+     Instance path:  AD15.F02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4        1        10.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           

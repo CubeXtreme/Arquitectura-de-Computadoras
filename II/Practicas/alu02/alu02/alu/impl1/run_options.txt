@@ -1,0 +1,120 @@
+#--  Synopsys, Inc.
+#--  Version M-2017.03L-SP1-1
+#--  Project file C:\Users\Yair\Desktop\alu02\alu02\alu\impl1\run_options.txt
+#--  Written on Wed Jun 12 12:07:21 2019
+
+
+#project files
+add_file -vhdl -lib work "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/osc00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/div00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packagefa00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packageha00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packagealu00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packagediv00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packagecomp.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packagemul00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packageadder.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/ac00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/ora00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/anda00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/nota00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/nanda00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/nora00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/xora00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/xnora00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/rotL00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/rotR00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/shiftR00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/shiftL00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/and0.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/and00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/or.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/or00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/xnor00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/xor.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/xor00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/packageadder8bit00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/addera00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/subsa00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/mult8bits.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/barrelrotL00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/barrelrotR00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/barrelshiftR00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/barrelshiftL00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/topdiv00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/topadder0.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/topadder01.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/ha00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/fa00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/adder8bits.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/topmult00.vhdl"
+add_file -vhdl -lib work "C:/Users/Yair/Desktop/alu02/alu02/alu/topalu00.vhdl"
+
+
+
+#implementation: "impl1"
+impl -add impl1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology MACHXO2
+set_option -part LCMXO2_7000HE
+set_option -package TG144C
+set_option -speed_grade -4
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "topalu00"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./ALU00_impl1.edi"
+
+#set log file 
+set_option log_file "C:/Users/Yair/Desktop/alu02/alu02/alu/impl1/ALU00_impl1.srf" 
+impl -active "impl1"

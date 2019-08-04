@@ -1,0 +1,44 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topdiv00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\div00\\div00\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\div00\\osc00.vhdl":1550532685
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\div00\\div00.vhdl":1550611157
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\div00\\packagediv00.vhdl":1550611073
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\div00\\topdiv00.vhdl":1550611552
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\osc00.vhdl" vhdl
+2 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl" vhdl
+3 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\packagediv00.vhdl" vhdl
+4 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\topdiv00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 1 2 3 
+
+# Dependency Lists (Users Of)
+0 -1
+1 4 
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work topdiv00 topdiv0 4
+module work topdiv00 4

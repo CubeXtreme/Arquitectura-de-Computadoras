@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/11/2019 10:39:44
+#Project Location: C:/Users/elite/OneDrive/Escritorio/key02; Project name: key02
+prj_project open "C:/Users/elite/OneDrive/Escritorio/key02/key02.ldf"
+prj_project close
+#Stop recording: 3/11/2019 10:41:29

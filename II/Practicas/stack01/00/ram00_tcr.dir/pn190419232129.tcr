@@ -1,0 +1,14 @@
+#Start recording tcl command: 4/19/2019 23:12:51
+#Project Location: C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/02/00; Project name: ram00
+C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/01/listo/00
+ram00
+#Start recording tcl command: 4/19/2019 23:21:29
+#Project Location: C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/01/listo/00; Project name: ram00
+prj_project open "C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/02/00/ram00.ldf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/02/00/ram0/ram0.xcf"
+pgr_program run
+pgr_project save "C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/02/00/ram0/ram0.xcf"
+prj_project close
+prj_project open "C:/Users/Yair/Desktop/Arquitectura/Practicas/RAM00/01/listo/00/ram00.ldf"
+#Stop recording: 4/19/2019 23:21:29

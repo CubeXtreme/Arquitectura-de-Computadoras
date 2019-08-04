@@ -1,0 +1,9 @@
+#Start recording tcl command: 1/31/2019 17:21:34
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder4bit00; Project name: adder4bit00
+prj_project new -name "adder4bit00" -impl "adder4bit00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder4bit00/and00.vhdl"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder4bit00/xor00.vhdl"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder4bit00/packageha00.vhdl"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder4bit00/ha00.vhdl"
+#Stop recording: 1/31/2019 17:54:13

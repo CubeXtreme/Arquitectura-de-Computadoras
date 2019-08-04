@@ -1,0 +1,87 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\lcd01\toplcd00.vhd":9:7:9:14|Top entity is set to toplcd00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\toplcd00.vhd":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdmux00.vhd":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@W: CD434 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdmux00.vhd":31:27:31:35|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":82:8:82:14|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":89:10:89:21|Referenced variable inflagcfdata is not in sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":84:8:84:16|Referenced variable resetdata is not in sensitivity list.
+Post processing for work.lcddata00.lcddata0
+@W: CL117 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":84:3:84:6|Latch generated from process for signal outworddata(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":84:3:84:6|Latch generated from process for signal outFlagdata; possible missing assignment in an if or case statement.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontdata00.vhd":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontconfig00.vhd":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontconfig00.vhd":33:7:33:11|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd01\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":21:2:21:3|Register bit sdiv(21) is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd01\div00.vhd":21:2:21:3|Pruning register bit 21 of sdiv(21 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd":26:2:26:3|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd":26:2:26:3|Removing register 'RWc' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd":26:2:26:3|Register bit comandoc(6) is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdconfig00.vhd":26:2:26:3|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdcontdata00.vhd":26:2:26:3|Register bit RWcd is always 0.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcddata00.vhd":10:2:10:8|Input clkdata is unused.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\lcd01\lcdmux00.vhd":13:2:13:10|Input inFlagcdm is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 11:07:42 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 11:07:43 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May  2 11:07:43 2019
+
+###########################################################]

@@ -1,0 +1,7 @@
+@W: CD326 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":33:1:33:2|Port led2 of entity work.lcdram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":92:0:92:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:3:94:5|Referenced variable clr is not in sensitivity list.
+@W: CL240 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":16:1:16:4|Signal LED2 is floating; a simulation mismatch is possible.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Pruning register bit 7 of c_key(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

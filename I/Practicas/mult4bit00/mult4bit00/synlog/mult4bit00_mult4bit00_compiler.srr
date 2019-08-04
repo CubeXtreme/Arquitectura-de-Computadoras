@@ -1,0 +1,64 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00.vhd":7:7:7:16|Top entity is set to mult4bit00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\xor00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\packageha00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\or00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\packagefa00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\packagemult4bit00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\ha00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\fa00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00.vhd changed - recompiling
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00.vhd":7:7:7:16|Synthesizing work.mult4bit00.mult4bit0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\fa00vhdl\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Post processing for work.ha00.ha0
+Post processing for work.fa00.fa0
+Post processing for work.mult4bit00.mult4bit0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 16 04:35:15 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 16 04:35:16 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Feb 16 04:35:16 2019
+
+###########################################################]

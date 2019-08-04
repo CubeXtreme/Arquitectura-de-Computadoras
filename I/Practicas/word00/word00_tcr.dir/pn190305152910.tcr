@@ -1,0 +1,7 @@
+#Start recording tcl command: 3/5/2019 15:27:14
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/word00; Project name: word00
+prj_project open "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/word00/word00.ldf"
+pgr_project open "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/word00/word00/word00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 3/5/2019 15:29:10

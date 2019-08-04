@@ -1,0 +1,10 @@
+#Start recording tcl command: 3/11/2019 11:19:39
+#Project Location: C:/Users/elite/OneDrive/Escritorio/key02; Project name: key02
+prj_project open "C:/Users/elite/OneDrive/Escritorio/key02/key02.ldf"
+prj_run Export -impl key02 -task Jedecgen
+pgr_project open "C:/Users/elite/OneDrive/Escritorio/key02/key02/key02.xcf"
+pgr_program run
+pgr_project save "C:/Users/elite/OneDrive/Escritorio/key02/key02/key02.xcf"
+prj_project save
+prj_project close
+#Stop recording: 3/11/2019 12:03:13

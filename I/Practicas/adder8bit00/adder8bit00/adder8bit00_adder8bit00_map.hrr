@@ -1,0 +1,100 @@
+---------------------------------------------------
+Report for cell topadder8bit00
+   Instance path: topadder8bit00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00        100.0
+                                  LUT4	      10.00        100.0
+                                 IOBUF	         26        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               and00_6	          1        10.0
+                                xnor00	          1        10.0
+                                fa00_6	          1        10.0
+                               and00_8	          1        10.0
+                               and00_9	          1        10.0
+                               and00_7	          1        10.0
+                               and00_4	          1        10.0
+                               and00_5	          1        10.0
+                               and00_3	          1        10.0
+                              and00_10	          1        10.0
+---------------------------------------------------
+Report for cell xnor00
+   Instance path: topadder8bit00/AD24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_10
+   Instance path: topadder8bit00/AD23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_9
+   Instance path: topadder8bit00/AD22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_8
+   Instance path: topadder8bit00/AD21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_7
+   Instance path: topadder8bit00/AD20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_6
+   Instance path: topadder8bit00/AD19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_5
+   Instance path: topadder8bit00/AD18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_4
+   Instance path: topadder8bit00/AD17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell and00_3
+   Instance path: topadder8bit00/AD16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+---------------------------------------------------
+Report for cell fa00_6
+   Instance path: topadder8bit00/AD15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_0	          1        10.0
+---------------------------------------------------
+Report for cell or00_0
+   Instance path: topadder8bit00/AD15/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50        10.0
+                                  LUT4	       1.00        10.0

@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/21/2019 18:00:11
+#Project Location: C:/Users/sandra/Desktop/shiftRL02; Project name: shiftLR01
+prj_project saveas -name "shiftLR01" -dir "C:/Users/sandra/Desktop/shiftRL02"
+pgr_project close
+#Stop recording: 2/21/2019 18:00:12

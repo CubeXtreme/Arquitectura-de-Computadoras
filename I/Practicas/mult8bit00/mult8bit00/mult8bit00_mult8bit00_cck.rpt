@@ -1,0 +1,93 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Tue Feb 26 13:39:20 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "mult4bit00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:Am[0]
+p:Am[1]
+p:Am[2]
+p:Am[3]
+p:Am[4]
+p:Am[5]
+p:Am[6]
+p:Am[7]
+p:Bm[0]
+p:Bm[1]
+p:Bm[2]
+p:Bm[3]
+p:Bm[4]
+p:Bm[5]
+p:Bm[6]
+p:Bm[7]
+p:Rm[0]
+p:Rm[1]
+p:Rm[2]
+p:Rm[3]
+p:Rm[4]
+p:Rm[5]
+p:Rm[6]
+p:Rm[7]
+p:Rm[8]
+p:Rm[9]
+p:Rm[10]
+p:Rm[11]
+p:Rm[12]
+p:Rm[13]
+p:Rm[14]
+p:Rm[15]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

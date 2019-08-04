@@ -1,0 +1,78 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\key02\topkey00.vhd":8:7:8:14|Top entity is set to topkey00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\osc00.vhd changed - recompiling
+File C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\packagediv00.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\packagewordkey00.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\topdiv00.vhd changed - recompiling
+File C:\Users\elite\OneDrive\Escritorio\key02\topkey00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd changed - recompiling
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\topkey00.vhd":8:7:8:14|Synthesizing work.topkey00.topkey0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":8:7:8:14|Synthesizing work.muxletra.muxletra0.
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":22:10:22:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":32:6:32:9|Referenced variable clkc is not in sensitivity list.
+Post processing for work.muxletra.muxletra0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":32:2:32:3|Register bit sinkeyA is always 0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":7:7:7:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(3) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(2) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(1) is always 0.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Pruning register bits 3 to 0 of sring(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Pruning register bits 3 to 1 of outtransis(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topkey00.topkey0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":20:2:20:3|Register bit sdiv(21) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":20:2:20:3|Register bit sdiv(22) is always 0.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":20:2:20:3|Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 78MB peak: 82MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Mar 11 11:25:18 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\elite\OneDrive\Escritorio\key02\key02\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Mar 11 11:25:18 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Mar 11 11:25:18 2019
+
+###########################################################]

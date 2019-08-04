@@ -1,0 +1,30 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\lcd00\toplcd00.vhd":9:7:9:14|Top entity is set to toplcd00.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\toplcd00.vhd":9:7:9:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdmux00.vhd":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdData00.vhd":8:7:8:15|Synthesizing work.lcddata00.lcddata0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdData00.vhd":36:4:36:5|Register bit outWordd(7) is always 0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":8:7:8:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":39:5:39:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdConfig00.vhd":8:7:8:17|Synthesizing work.lcdconfig00.lcdconfig0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContConfig00.vhd":8:7:8:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContConfig00.vhd":32:5:32:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":28:5:28:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":36:5:36:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":44:5:44:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":52:5:52:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":60:5:60:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":68:5:68:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":76:5:76:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd00\div00.vhd":84:5:84:10|Removing redundant assignment.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd00\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdConfig00.vhd":25:4:25:5|Register bit outCommandc(6) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":26:4:26:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":26:4:26:5|Register bit outcontcd(4) is always 0.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "memProg00_memProg0.log"
+-o "memProg00_memProg0.csv"
+-pr "memProg00_memProg0.prf"

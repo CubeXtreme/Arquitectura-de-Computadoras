@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>RO00/D00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>RO00/D00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd&quot;:20:2:20:3|Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\elite\OneDrive\Escritorio\rom00\rom00.vhd&quot;:12:3:12:9|Input port bit 4 of indirro(4 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\elite\OneDrive\Escritorio\rom00\rom00.vhd</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Input port bit 4 of indirro(4 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\elite\onedrive\escritorio\rom00\div00.vhd&quot;:20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RO00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\elite\onedrive\escritorio\rom00\div00.vhd</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RO00.D01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\elite\onedrive\escritorio\rom00\rom00.vhd&quot;:44:15:44:21|ROM prom\.outrom_2[6:0] (in view: work.rom00(rom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\elite\onedrive\escritorio\rom00\rom00.vhd</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>ROM prom\.outrom_2[6:0] (in view: work.rom00(rom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;c:\users\elite\onedrive\escritorio\rom00\rom00.vhd&quot;:44:15:44:21|ROM prom\.outrom_2[6:0] (in view: work.rom00(rom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>c:\users\elite\onedrive\escritorio\rom00\rom00.vhd</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>ROM prom\.outrom_2[6:0] (in view: work.rom00(rom0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:RO00.D00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:RO00.D00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/19/2019 10:52:12
+#Project Location: C:/Users/elite/OneDrive/Escritorio/rom00; Project name: rom00
+prj_project open "C:/Users/elite/OneDrive/Escritorio/rom00/rom00.ldf"
+prj_run Export -impl rom0 -task Jedecgen
+prj_run Export -impl rom0 -task Jedecgen
+#Stop recording: 3/19/2019 12:47:35

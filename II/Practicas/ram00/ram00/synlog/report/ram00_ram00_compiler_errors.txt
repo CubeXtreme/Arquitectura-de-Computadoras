@@ -1,0 +1,9 @@
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":403:23:403:28|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":413:17:413:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":423:17:423:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":433:17:433:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":443:17:443:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":453:17:453:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":463:17:463:22|Constant width 4 does not match context width 5
+@E: CD395 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":473:17:473:22|Constant width 4 does not match context width 5
+

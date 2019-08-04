@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LAPTOP-9QN1JB0J
+Date:        Tue May 14 09:00:26 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch lcdram00_lcdram00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Tue May 14 09:00:30 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srr to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srf
+log file: "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srr"
+Running: lcdram00 in foreground
+
+Running proj_1|lcdram00
+
+Running: compile (Compile) on proj_1|lcdram00
+# Tue May 14 09:00:30 2019
+
+Running: compile_flow (Compile Process) on proj_1|lcdram00
+# Tue May 14 09:00:30 2019
+
+Running: compiler (Compile Input) on proj_1|lcdram00
+# Tue May 14 09:00:30 2019
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_comp.srs to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srs
+
+compiler completed
+# Tue May 14 09:00:36 2019
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|lcdram00
+# Tue May 14 09:00:36 2019
+
+multi_srs_gen completed
+# Tue May 14 09:00:37 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_mult.srs to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srs
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srr to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srf
+Complete: Compile Process on proj_1|lcdram00
+
+Running: premap (Pre-mapping) on proj_1|lcdram00
+# Tue May 14 09:00:37 2019
+
+premap completed with warnings
+# Tue May 14 09:00:40 2019
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Compile on proj_1|lcdram00
+
+Running: map (Map) on proj_1|lcdram00
+# Tue May 14 09:00:40 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|lcdram00
+# Tue May 14 09:00:40 2019
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_m.srm to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srm
+
+fpga_mapper completed with warnings
+# Tue May 14 09:00:47 2019
+
+Return Code: 1
+Run Time:00h:00m:07s
+Complete: Map on proj_1|lcdram00
+Copied C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srr to C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.srf
+Complete: Logic Synthesis on proj_1|lcdram00
+TCL script complete: "lcdram00_lcdram00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\proj_1.prj
+batch mode default:no

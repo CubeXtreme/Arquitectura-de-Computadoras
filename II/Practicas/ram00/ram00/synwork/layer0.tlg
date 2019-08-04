@@ -1,0 +1,41 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\topram00.vhd":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\muxram00.vhd":8:7:8:14|Synthesizing work.muxram00.muxram0.
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\ram00\muxram00.vhd":19:7:19:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\ram00\muxram00.vhd":25:8:25:10|Referenced variable rwm is not in sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\ram00\muxram00.vhd":21:6:21:8|Referenced variable enm is not in sensitivity list.
+Post processing for work.muxram00.muxram0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":8:7:8:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":23:8:23:14|Found RAM wordram, depth=65, width=7
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":8:7:8:16|Synthesizing work.coderram00.coderram0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":43:6:43:13|Removing redundant assignment.
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":23:10:23:16|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":30:6:30:9|Referenced variable clkc is not in sensitivity list.
+Post processing for work.coderram00.coderram0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\ram00\contring00.vhd":18:4:18:5|Pruning register bits 3 to 0 of soutr(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":100:6:100:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topram00.topram0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":21:2:21:3|Register bit sdiv(21) is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":21:2:21:3|Pruning register bit 21 of sdiv(21 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":10:4:10:11|Input inFlagra is unused.

@@ -1,0 +1,65 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\synwork\\lcdram00_lcdram00_comp.srs|-top|toplcdram00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\div00.vhd":1481627276
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501917816
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1501917816
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\osc00.vhd":1481140882
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\packageosc00.vhd":1481140882
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\toposc00.vhd":1481140882
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\lcdram00.vhd":1557620336
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\packagelcdram00.vhd":1481281470
+#CUR:"C:\\Users\\elite\\OneDrive\\Escritorio\\lcdkeyborrar\\lcdram00\\lcdram00\\lcdram00\\source\\toplcdram00.vhd":1543967974
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\div00.vhd" vhdl
+2 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\osc00.vhd" vhdl
+3 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\packageosc00.vhd" vhdl
+4 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toposc00.vhd" vhdl
+5 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd" vhdl
+6 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\packagelcdram00.vhd" vhdl
+7 "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 0 
+3 0 
+4 2 1 0 3 
+5 0 
+6 0 
+7 4 5 0 6 
+
+# Dependency Lists (Users Of)
+0 7 6 5 4 3 2 1 
+1 4 
+2 4 
+3 4 
+4 7 
+5 7 
+6 7 
+7 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work toposc00 toposc0 4
+module work toposc00 4
+arch work lcdram00 lcdram0 5
+module work lcdram00 5
+arch work toplcdram00 toplcdram0 7
+module work toplcdram00 7
+
+
+# Configuration files used

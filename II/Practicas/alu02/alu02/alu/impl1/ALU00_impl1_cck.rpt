@@ -1,0 +1,112 @@
+# Synopsys Constraint Checker, version maplat, Build 1796R, built Aug  4 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Wed Jun 12 12:07:33 2019
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "topalu00"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
+div00|outdiv_derived_clock       div00|outdiv_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:LED
+p:SL
+p:cdiv00[0]
+p:cdiv00[1]
+p:cdiv00[2]
+p:cdiv00[3]
+p:cdiv00[4]
+p:enable0
+p:funct0[0]
+p:funct0[1]
+p:funct0[2]
+p:funct0[3]
+p:funct0[4]
+p:funct0[5]
+p:inRS0[0]
+p:inRS0[1]
+p:inRS0[2]
+p:inRS0[3]
+p:inRS0[4]
+p:inRS0[5]
+p:inRS0[6]
+p:inRS0[7]
+p:inRT0[0]
+p:inRT0[1]
+p:inRT0[2]
+p:inRT0[3]
+p:inRT0[4]
+p:inRT0[5]
+p:inRT0[6]
+p:inRT0[7]
+p:outFlagInst0 (bidir end point)
+p:outFlagInst0 (bidir start point)
+p:outFlagac0
+p:outRD0[0]
+p:outRD0[1]
+p:outRD0[2]
+p:outRD0[3]
+p:outRD0[4]
+p:outRD0[5]
+p:outRD0[6]
+p:outRD0[7]
+p:outRD0[8]
+p:outRD0[9]
+p:outRD0[10]
+p:outRD0[11]
+p:outRD0[12]
+p:outRD0[13]
+p:outRD0[14]
+p:outRD0[15]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

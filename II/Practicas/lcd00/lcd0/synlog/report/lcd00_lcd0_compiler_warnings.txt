@@ -1,0 +1,8 @@
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdData00.vhd":36:4:36:5|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdConfig00.vhd":25:4:25:5|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdConfig00.vhd":25:4:25:5|Removing register 'RWc' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdConfig00.vhd":25:4:25:5|Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":26:4:26:5|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd00\lcdContData00.vhd":26:4:26:5|Pruning register bit 4 of outcontcd(4 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

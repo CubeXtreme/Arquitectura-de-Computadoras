@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "adderlib8bit00_adderlib8bit00.log"
+-o "adderlib8bit00_adderlib8bit00.csv"
+-pr "adderlib8bit00_adderlib8bit00.prf"

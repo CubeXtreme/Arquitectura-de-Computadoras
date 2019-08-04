@@ -1,0 +1,1 @@
+@W: MT529 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\div00\div00.vhdl":24:2:24:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,2 @@
+@E: CD472 :"C:\Users\Saul\Desktop\ramlcd Diana\lcdram00\lcdram00\source\lcdram00.vhd":33:48:33:57|Slice's range direction does not match variable's
+

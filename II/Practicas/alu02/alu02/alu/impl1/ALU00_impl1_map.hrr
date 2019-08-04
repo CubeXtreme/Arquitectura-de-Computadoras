@@ -1,0 +1,2562 @@
+---------------------------------------------------
+Report for cell topalu00
+   Instance path: topalu00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     271.00        100.0
+                                 IOLGC	      16.00        100.0
+                                  LUT4	     489.00        100.0
+                                 IOREG	         16        100.0
+                                 IOBUF	         49        100.0
+                                PFUREG	        270        100.0
+                                RIPPLE	         24        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                xora00	          1        15.9
+                               xnora00	          1         1.2
+                             topmult00	          1        20.1
+                              topdiv00	          1         9.3
+                               subsa00	          1         0.7
+                              shiftL00	          1         2.6
+                              shiftR00	          1         2.6
+                                rotL00	          1         2.9
+                                rotR00	          1         2.7
+                                nora00	          1         1.0
+                                 ora00	          1         5.1
+                                nota00	          1         1.7
+                               nanda00	          1         1.0
+                             mult8bits	          1         1.6
+                        barrelshiftL00	          1         4.6
+                        barrelshiftR00	          1         4.3
+                          barrelrotL00	          1         4.3
+                          barrelrotR00	          1         4.8
+                            adder8bits	          1         3.5
+                              addera00	          1         1.7
+                                anda00	          1         3.5
+                                  ac00	          1         5.0
+---------------------------------------------------
+Report for cell addera00
+   Instance path: topalu00/AL10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         1.7
+                                  LUT4	       4.00         0.8
+                                PFUREG	         11         4.1
+---------------------------------------------------
+Report for cell subsa00
+   Instance path: topalu00/AL11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.7
+                                  LUT4	       3.00         0.6
+                                PFUREG	          3         1.1
+---------------------------------------------------
+Report for cell ora00
+   Instance path: topalu00/AL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.83         5.1
+                                  LUT4	      32.00         6.5
+                                PFUREG	         10         3.7
+---------------------------------------------------
+Report for cell anda00
+   Instance path: topalu00/AL02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         3.5
+                                  LUT4	      22.00         4.5
+                                PFUREG	         11         4.1
+---------------------------------------------------
+Report for cell nota00
+   Instance path: topalu00/AL03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.67         1.7
+                                  LUT4	       9.00         1.8
+                                PFUREG	          9         3.3
+---------------------------------------------------
+Report for cell nanda00
+   Instance path: topalu00/AL04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67         1.0
+                                  LUT4	       1.00         0.2
+                                PFUREG	          9         3.3
+---------------------------------------------------
+Report for cell nora00
+   Instance path: topalu00/AL05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.67         1.0
+                                  LUT4	       1.00         0.2
+                                PFUREG	          9         3.3
+---------------------------------------------------
+Report for cell xora00
+   Instance path: topalu00/AL06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      43.00        15.9
+                                  LUT4	      82.00        16.8
+                                PFUREG	          9         3.3
+---------------------------------------------------
+Report for cell xnora00
+   Instance path: topalu00/AL07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         1.2
+                                  LUT4	       3.00         0.6
+                                PFUREG	          9         3.3
+---------------------------------------------------
+Report for cell mult8bits
+   Instance path: topalu00/AL12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.33         1.6
+                                PFUREG	         17         6.3
+---------------------------------------------------
+Report for cell shiftL00
+   Instance path: topalu00/AL14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.00         2.6
+                                  LUT4	      10.00         2.0
+                                PFUREG	         17         6.3
+---------------------------------------------------
+Report for cell shiftR00
+   Instance path: topalu00/AL15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.17         2.6
+                                  LUT4	      10.00         2.0
+                                PFUREG	         17         6.3
+---------------------------------------------------
+Report for cell rotR00
+   Instance path: topalu00/AL16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.33         2.7
+                                  LUT4	      10.00         2.0
+                                PFUREG	         17         6.3
+---------------------------------------------------
+Report for cell rotL00
+   Instance path: topalu00/AL17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.75         2.9
+                                  LUT4	      11.00         2.2
+                                PFUREG	         17         6.3
+---------------------------------------------------
+Report for cell barrelshiftL00
+   Instance path: topalu00/AL18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.50         4.6
+                                  LUT4	      22.50         4.6
+                                PFUREG	         20         7.4
+                                RIPPLE	          3        12.5
+---------------------------------------------------
+Report for cell barrelshiftR00
+   Instance path: topalu00/AL19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.58         4.3
+                                  LUT4	      18.50         3.8
+                                PFUREG	         20         7.4
+                                RIPPLE	          3        12.5
+---------------------------------------------------
+Report for cell barrelrotL00
+   Instance path: topalu00/AL20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.75         4.3
+                                  LUT4	      20.50         4.2
+                                PFUREG	         20         7.4
+                                RIPPLE	          3        12.5
+---------------------------------------------------
+Report for cell barrelrotR00
+   Instance path: topalu00/AL21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.92         4.8
+                                  LUT4	      23.50         4.8
+                                PFUREG	         20         7.4
+                                RIPPLE	          3        12.5
+---------------------------------------------------
+Report for cell topmult00
+   Instance path: topalu00/AL13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      54.50        20.1
+                                  LUT4	     118.00        24.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        TOPADDER1_0_36	          1         0.4
+                          TOPADDER1_48	          1         0.2
+                           TOPADDER1_6	          1         0.3
+                           TOPADDER1_5	          1         0.3
+                        TOPADDER1_0_45	          1         0.2
+                         TOPADDER1_0_8	          1         0.4
+                           TOPADDER1_1	          1         0.3
+                           TOPADDER1_3	          1         0.3
+                           TOPADDER1_4	          1         0.3
+                           TOPADDER1_2	          1         0.3
+                         TOPADDER1_0_9	          1         0.4
+                         TOPADDER1_0_6	          1         0.4
+                         TOPADDER1_0_7	          1         0.4
+                         TOPADDER1_0_5	          1         0.7
+                        TOPADDER1_0_46	          1         0.2
+                         TOPADDER1_0_4	          1         0.4
+                        TOPADDER1_0_43	          1         0.3
+                        TOPADDER1_0_44	          1         0.3
+                        TOPADDER1_0_41	          1         0.3
+                        TOPADDER1_0_42	          1         0.3
+                        TOPADDER1_0_40	          1         0.3
+                        TOPADDER1_0_38	          1         0.4
+                        TOPADDER1_0_39	          1         0.4
+                        TOPADDER1_0_37	          1         0.4
+                        TOPADDER1_0_15	          1         0.4
+                        TOPADDER1_0_26	          1         0.4
+                         TOPADDER1_0_3	          1         0.4
+                        TOPADDER1_0_32	          1         0.4
+                        TOPADDER1_0_34	          1         0.4
+                        TOPADDER1_0_35	          1         0.4
+                        TOPADDER1_0_33	          1         0.4
+                        TOPADDER1_0_31	          1         0.4
+                        TOPADDER1_0_30	          1         0.4
+                        TOPADDER1_0_28	          1         0.4
+                        TOPADDER1_0_29	          1         0.4
+                        TOPADDER1_0_27	          1         0.4
+                        TOPADDER1_0_19	          1         0.4
+                        TOPADDER1_0_22	          1         0.4
+                        TOPADDER1_0_24	          1         0.4
+                        TOPADDER1_0_25	          1         0.4
+                        TOPADDER1_0_23	          1         0.4
+                        TOPADDER1_0_20	          1         0.4
+                        TOPADDER1_0_21	          1         0.4
+                         TOPADDER1_0_2	          1         0.4
+                        TOPADDER1_0_17	          1         0.4
+                        TOPADDER1_0_18	          1         0.4
+                        TOPADDER1_0_16	          1         0.4
+                           TOPADDER1_0	          1         0.4
+                        TOPADDER1_0_11	          1         0.4
+                        TOPADDER1_0_13	          1         0.4
+                        TOPADDER1_0_14	          1         0.4
+                        TOPADDER1_0_12	          1         0.4
+                         TOPADDER1_0_1	          1         0.4
+                        TOPADDER1_0_10	          1         0.6
+                         TOPADDER1_0_0	          1         0.2
+                             TOPADDER1	          1         0.3
+                                AND0_6	          1         0.1
+                                AND0_3	          1         0.2
+                                AND0_2	          1         0.1
+                               AND0_11	          1         0.2
+                               AND0_12	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_46
+   Instance path: topalu00/AL13/C57S77
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         TOPADDER0_103	          1         0.1
+                              OR0_0_46	          1         0.1
+---------------------------------------------------
+Report for cell TOPADDER0_103
+   Instance path: topalu00/AL13/C57S77/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              XOR0_103	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_103
+   Instance path: topalu00/AL13/C57S77/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_46
+   Instance path: topalu00/AL13/C57S77/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_45
+   Instance path: topalu00/AL13/P56S76
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                         TOPADDER0_101	          1         0.1
+                              OR0_0_45	          1         0.1
+---------------------------------------------------
+Report for cell TOPADDER0_101
+   Instance path: topalu00/AL13/P56S76/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              XOR0_101	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_101
+   Instance path: topalu00/AL13/P56S76/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_45
+   Instance path: topalu00/AL13/P56S76/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_44
+   Instance path: topalu00/AL13/P55S75
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_99	          1         0.1
+                              OR0_0_44	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_99
+   Instance path: topalu00/AL13/P55S75/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_99	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_99
+   Instance path: topalu00/AL13/P55S75/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_44
+   Instance path: topalu00/AL13/P55S75/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_43
+   Instance path: topalu00/AL13/P54S74
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_97	          1         0.1
+                              OR0_0_43	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_97
+   Instance path: topalu00/AL13/P54S74/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_97	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_97
+   Instance path: topalu00/AL13/P54S74/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_43
+   Instance path: topalu00/AL13/P54S74/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_42
+   Instance path: topalu00/AL13/P53S73
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_95	          1         0.1
+                              OR0_0_42	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_95
+   Instance path: topalu00/AL13/P53S73/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_95	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_95
+   Instance path: topalu00/AL13/P53S73/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_42
+   Instance path: topalu00/AL13/P53S73/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_41
+   Instance path: topalu00/AL13/P52S72
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_93	          1         0.1
+                              OR0_0_41	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_93
+   Instance path: topalu00/AL13/P52S72/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_93	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_93
+   Instance path: topalu00/AL13/P52S72/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_41
+   Instance path: topalu00/AL13/P52S72/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_40
+   Instance path: topalu00/AL13/P51S71
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_91	          1         0.1
+                              OR0_0_40	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_91
+   Instance path: topalu00/AL13/P51S71/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_91	          1         0.1
+---------------------------------------------------
+Report for cell XOR0_91
+   Instance path: topalu00/AL13/P51S71/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_40
+   Instance path: topalu00/AL13/P51S71/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_6
+   Instance path: topalu00/AL13/P50S70
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_89	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_89
+   Instance path: topalu00/AL13/P50S70/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_89	          1         0.1
+                              AND0_152	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_89
+   Instance path: topalu00/AL13/P50S70/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_152
+   Instance path: topalu00/AL13/P50S70/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_39
+   Instance path: topalu00/AL13/C47S67
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_88	          1         0.2
+                              OR0_0_39	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_88
+   Instance path: topalu00/AL13/C47S67/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_88	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_88
+   Instance path: topalu00/AL13/C47S67/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_39
+   Instance path: topalu00/AL13/C47S67/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_38
+   Instance path: topalu00/AL13/P46S66
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_86	          1         0.2
+                              OR0_0_38	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_86
+   Instance path: topalu00/AL13/P46S66/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_86	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_86
+   Instance path: topalu00/AL13/P46S66/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_38
+   Instance path: topalu00/AL13/P46S66/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_37
+   Instance path: topalu00/AL13/P45S65
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_84	          1         0.2
+                              OR0_0_37	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_84
+   Instance path: topalu00/AL13/P45S65/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_84	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_84
+   Instance path: topalu00/AL13/P45S65/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_37
+   Instance path: topalu00/AL13/P45S65/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_36
+   Instance path: topalu00/AL13/P44S64
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_82	          1         0.2
+                              OR0_0_36	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_82
+   Instance path: topalu00/AL13/P44S64/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_82	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_82
+   Instance path: topalu00/AL13/P44S64/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_36
+   Instance path: topalu00/AL13/P44S64/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_35
+   Instance path: topalu00/AL13/P43S63
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_80	          1         0.2
+                              OR0_0_35	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_80
+   Instance path: topalu00/AL13/P43S63/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_80	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_80
+   Instance path: topalu00/AL13/P43S63/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_35
+   Instance path: topalu00/AL13/P43S63/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_34
+   Instance path: topalu00/AL13/P42S62
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_78	          1         0.2
+                              OR0_0_34	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_78
+   Instance path: topalu00/AL13/P42S62/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_78	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_78
+   Instance path: topalu00/AL13/P42S62/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_34
+   Instance path: topalu00/AL13/P42S62/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_33
+   Instance path: topalu00/AL13/P41S61
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_76	          1         0.2
+                              OR0_0_33	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_76
+   Instance path: topalu00/AL13/P41S61/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_76	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_76
+   Instance path: topalu00/AL13/P41S61/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_33
+   Instance path: topalu00/AL13/P41S61/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_5
+   Instance path: topalu00/AL13/P40S60
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_74	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_74
+   Instance path: topalu00/AL13/P40S60/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_74	          1         0.1
+                              AND0_137	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_74
+   Instance path: topalu00/AL13/P40S60/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_137
+   Instance path: topalu00/AL13/P40S60/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_32
+   Instance path: topalu00/AL13/C37S57
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_72	          1         0.2
+                              OR0_0_32	          1         0.2
+---------------------------------------------------
+Report for cell OR0_0_32
+   Instance path: topalu00/AL13/C37S57/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_72
+   Instance path: topalu00/AL13/C37S57/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_72	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_72
+   Instance path: topalu00/AL13/C37S57/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_31
+   Instance path: topalu00/AL13/P36S56
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_71	          1         0.2
+                              OR0_0_31	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_71
+   Instance path: topalu00/AL13/P36S56/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_71	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_71
+   Instance path: topalu00/AL13/P36S56/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_31
+   Instance path: topalu00/AL13/P36S56/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_30
+   Instance path: topalu00/AL13/P35S55
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_69	          1         0.2
+                              OR0_0_30	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_69
+   Instance path: topalu00/AL13/P35S55/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_69	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_69
+   Instance path: topalu00/AL13/P35S55/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_30
+   Instance path: topalu00/AL13/P35S55/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_29
+   Instance path: topalu00/AL13/P34S54
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_67	          1         0.2
+                              OR0_0_29	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_67
+   Instance path: topalu00/AL13/P34S54/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_67	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_67
+   Instance path: topalu00/AL13/P34S54/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_29
+   Instance path: topalu00/AL13/P34S54/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_28
+   Instance path: topalu00/AL13/P33S53
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_65	          1         0.2
+                              OR0_0_28	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_65
+   Instance path: topalu00/AL13/P33S53/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_65	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_65
+   Instance path: topalu00/AL13/P33S53/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_28
+   Instance path: topalu00/AL13/P33S53/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_27
+   Instance path: topalu00/AL13/P32S52
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_63	          1         0.2
+                              OR0_0_27	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_63
+   Instance path: topalu00/AL13/P32S52/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_63	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_63
+   Instance path: topalu00/AL13/P32S52/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_27
+   Instance path: topalu00/AL13/P32S52/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_26
+   Instance path: topalu00/AL13/P31S51
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_61	          1         0.2
+                              OR0_0_26	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_61
+   Instance path: topalu00/AL13/P31S51/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_61	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_61
+   Instance path: topalu00/AL13/P31S51/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_26
+   Instance path: topalu00/AL13/P31S51/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_4
+   Instance path: topalu00/AL13/P30S50
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_59	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_59
+   Instance path: topalu00/AL13/P30S50/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_59	          1         0.1
+                              AND0_122	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_59
+   Instance path: topalu00/AL13/P30S50/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_122
+   Instance path: topalu00/AL13/P30S50/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_25
+   Instance path: topalu00/AL13/C27S47
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_58	          1         0.2
+                              OR0_0_25	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_58
+   Instance path: topalu00/AL13/C27S47/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_58	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_58
+   Instance path: topalu00/AL13/C27S47/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_25
+   Instance path: topalu00/AL13/C27S47/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_24
+   Instance path: topalu00/AL13/P26S46
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_55	          1         0.2
+                              OR0_0_24	          1         0.2
+---------------------------------------------------
+Report for cell OR0_0_24
+   Instance path: topalu00/AL13/P26S46/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_55
+   Instance path: topalu00/AL13/P26S46/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_55	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_55
+   Instance path: topalu00/AL13/P26S46/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_23
+   Instance path: topalu00/AL13/P25S45
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_54	          1         0.2
+                              OR0_0_23	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_54
+   Instance path: topalu00/AL13/P25S45/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_54	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_54
+   Instance path: topalu00/AL13/P25S45/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_23
+   Instance path: topalu00/AL13/P25S45/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_22
+   Instance path: topalu00/AL13/P24S44
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_52	          1         0.2
+                              OR0_0_22	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_52
+   Instance path: topalu00/AL13/P24S44/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_52	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_52
+   Instance path: topalu00/AL13/P24S44/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_22
+   Instance path: topalu00/AL13/P24S44/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_21
+   Instance path: topalu00/AL13/P23S43
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_50	          1         0.2
+                              OR0_0_21	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_50
+   Instance path: topalu00/AL13/P23S43/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_50	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_50
+   Instance path: topalu00/AL13/P23S43/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_21
+   Instance path: topalu00/AL13/P23S43/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_20
+   Instance path: topalu00/AL13/P22S42
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_48	          1         0.2
+                              OR0_0_20	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_48
+   Instance path: topalu00/AL13/P22S42/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_48	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_48
+   Instance path: topalu00/AL13/P22S42/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_20
+   Instance path: topalu00/AL13/P22S42/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_19
+   Instance path: topalu00/AL13/P21S41
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_45	          1         0.2
+                              OR0_0_19	          1         0.2
+---------------------------------------------------
+Report for cell OR0_0_19
+   Instance path: topalu00/AL13/P21S41/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_45
+   Instance path: topalu00/AL13/P21S41/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_45	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_45
+   Instance path: topalu00/AL13/P21S41/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_3
+   Instance path: topalu00/AL13/P20S40
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_44	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_44
+   Instance path: topalu00/AL13/P20S40/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_44	          1         0.1
+                              AND0_107	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_44
+   Instance path: topalu00/AL13/P20S40/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_107
+   Instance path: topalu00/AL13/P20S40/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_18
+   Instance path: topalu00/AL13/C17S37
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_43	          1         0.2
+                              OR0_0_18	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_43
+   Instance path: topalu00/AL13/C17S37/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_43	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_43
+   Instance path: topalu00/AL13/C17S37/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_18
+   Instance path: topalu00/AL13/C17S37/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_17
+   Instance path: topalu00/AL13/P16S36
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_41	          1         0.2
+                              OR0_0_17	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_41
+   Instance path: topalu00/AL13/P16S36/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_41	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_41
+   Instance path: topalu00/AL13/P16S36/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_17
+   Instance path: topalu00/AL13/P16S36/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_16
+   Instance path: topalu00/AL13/P15S35
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_39	          1         0.2
+                              OR0_0_16	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_39
+   Instance path: topalu00/AL13/P15S35/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_39	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_39
+   Instance path: topalu00/AL13/P15S35/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_16
+   Instance path: topalu00/AL13/P15S35/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_15
+   Instance path: topalu00/AL13/P14S34
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_37	          1         0.2
+                              OR0_0_15	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_37
+   Instance path: topalu00/AL13/P14S34/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_37	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_37
+   Instance path: topalu00/AL13/P14S34/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_15
+   Instance path: topalu00/AL13/P14S34/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_14
+   Instance path: topalu00/AL13/P13S33
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_35	          1         0.2
+                              OR0_0_14	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_35
+   Instance path: topalu00/AL13/P13S33/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_35	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_35
+   Instance path: topalu00/AL13/P13S33/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_14
+   Instance path: topalu00/AL13/P13S33/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_13
+   Instance path: topalu00/AL13/P12S32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_33	          1         0.2
+                              OR0_0_13	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_33
+   Instance path: topalu00/AL13/P12S32/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_33	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_33
+   Instance path: topalu00/AL13/P12S32/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_13
+   Instance path: topalu00/AL13/P12S32/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_12
+   Instance path: topalu00/AL13/P11S31
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_31	          1         0.2
+                              OR0_0_12	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_31
+   Instance path: topalu00/AL13/P11S31/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_31	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_31
+   Instance path: topalu00/AL13/P11S31/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_12
+   Instance path: topalu00/AL13/P11S31/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_2
+   Instance path: topalu00/AL13/P10S30
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_29	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_29
+   Instance path: topalu00/AL13/P10S30/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_29	          1         0.1
+                               AND0_92	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_29
+   Instance path: topalu00/AL13/P10S30/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_92
+   Instance path: topalu00/AL13/P10S30/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_11
+   Instance path: topalu00/AL13/C07S27
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_28	          1         0.2
+                              OR0_0_11	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_28
+   Instance path: topalu00/AL13/C07S27/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_28	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_28
+   Instance path: topalu00/AL13/C07S27/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_11
+   Instance path: topalu00/AL13/C07S27/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_10
+   Instance path: topalu00/AL13/P06S26
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         0.6
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_26	          1         0.4
+                              OR0_0_10	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_26
+   Instance path: topalu00/AL13/P06S26/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_26	          1         0.4
+---------------------------------------------------
+Report for cell XOR0_26
+   Instance path: topalu00/AL13/P06S26/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+---------------------------------------------------
+Report for cell OR0_0_10
+   Instance path: topalu00/AL13/P06S26/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_9
+   Instance path: topalu00/AL13/P05S25
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_24	          1         0.2
+                               OR0_0_9	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_24
+   Instance path: topalu00/AL13/P05S25/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_24	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_24
+   Instance path: topalu00/AL13/P05S25/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_9
+   Instance path: topalu00/AL13/P05S25/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_8
+   Instance path: topalu00/AL13/P04S24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_22	          1         0.2
+                               OR0_0_8	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_22
+   Instance path: topalu00/AL13/P04S24/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_22	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_22
+   Instance path: topalu00/AL13/P04S24/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_8
+   Instance path: topalu00/AL13/P04S24/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_7
+   Instance path: topalu00/AL13/P03S23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_20	          1         0.2
+                               OR0_0_7	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_20
+   Instance path: topalu00/AL13/P03S23/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_20	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_20
+   Instance path: topalu00/AL13/P03S23/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_7
+   Instance path: topalu00/AL13/P03S23/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_6
+   Instance path: topalu00/AL13/P02S22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_18	          1         0.2
+                               OR0_0_6	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_18
+   Instance path: topalu00/AL13/P02S22/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_18	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_18
+   Instance path: topalu00/AL13/P02S22/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_6
+   Instance path: topalu00/AL13/P02S22/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_5
+   Instance path: topalu00/AL13/P01S21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.7
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_15	          1         0.6
+                               OR0_0_5	          1         0.2
+---------------------------------------------------
+Report for cell OR0_0_5
+   Instance path: topalu00/AL13/P01S21/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_15
+   Instance path: topalu00/AL13/P01S21/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.50         0.6
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_15	          1         0.4
+                               AND0_78	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_15
+   Instance path: topalu00/AL13/P01S21/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+---------------------------------------------------
+Report for cell AND0_78
+   Instance path: topalu00/AL13/P01S21/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_1
+   Instance path: topalu00/AL13/P00S20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_14	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0_14
+   Instance path: topalu00/AL13/P00S20/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_14	          1         0.1
+                               AND0_77	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_14
+   Instance path: topalu00/AL13/P00S20/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_77
+   Instance path: topalu00/AL13/P00S20/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_48
+   Instance path: topalu00/AL13/S07S17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_13	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_13
+   Instance path: topalu00/AL13/S07S17/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               AND0_76	          1         0.2
+---------------------------------------------------
+Report for cell AND0_76
+   Instance path: topalu00/AL13/S07S17/US011/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_4
+   Instance path: topalu00/AL13/S06S16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_12	          1         0.2
+                               OR0_0_4	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_12
+   Instance path: topalu00/AL13/S06S16/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_12	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_12
+   Instance path: topalu00/AL13/S06S16/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_4
+   Instance path: topalu00/AL13/S06S16/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_3
+   Instance path: topalu00/AL13/S05S15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          TOPADDER0_10	          1         0.2
+                               OR0_0_3	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_10
+   Instance path: topalu00/AL13/S05S15/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               XOR0_10	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_10
+   Instance path: topalu00/AL13/S05S15/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_3
+   Instance path: topalu00/AL13/S05S15/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_2
+   Instance path: topalu00/AL13/S04S14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           TOPADDER0_8	          1         0.2
+                               OR0_0_2	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_8
+   Instance path: topalu00/AL13/S04S14/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                XOR0_8	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_8
+   Instance path: topalu00/AL13/S04S14/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_2
+   Instance path: topalu00/AL13/S04S14/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_1
+   Instance path: topalu00/AL13/S03S13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           TOPADDER0_6	          1         0.2
+                               OR0_0_1	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_6
+   Instance path: topalu00/AL13/S03S13/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                XOR0_6	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_6
+   Instance path: topalu00/AL13/S03S13/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0_1
+   Instance path: topalu00/AL13/S03S13/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0_0
+   Instance path: topalu00/AL13/S02S12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               OR0_0_0	          1         0.2
+---------------------------------------------------
+Report for cell OR0_0_0
+   Instance path: topalu00/AL13/S02S12/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1_0
+   Instance path: topalu00/AL13/S01S11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           TOPADDER0_2	          1         0.2
+                                 OR0_0	          1         0.2
+---------------------------------------------------
+Report for cell TOPADDER0_2
+   Instance path: topalu00/AL13/S01S11/US011
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                XOR0_2	          1         0.2
+---------------------------------------------------
+Report for cell XOR0_2
+   Instance path: topalu00/AL13/S01S11/US011/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell OR0_0
+   Instance path: topalu00/AL13/S01S11/US010
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell TOPADDER1
+   Instance path: topalu00/AL13/S00S01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             TOPADDER0	          1         0.3
+---------------------------------------------------
+Report for cell TOPADDER0
+   Instance path: topalu00/AL13/S00S01/US001
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  XOR0	          1         0.1
+                               AND0_63	          1         0.2
+---------------------------------------------------
+Report for cell XOR0
+   Instance path: topalu00/AL13/S00S01/US001/US100
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_63
+   Instance path: topalu00/AL13/S00S01/US001/US000
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_12
+   Instance path: topalu00/AL13/A15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_11
+   Instance path: topalu00/AL13/A14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_6
+   Instance path: topalu00/AL13/A07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_3
+   Instance path: topalu00/AL13/A04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell AND0_2
+   Instance path: topalu00/AL13/A03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.25         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell adder8bits
+   Instance path: topalu00/AL09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.42         3.5
+                                  LUT4	      31.00         6.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                xnor00	          1         0.1
+                                fa00_1	          1         0.5
+                                fa00_5	          1         0.4
+                                fa00_6	          1         0.3
+                                fa00_3	          1         0.5
+                                fa00_4	          1         0.5
+                                fa00_2	          1         0.5
+                                  fa00	          1         0.4
+                                fa00_0	          1         0.5
+---------------------------------------------------
+Report for cell xnor00
+   Instance path: topalu00/AL09/A24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.33         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell fa00_6
+   Instance path: topalu00/AL09/A15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          ha00_1_14_14	          1         0.3
+---------------------------------------------------
+Report for cell ha00_1_14_14
+   Instance path: topalu00/AL09/A15/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_22	          1         0.3
+---------------------------------------------------
+Report for cell xor00_22
+   Instance path: topalu00/AL09/A15/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_5
+   Instance path: topalu00/AL09/A14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.08         0.4
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_5	          1         0.1
+                          ha00_1_14_12	          1         0.3
+---------------------------------------------------
+Report for cell or00_5
+   Instance path: topalu00/AL09/A14/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.33         0.1
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_12
+   Instance path: topalu00/AL09/A14/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_20	          1         0.3
+---------------------------------------------------
+Report for cell xor00_20
+   Instance path: topalu00/AL09/A14/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_4
+   Instance path: topalu00/AL09/A13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_4	          1         0.2
+                          ha00_1_14_10	          1         0.3
+---------------------------------------------------
+Report for cell or00_4
+   Instance path: topalu00/AL09/A13/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_10
+   Instance path: topalu00/AL09/A13/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_18	          1         0.3
+---------------------------------------------------
+Report for cell xor00_18
+   Instance path: topalu00/AL09/A13/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_3
+   Instance path: topalu00/AL09/A12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_3	          1         0.2
+                           ha00_1_14_8	          1         0.3
+---------------------------------------------------
+Report for cell or00_3
+   Instance path: topalu00/AL09/A12/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_8
+   Instance path: topalu00/AL09/A12/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_16	          1         0.3
+---------------------------------------------------
+Report for cell xor00_16
+   Instance path: topalu00/AL09/A12/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_2
+   Instance path: topalu00/AL09/A11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_2	          1         0.2
+                           ha00_1_14_6	          1         0.3
+---------------------------------------------------
+Report for cell or00_2
+   Instance path: topalu00/AL09/A11/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_6
+   Instance path: topalu00/AL09/A11/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_14	          1         0.3
+---------------------------------------------------
+Report for cell xor00_14
+   Instance path: topalu00/AL09/A11/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_1
+   Instance path: topalu00/AL09/A10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_1	          1         0.2
+                           ha00_1_14_4	          1         0.3
+---------------------------------------------------
+Report for cell or00_1
+   Instance path: topalu00/AL09/A10/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_4
+   Instance path: topalu00/AL09/A10/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_12	          1         0.3
+---------------------------------------------------
+Report for cell xor00_12
+   Instance path: topalu00/AL09/A10/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00_0
+   Instance path: topalu00/AL09/A09
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         0.5
+                                  LUT4	       4.00         0.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                or00_0	          1         0.2
+                           ha00_1_14_2	          1         0.3
+---------------------------------------------------
+Report for cell or00_0
+   Instance path: topalu00/AL09/A09/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_2
+   Instance path: topalu00/AL09/A09/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              xor00_10	          1         0.3
+---------------------------------------------------
+Report for cell xor00_10
+   Instance path: topalu00/AL09/A09/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.75         0.3
+                                  LUT4	       3.00         0.6
+---------------------------------------------------
+Report for cell fa00
+   Instance path: topalu00/AL09/A08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.4
+                                  LUT4	       3.00         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                  or00	          1         0.2
+                           ha00_1_14_0	          1         0.2
+---------------------------------------------------
+Report for cell or00
+   Instance path: topalu00/AL09/A08/F02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       1.00         0.2
+---------------------------------------------------
+Report for cell ha00_1_14_0
+   Instance path: topalu00/AL09/A08/F01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       2.00         0.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               xor00_8	          1         0.2
+---------------------------------------------------
+Report for cell xor00_8
+   Instance path: topalu00/AL09/A08/F01/H00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       0.50         0.2
+                                  LUT4	       2.00         0.4
+---------------------------------------------------
+Report for cell ac00
+   Instance path: topalu00/AL08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50         5.0
+                                  LUT4	      29.00         5.9
+                                PFUREG	          2         0.7
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topalu00/AL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.08         9.3
+                                  LUT4	      28.00         5.7
+                                PFUREG	         23         8.5
+                                RIPPLE	         12        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1         9.3
+---------------------------------------------------
+Report for cell div00
+   Instance path: topalu00/AL00/DI01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.08         9.3
+                                  LUT4	      28.00         5.7
+                                PFUREG	         23         8.5
+                                RIPPLE	         12        50.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topalu00/AL00/DI00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

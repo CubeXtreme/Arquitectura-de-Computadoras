@@ -1,0 +1,10 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO231 :"c:\users\elite\onedrive\escritorio\stack00\contread00.vhd":22:4:22:5|Found counter in view:work.topstack00(topstack0) instance RA05.outcontre[4:0] 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\users\elite\onedrive\escritorio\stack00\stack00.vhd":23:7:23:15|Generating RAM RA03.wordstack[6:0]
+@N: FX1056 |Writing EDF file: C:\Users\elite\OneDrive\Escritorio\stack00\stack0\stack00_stack0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock div00|outosc_derived_clock with period 480.77ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,11 @@
+@W: CD434 :"C:\Users\elite\OneDrive\Escritorio\lcd02\lcdmux00.vhd":33:27:33:35|Signal inflagcdm in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\lcd02\contring00.vhd":24:2:24:3|Pruning register bits 2 to 0 of soutr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL240 :"C:\Users\elite\OneDrive\Escritorio\lcd02\toplcd00.vhd":27:2:27:13|Signal outFlagdata0 is floating; a simulation mismatch is possible.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd02\div00.vhd":21:2:21:3|Pruning register bit 21 of sdiv(21 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd02\lcdconfig00.vhd":26:2:26:3|Removing register 'RSc' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\Users\elite\OneDrive\Escritorio\lcd02\lcdconfig00.vhd":26:2:26:3|Removing register 'RWc' because it is only assigned 0 or its original value.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd02\lcdconfig00.vhd":26:2:26:3|Pruning register bit 6 of comandoc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd02\coder00.vhd":29:2:29:3|Pruning register bit 7 of outcoder(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL158 :"C:\Users\elite\OneDrive\Escritorio\lcd02\toplcd00.vhd":24:2:24:11|Inout outcontcd0 is unused
+

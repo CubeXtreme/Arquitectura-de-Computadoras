@@ -1,0 +1,798 @@
+
+          Lattice Mapping Report File for Design Module 'mult4bit00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     mult8bit00_mult8bit00.ngd -o mult8bit00_mult8bit00_map.ncd -pr
+     mult8bit00_mult8bit00.prf -mp mult8bit00_mult8bit00.mrp -lpf D:/Sexto_Semes
+     tre/Arquitectura_Computadora/projectMachXO2/mult8bit00/mult8bit00/mult8bit0
+     0_mult8bit00_synplify.lpf -lpf D:/Sexto_Semestre/Arquitectura_Computadora/p
+     rojectMachXO2/mult8bit00/mult8bit00.lpf -c 0 -gui -msgset D:/Sexto_Semestre
+     /Arquitectura_Computadora/projectMachXO2/mult8bit00/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  02/26/19  13:39:25
+
+Design Summary
+--------------
+
+   Number of registers:      0 out of  7209 (0%)
+      PFU registers:            0 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        60 out of  3432 (2%)
+      SLICEs as Logic/ROM:     60 out of  3432 (2%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:          0 out of  3432 (0%)
+   Number of LUT4s:        120 out of  6864 (2%)
+      Number used as logic LUTs:        120
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 32 + 4(JTAG) out of 115 (31%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  0
+   Number of Clock Enables:  0
+
+                                    Page 1
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Design Summary (cont)
+---------------------
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net Am_c[3]: 16 loads
+     Net Am_c[7]: 16 loads
+     Net Bm_c[2]: 16 loads
+     Net Bm_c[3]: 16 loads
+     Net Bm_c[5]: 16 loads
+     Net Bm_c[6]: 16 loads
+     Net Bm_c[7]: 16 loads
+     Net Am_c[0]: 15 loads
+     Net Am_c[1]: 15 loads
+     Net Am_c[5]: 15 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| Rm[0]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[15]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[14]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[13]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[12]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[11]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[10]              | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[9]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[8]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[7]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[6]               | OUTPUT    | LVCMOS25  |            |
+
+                                    Page 2
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| Rm[5]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[4]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[3]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[2]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Rm[1]               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Bm[0]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[7]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[6]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[5]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[4]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[3]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[2]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| Am[1]               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block MU00/VCC undriven or does not drive anything - clipped.
+Block MU00/GND undriven or does not drive anything - clipped.
+Block MU04/VCC undriven or does not drive anything - clipped.
+Block MU04/GND undriven or does not drive anything - clipped.
+Block MU009/VCC undriven or does not drive anything - clipped.
+Block MU009/GND undriven or does not drive anything - clipped.
+Block MU010/VCC undriven or does not drive anything - clipped.
+Block MU010/GND undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU012/VCC undriven or does not drive anything - clipped.
+Block MU012/GND undriven or does not drive anything - clipped.
+Block MU013/VCC undriven or does not drive anything - clipped.
+Block MU013/GND undriven or does not drive anything - clipped.
+Block MU014/VCC undriven or does not drive anything - clipped.
+Block MU014/GND undriven or does not drive anything - clipped.
+Block MU016/GND undriven or does not drive anything - clipped.
+Block MU016/VCC undriven or does not drive anything - clipped.
+Block MU016/F00/GND undriven or does not drive anything - clipped.
+Block MU016/F00/VCC undriven or does not drive anything - clipped.
+Block MU016/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU016/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU016/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU016/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU017/GND undriven or does not drive anything - clipped.
+Block MU017/VCC undriven or does not drive anything - clipped.
+Block MU017/F01/GND undriven or does not drive anything - clipped.
+Block MU017/F01/VCC undriven or does not drive anything - clipped.
+Block MU017/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU017/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU017/F02/GND undriven or does not drive anything - clipped.
+Block MU017/F02/VCC undriven or does not drive anything - clipped.
+Block MU018/GND undriven or does not drive anything - clipped.
+Block MU018/VCC undriven or does not drive anything - clipped.
+Block MU018/F01/GND undriven or does not drive anything - clipped.
+Block MU018/F01/VCC undriven or does not drive anything - clipped.
+Block MU018/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU018/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU018/F02/GND undriven or does not drive anything - clipped.
+Block MU018/F02/VCC undriven or does not drive anything - clipped.
+Block MU019/GND undriven or does not drive anything - clipped.
+Block MU019/VCC undriven or does not drive anything - clipped.
+Block MU019/F01/GND undriven or does not drive anything - clipped.
+Block MU019/F01/VCC undriven or does not drive anything - clipped.
+Block MU019/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU019/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU019/F02/GND undriven or does not drive anything - clipped.
+Block MU019/F02/VCC undriven or does not drive anything - clipped.
+Block MU020/GND undriven or does not drive anything - clipped.
+Block MU020/VCC undriven or does not drive anything - clipped.
+Block MU020/F01/GND undriven or does not drive anything - clipped.
+Block MU020/F01/VCC undriven or does not drive anything - clipped.
+Block MU020/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU020/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU020/F02/GND undriven or does not drive anything - clipped.
+Block MU020/F02/VCC undriven or does not drive anything - clipped.
+Block MU021/GND undriven or does not drive anything - clipped.
+Block MU021/VCC undriven or does not drive anything - clipped.
+Block MU021/F01/GND undriven or does not drive anything - clipped.
+Block MU021/F01/VCC undriven or does not drive anything - clipped.
+Block MU021/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU021/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU021/F02/GND undriven or does not drive anything - clipped.
+Block MU021/F02/VCC undriven or does not drive anything - clipped.
+Block MU022/GND undriven or does not drive anything - clipped.
+Block MU022/VCC undriven or does not drive anything - clipped.
+
+                                    Page 4
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU022/F01/GND undriven or does not drive anything - clipped.
+Block MU022/F01/VCC undriven or does not drive anything - clipped.
+Block MU022/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU022/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU022/F02/GND undriven or does not drive anything - clipped.
+Block MU022/F02/VCC undriven or does not drive anything - clipped.
+Block MU023/GND undriven or does not drive anything - clipped.
+Block MU023/VCC undriven or does not drive anything - clipped.
+Block MU023/F01/GND undriven or does not drive anything - clipped.
+Block MU023/F01/VCC undriven or does not drive anything - clipped.
+Block MU023/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU023/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU023/F01/H01/VCC undriven or does not drive anything - clipped.
+Block MU023/F01/H01/GND undriven or does not drive anything - clipped.
+Block MU032/GND undriven or does not drive anything - clipped.
+Block MU032/VCC undriven or does not drive anything - clipped.
+Block MU032/F00/GND undriven or does not drive anything - clipped.
+Block MU032/F00/VCC undriven or does not drive anything - clipped.
+Block MU032/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU032/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU032/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU032/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU033/GND undriven or does not drive anything - clipped.
+Block MU033/VCC undriven or does not drive anything - clipped.
+Block MU033/F01/GND undriven or does not drive anything - clipped.
+Block MU033/F01/VCC undriven or does not drive anything - clipped.
+Block MU033/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU033/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU033/F02/GND undriven or does not drive anything - clipped.
+Block MU033/F02/VCC undriven or does not drive anything - clipped.
+Block MU034/GND undriven or does not drive anything - clipped.
+Block MU034/VCC undriven or does not drive anything - clipped.
+Block MU034/F01/GND undriven or does not drive anything - clipped.
+Block MU034/F01/VCC undriven or does not drive anything - clipped.
+Block MU034/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU034/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU034/F02/GND undriven or does not drive anything - clipped.
+Block MU034/F02/VCC undriven or does not drive anything - clipped.
+Block MU035/GND undriven or does not drive anything - clipped.
+Block MU035/VCC undriven or does not drive anything - clipped.
+Block MU035/F01/GND undriven or does not drive anything - clipped.
+Block MU035/F01/VCC undriven or does not drive anything - clipped.
+Block MU035/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU035/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU035/F02/GND undriven or does not drive anything - clipped.
+Block MU035/F02/VCC undriven or does not drive anything - clipped.
+Block MU036/GND undriven or does not drive anything - clipped.
+Block MU036/VCC undriven or does not drive anything - clipped.
+Block MU036/F01/GND undriven or does not drive anything - clipped.
+Block MU036/F01/VCC undriven or does not drive anything - clipped.
+Block MU036/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU036/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU036/F02/GND undriven or does not drive anything - clipped.
+Block MU036/F02/VCC undriven or does not drive anything - clipped.
+Block MU037/GND undriven or does not drive anything - clipped.
+Block MU037/VCC undriven or does not drive anything - clipped.
+
+                                    Page 5
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU037/F01/GND undriven or does not drive anything - clipped.
+Block MU037/F01/VCC undriven or does not drive anything - clipped.
+Block MU037/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU037/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU037/F02/GND undriven or does not drive anything - clipped.
+Block MU037/F02/VCC undriven or does not drive anything - clipped.
+Block MU038/GND undriven or does not drive anything - clipped.
+Block MU038/VCC undriven or does not drive anything - clipped.
+Block MU038/F01/GND undriven or does not drive anything - clipped.
+Block MU038/F01/VCC undriven or does not drive anything - clipped.
+Block MU038/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU038/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU038/F02/GND undriven or does not drive anything - clipped.
+Block MU038/F02/VCC undriven or does not drive anything - clipped.
+Block MU039/GND undriven or does not drive anything - clipped.
+Block MU039/VCC undriven or does not drive anything - clipped.
+Block MU039/F01/GND undriven or does not drive anything - clipped.
+Block MU039/F01/VCC undriven or does not drive anything - clipped.
+Block MU039/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU039/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU039/F02/GND undriven or does not drive anything - clipped.
+Block MU039/F02/VCC undriven or does not drive anything - clipped.
+Block MU048/GND undriven or does not drive anything - clipped.
+Block MU048/VCC undriven or does not drive anything - clipped.
+Block MU048/F00/GND undriven or does not drive anything - clipped.
+Block MU048/F00/VCC undriven or does not drive anything - clipped.
+Block MU048/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU048/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU048/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU048/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU049/GND undriven or does not drive anything - clipped.
+Block MU049/VCC undriven or does not drive anything - clipped.
+Block MU049/F01/GND undriven or does not drive anything - clipped.
+Block MU049/F01/VCC undriven or does not drive anything - clipped.
+Block MU049/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU049/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU049/F02/GND undriven or does not drive anything - clipped.
+Block MU049/F02/VCC undriven or does not drive anything - clipped.
+Block MU050/GND undriven or does not drive anything - clipped.
+Block MU050/VCC undriven or does not drive anything - clipped.
+Block MU050/F01/GND undriven or does not drive anything - clipped.
+Block MU050/F01/VCC undriven or does not drive anything - clipped.
+Block MU050/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU050/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU050/F02/GND undriven or does not drive anything - clipped.
+Block MU050/F02/VCC undriven or does not drive anything - clipped.
+Block MU051/GND undriven or does not drive anything - clipped.
+Block MU051/VCC undriven or does not drive anything - clipped.
+Block MU051/F00/GND undriven or does not drive anything - clipped.
+Block MU051/F00/VCC undriven or does not drive anything - clipped.
+Block MU051/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU051/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU051/F02/GND undriven or does not drive anything - clipped.
+Block MU051/F02/VCC undriven or does not drive anything - clipped.
+Block MU052/GND undriven or does not drive anything - clipped.
+Block MU052/VCC undriven or does not drive anything - clipped.
+
+                                    Page 6
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU052/F01/GND undriven or does not drive anything - clipped.
+Block MU052/F01/VCC undriven or does not drive anything - clipped.
+Block MU052/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU052/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU052/F02/GND undriven or does not drive anything - clipped.
+Block MU052/F02/VCC undriven or does not drive anything - clipped.
+Block MU053/GND undriven or does not drive anything - clipped.
+Block MU053/VCC undriven or does not drive anything - clipped.
+Block MU053/F01/GND undriven or does not drive anything - clipped.
+Block MU053/F01/VCC undriven or does not drive anything - clipped.
+Block MU053/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU053/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU053/F02/GND undriven or does not drive anything - clipped.
+Block MU053/F02/VCC undriven or does not drive anything - clipped.
+Block MU054/GND undriven or does not drive anything - clipped.
+Block MU054/VCC undriven or does not drive anything - clipped.
+Block MU054/F01/GND undriven or does not drive anything - clipped.
+Block MU054/F01/VCC undriven or does not drive anything - clipped.
+Block MU054/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU054/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU054/F02/GND undriven or does not drive anything - clipped.
+Block MU054/F02/VCC undriven or does not drive anything - clipped.
+Block MU055/GND undriven or does not drive anything - clipped.
+Block MU055/VCC undriven or does not drive anything - clipped.
+Block MU055/F01/GND undriven or does not drive anything - clipped.
+Block MU055/F01/VCC undriven or does not drive anything - clipped.
+Block MU055/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU055/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU055/F02/GND undriven or does not drive anything - clipped.
+Block MU055/F02/VCC undriven or does not drive anything - clipped.
+Block MU058/VCC undriven or does not drive anything - clipped.
+Block MU058/GND undriven or does not drive anything - clipped.
+Block MU064/GND undriven or does not drive anything - clipped.
+Block MU064/VCC undriven or does not drive anything - clipped.
+Block MU064/F00/GND undriven or does not drive anything - clipped.
+Block MU064/F00/VCC undriven or does not drive anything - clipped.
+Block MU064/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU064/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU064/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU064/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU065/GND undriven or does not drive anything - clipped.
+Block MU065/VCC undriven or does not drive anything - clipped.
+Block MU065/F00/GND undriven or does not drive anything - clipped.
+Block MU065/F00/VCC undriven or does not drive anything - clipped.
+Block MU065/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU065/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU065/F02/GND undriven or does not drive anything - clipped.
+Block MU065/F02/VCC undriven or does not drive anything - clipped.
+Block MU066/GND undriven or does not drive anything - clipped.
+Block MU066/VCC undriven or does not drive anything - clipped.
+Block MU066/F01/GND undriven or does not drive anything - clipped.
+Block MU066/F01/VCC undriven or does not drive anything - clipped.
+Block MU066/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU066/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU066/F02/GND undriven or does not drive anything - clipped.
+Block MU066/F02/VCC undriven or does not drive anything - clipped.
+
+                                    Page 7
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU067/GND undriven or does not drive anything - clipped.
+Block MU067/VCC undriven or does not drive anything - clipped.
+Block MU067/F01/GND undriven or does not drive anything - clipped.
+Block MU067/F01/VCC undriven or does not drive anything - clipped.
+Block MU067/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU067/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU067/F02/GND undriven or does not drive anything - clipped.
+Block MU067/F02/VCC undriven or does not drive anything - clipped.
+Block MU068/GND undriven or does not drive anything - clipped.
+Block MU068/VCC undriven or does not drive anything - clipped.
+Block MU068/F01/GND undriven or does not drive anything - clipped.
+Block MU068/F01/VCC undriven or does not drive anything - clipped.
+Block MU068/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU068/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU068/F02/GND undriven or does not drive anything - clipped.
+Block MU068/F02/VCC undriven or does not drive anything - clipped.
+Block MU069/GND undriven or does not drive anything - clipped.
+Block MU069/VCC undriven or does not drive anything - clipped.
+Block MU069/F01/GND undriven or does not drive anything - clipped.
+Block MU069/F01/VCC undriven or does not drive anything - clipped.
+Block MU069/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU069/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU069/F02/GND undriven or does not drive anything - clipped.
+Block MU069/F02/VCC undriven or does not drive anything - clipped.
+Block MU070/GND undriven or does not drive anything - clipped.
+Block MU070/VCC undriven or does not drive anything - clipped.
+Block MU070/F01/GND undriven or does not drive anything - clipped.
+Block MU070/F01/VCC undriven or does not drive anything - clipped.
+Block MU070/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU070/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU070/F02/GND undriven or does not drive anything - clipped.
+Block MU070/F02/VCC undriven or does not drive anything - clipped.
+Block MU071/GND undriven or does not drive anything - clipped.
+Block MU071/VCC undriven or does not drive anything - clipped.
+Block MU071/F01/GND undriven or does not drive anything - clipped.
+Block MU071/F01/VCC undriven or does not drive anything - clipped.
+Block MU071/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU071/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU071/F02/GND undriven or does not drive anything - clipped.
+Block MU071/F02/VCC undriven or does not drive anything - clipped.
+Block MU080/GND undriven or does not drive anything - clipped.
+Block MU080/VCC undriven or does not drive anything - clipped.
+Block MU080/F00/GND undriven or does not drive anything - clipped.
+Block MU080/F00/VCC undriven or does not drive anything - clipped.
+Block MU080/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU080/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU080/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU080/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU081/GND undriven or does not drive anything - clipped.
+Block MU081/VCC undriven or does not drive anything - clipped.
+Block MU081/F00/GND undriven or does not drive anything - clipped.
+Block MU081/F00/VCC undriven or does not drive anything - clipped.
+Block MU081/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU081/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU081/F02/GND undriven or does not drive anything - clipped.
+Block MU081/F02/VCC undriven or does not drive anything - clipped.
+
+                                    Page 8
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU082/GND undriven or does not drive anything - clipped.
+Block MU082/VCC undriven or does not drive anything - clipped.
+Block MU082/F01/GND undriven or does not drive anything - clipped.
+Block MU082/F01/VCC undriven or does not drive anything - clipped.
+Block MU082/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU082/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU082/F02/GND undriven or does not drive anything - clipped.
+Block MU082/F02/VCC undriven or does not drive anything - clipped.
+Block MU083/GND undriven or does not drive anything - clipped.
+Block MU083/VCC undriven or does not drive anything - clipped.
+Block MU083/F01/GND undriven or does not drive anything - clipped.
+Block MU083/F01/VCC undriven or does not drive anything - clipped.
+Block MU083/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU083/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU083/F02/GND undriven or does not drive anything - clipped.
+Block MU083/F02/VCC undriven or does not drive anything - clipped.
+Block MU084/GND undriven or does not drive anything - clipped.
+Block MU084/VCC undriven or does not drive anything - clipped.
+Block MU084/F01/GND undriven or does not drive anything - clipped.
+Block MU084/F01/VCC undriven or does not drive anything - clipped.
+Block MU084/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU084/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU084/F02/GND undriven or does not drive anything - clipped.
+Block MU084/F02/VCC undriven or does not drive anything - clipped.
+Block MU085/GND undriven or does not drive anything - clipped.
+Block MU085/VCC undriven or does not drive anything - clipped.
+Block MU085/F01/GND undriven or does not drive anything - clipped.
+Block MU085/F01/VCC undriven or does not drive anything - clipped.
+Block MU085/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU085/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU085/F02/GND undriven or does not drive anything - clipped.
+Block MU085/F02/VCC undriven or does not drive anything - clipped.
+Block MU086/GND undriven or does not drive anything - clipped.
+Block MU086/VCC undriven or does not drive anything - clipped.
+Block MU086/F01/GND undriven or does not drive anything - clipped.
+Block MU086/F01/VCC undriven or does not drive anything - clipped.
+Block MU086/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU086/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU086/F02/GND undriven or does not drive anything - clipped.
+Block MU086/F02/VCC undriven or does not drive anything - clipped.
+Block MU087/GND undriven or does not drive anything - clipped.
+Block MU087/VCC undriven or does not drive anything - clipped.
+Block MU087/F01/GND undriven or does not drive anything - clipped.
+Block MU087/F01/VCC undriven or does not drive anything - clipped.
+Block MU087/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU087/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU087/F02/GND undriven or does not drive anything - clipped.
+Block MU087/F02/VCC undriven or does not drive anything - clipped.
+Block MU096/GND undriven or does not drive anything - clipped.
+Block MU096/VCC undriven or does not drive anything - clipped.
+Block MU096/F00/GND undriven or does not drive anything - clipped.
+Block MU096/F00/VCC undriven or does not drive anything - clipped.
+Block MU096/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU096/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU096/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU096/F00/H01/VCC undriven or does not drive anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU097/GND undriven or does not drive anything - clipped.
+Block MU097/VCC undriven or does not drive anything - clipped.
+Block MU097/F00/GND undriven or does not drive anything - clipped.
+Block MU097/F00/VCC undriven or does not drive anything - clipped.
+Block MU097/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU097/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU097/F02/GND undriven or does not drive anything - clipped.
+Block MU097/F02/VCC undriven or does not drive anything - clipped.
+Block MU098/GND undriven or does not drive anything - clipped.
+Block MU098/VCC undriven or does not drive anything - clipped.
+Block MU098/F01/GND undriven or does not drive anything - clipped.
+Block MU098/F01/VCC undriven or does not drive anything - clipped.
+Block MU098/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU098/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU098/F02/GND undriven or does not drive anything - clipped.
+Block MU098/F02/VCC undriven or does not drive anything - clipped.
+Block MU099/GND undriven or does not drive anything - clipped.
+Block MU099/VCC undriven or does not drive anything - clipped.
+Block MU099/F01/GND undriven or does not drive anything - clipped.
+Block MU099/F01/VCC undriven or does not drive anything - clipped.
+Block MU099/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU099/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU099/F02/GND undriven or does not drive anything - clipped.
+Block MU099/F02/VCC undriven or does not drive anything - clipped.
+Block MU100/GND undriven or does not drive anything - clipped.
+Block MU100/VCC undriven or does not drive anything - clipped.
+Block MU100/F01/GND undriven or does not drive anything - clipped.
+Block MU100/F01/VCC undriven or does not drive anything - clipped.
+Block MU100/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU100/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU100/F02/GND undriven or does not drive anything - clipped.
+Block MU100/F02/VCC undriven or does not drive anything - clipped.
+Block MU101/GND undriven or does not drive anything - clipped.
+Block MU101/VCC undriven or does not drive anything - clipped.
+Block MU101/F01/GND undriven or does not drive anything - clipped.
+Block MU101/F01/VCC undriven or does not drive anything - clipped.
+Block MU101/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU101/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU101/F02/GND undriven or does not drive anything - clipped.
+Block MU101/F02/VCC undriven or does not drive anything - clipped.
+Block MU102/GND undriven or does not drive anything - clipped.
+Block MU102/VCC undriven or does not drive anything - clipped.
+Block MU102/F01/GND undriven or does not drive anything - clipped.
+Block MU102/F01/VCC undriven or does not drive anything - clipped.
+Block MU102/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU102/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU102/F02/GND undriven or does not drive anything - clipped.
+Block MU102/F02/VCC undriven or does not drive anything - clipped.
+Block MU103/GND undriven or does not drive anything - clipped.
+Block MU103/VCC undriven or does not drive anything - clipped.
+Block MU103/F02/GND undriven or does not drive anything - clipped.
+Block MU103/F02/VCC undriven or does not drive anything - clipped.
+Block MU112/GND undriven or does not drive anything - clipped.
+Block MU112/VCC undriven or does not drive anything - clipped.
+Block MU112/F00/GND undriven or does not drive anything - clipped.
+Block MU112/F00/VCC undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU112/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU112/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU112/F00/H01/GND undriven or does not drive anything - clipped.
+Block MU112/F00/H01/VCC undriven or does not drive anything - clipped.
+Block MU113/GND undriven or does not drive anything - clipped.
+Block MU113/VCC undriven or does not drive anything - clipped.
+Block MU113/F01/GND undriven or does not drive anything - clipped.
+Block MU113/F01/VCC undriven or does not drive anything - clipped.
+Block MU113/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU113/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU113/F02/GND undriven or does not drive anything - clipped.
+Block MU113/F02/VCC undriven or does not drive anything - clipped.
+Block MU114/GND undriven or does not drive anything - clipped.
+Block MU114/VCC undriven or does not drive anything - clipped.
+Block MU114/F01/GND undriven or does not drive anything - clipped.
+Block MU114/F01/VCC undriven or does not drive anything - clipped.
+Block MU114/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU114/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU114/F02/GND undriven or does not drive anything - clipped.
+Block MU114/F02/VCC undriven or does not drive anything - clipped.
+Block MU115/GND undriven or does not drive anything - clipped.
+Block MU115/VCC undriven or does not drive anything - clipped.
+Block MU115/F01/GND undriven or does not drive anything - clipped.
+Block MU115/F01/VCC undriven or does not drive anything - clipped.
+Block MU115/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU115/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU115/F02/GND undriven or does not drive anything - clipped.
+Block MU115/F02/VCC undriven or does not drive anything - clipped.
+Block MU116/GND undriven or does not drive anything - clipped.
+Block MU116/VCC undriven or does not drive anything - clipped.
+Block MU116/F01/GND undriven or does not drive anything - clipped.
+Block MU116/F01/VCC undriven or does not drive anything - clipped.
+Block MU116/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU116/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU116/F02/GND undriven or does not drive anything - clipped.
+Block MU116/F02/VCC undriven or does not drive anything - clipped.
+Block MU117/GND undriven or does not drive anything - clipped.
+Block MU117/VCC undriven or does not drive anything - clipped.
+Block MU117/F01/GND undriven or does not drive anything - clipped.
+Block MU117/F01/VCC undriven or does not drive anything - clipped.
+Block MU117/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU117/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU117/F02/GND undriven or does not drive anything - clipped.
+Block MU117/F02/VCC undriven or does not drive anything - clipped.
+Block MU118/GND undriven or does not drive anything - clipped.
+Block MU118/VCC undriven or does not drive anything - clipped.
+Block MU118/F00/GND undriven or does not drive anything - clipped.
+Block MU118/F00/VCC undriven or does not drive anything - clipped.
+Block MU118/F00/H00/GND undriven or does not drive anything - clipped.
+Block MU118/F00/H00/VCC undriven or does not drive anything - clipped.
+Block MU118/F01/GND undriven or does not drive anything - clipped.
+Block MU118/F01/VCC undriven or does not drive anything - clipped.
+Block MU118/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU118/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU118/F02/GND undriven or does not drive anything - clipped.
+Block MU118/F02/VCC undriven or does not drive anything - clipped.
+
+                                   Page 11
+
+
+
+
+Design:  mult4bit00                                    Date:  02/26/19  13:39:25
+
+Removed logic (cont)
+--------------------
+Block MU119/GND undriven or does not drive anything - clipped.
+Block MU119/VCC undriven or does not drive anything - clipped.
+Block MU119/F01/GND undriven or does not drive anything - clipped.
+Block MU119/F01/VCC undriven or does not drive anything - clipped.
+Block MU119/F01/H00/GND undriven or does not drive anything - clipped.
+Block MU119/F01/H00/VCC undriven or does not drive anything - clipped.
+Block MU119/F02/GND undriven or does not drive anything - clipped.
+Block MU119/F02/VCC undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+
+Memory Usage
+------------
+
+
+     
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 57 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 12
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

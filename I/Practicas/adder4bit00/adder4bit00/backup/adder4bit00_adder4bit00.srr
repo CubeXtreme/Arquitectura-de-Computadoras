@@ -1,0 +1,205 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: VICTOR-PC
+
+# Thu Feb  7 17:19:39 2019
+
+#Implementation: adder4bit00
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\topadder4bit00.vhdl":7:7:7:20|Top entity is set to topadder4bit00.
+VHDL syntax check successful!
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\topadder4bit00.vhdl":7:7:7:20|Synthesizing work.topadder4bit00.topadder4bit0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+Post processing for work.ha00.ha0
+@W: CL240 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\ha00.vhdl":12:2:12:3|Signal C0 is floating; a simulation mismatch is possible.
+Post processing for work.fa00.fa0
+Post processing for work.topadder4bit00.topadder4bit0
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Feb  7 17:19:40 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Feb  7 17:19:40 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Feb  7 17:19:40 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Feb  7 17:19:42 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Feb  7 17:19:42 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00_scck.rpt 
+Printing clock  summary report in "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":37:1:37:3|Removing instance F02 (in view: work.fa00_3(fa0)) of type view:work.or00_0(or0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_1(ha0)) of type view:work.and00_0_2(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":29:1:29:3|Removing instance F01 (in view: work.fa00_2(fa0)) of type view:work.ha00_1_1(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":37:1:37:3|Removing instance F02 (in view: work.fa00_2(fa0)) of type view:work.or00_1(or0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_3(ha0)) of type view:work.and00_0_4(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":29:1:29:3|Removing instance F01 (in view: work.fa00_1(fa0)) of type view:work.ha00_1_3(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":37:1:37:3|Removing instance F02 (in view: work.fa00_1(fa0)) of type view:work.or00_2(or0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\ha00.vhdl":24:1:24:3|Removing instance H01 (in view: work.ha00_1_5(ha0)) of type view:work.and00_0_6(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":29:1:29:3|Removing instance F01 (in view: work.fa00_0(fa0)) of type view:work.ha00_1_5(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":37:1:37:3|Removing instance F02 (in view: work.fa00_0(fa0)) of type view:work.or00_3(or0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":50:1:50:4|Removing instance AD05 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.fa00_2(fa0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":57:1:57:4|Removing instance AD06 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.fa00_1(fa0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":64:1:64:4|Removing instance AD07 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.fa00_0(fa0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":98:1:98:4|Removing instance AD13 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xor00_1(xor0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":93:1:93:4|Removing instance AD12 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xnor00(xnor0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":77:1:77:4|Removing instance AD09 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.and00_3(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":82:1:82:4|Removing instance AD10 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.and00_2(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":87:1:87:4|Removing instance AD11 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.and00_1(and0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":20:1:20:3|Removing instance F00 (in view: work.fa00_2(fa0)) of type view:work.ha00_1_2(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":20:1:20:3|Removing instance F00 (in view: work.fa00_1(fa0)) of type view:work.ha00_1_4(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\fa00.vhdl":20:1:20:3|Removing instance F00 (in view: work.fa00_0(fa0)) of type view:work.ha00_1_6(ha0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":26:1:26:4|Removing instance AD01 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xor00_4(xor0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":31:1:31:4|Removing instance AD02 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xor00_3(xor0) because it does not drive other instances.
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\topadder4bit00.vhdl":36:1:36:4|Removing instance AD03 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xor00_2(xor0) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topadder4bit00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb  7 17:19:43 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Feb  7 17:19:44 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net S0 (in view: work.ha00_1(ha0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net S0 (in view: work.ha00_1(ha0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:OUT inst:H00.Yx of PrimLib.xor(prim)
+Connection 2: Direction is (Output ) pin:OUT inst:H01.Ya of PrimLib.and(prim)
+@E: BN314 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\adder4bit00\ha00.vhdl":7:7:7:10|Net S0 (in view: work.ha00_1(ha0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb  7 17:19:44 2019
+
+###########################################################]

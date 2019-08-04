@@ -1,0 +1,2 @@
+CKID0001:@|S:MRA00.OS00.OSCInst0@|E:MRA02_outFlagcio@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:MRA00.OS01.oscout@|E:MRA03.wordram_ram@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

@@ -1,0 +1,222 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|topalu00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\osc00.vhdl":1555990228
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\div00.vhdl":1555990008
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packagefa00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packageha00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packagediv00.vhdl":1555990228
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\topdiv00.vhdl":1555990406
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packagecomp.vhdl":1551205659
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packagemul00.vhdl":1551205614
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\topadder0.vhdl":1551205646
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packageadder.vhdl":1551205636
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\topadder01.vhdl":1551205629
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\ora00.vhdl":1560354349
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\anda00.vhdl":1560354358
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\nota00.vhdl":1559935399
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\nanda00.vhdl":1559935520
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\nora00.vhdl":1559934907
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\xora00.vhdl":1559935498
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\xnora00.vhdl":1559935370
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\and0.vhdl":1551205684
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\and00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\fa00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\ha00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\or.vhdl":1551205669
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\or00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\xnor00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\xor.vhdl":1551205692
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\xor00.vhdl":1556812518
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packageadder8bit00.vhdl":1556634240
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\addera00.vhdl":1560135144
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\subsa00.vhdl":1560135110
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\adder8bits.vhdl":1559944400
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\mult8bits.vhdl":1560144267
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\topmult00.vhdl":1560132223
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\ac00.vhdl":1560353682
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\packagealu00.vhdl":1560117128
+#CUR:"C:\\Users\\Yair\\Desktop\\P15_ALU\\ALU\\topalu00.vhdl":1560354748
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\Users\Yair\Desktop\P15_ALU\ALU\osc00.vhdl" vhdl
+2 "C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl" vhdl
+3 "C:\Users\Yair\Desktop\P15_ALU\ALU\packagefa00.vhdl" vhdl
+4 "C:\Users\Yair\Desktop\P15_ALU\ALU\packageha00.vhdl" vhdl
+5 "C:\Users\Yair\Desktop\P15_ALU\ALU\packagediv00.vhdl" vhdl
+6 "C:\Users\Yair\Desktop\P15_ALU\ALU\topdiv00.vhdl" vhdl
+7 "C:\Users\Yair\Desktop\P15_ALU\ALU\packagecomp.vhdl" vhdl
+8 "C:\Users\Yair\Desktop\P15_ALU\ALU\packagemul00.vhdl" vhdl
+9 "C:\Users\Yair\Desktop\P15_ALU\ALU\topadder0.vhdl" vhdl
+10 "C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder.vhdl" vhdl
+11 "C:\Users\Yair\Desktop\P15_ALU\ALU\topadder01.vhdl" vhdl
+12 "C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl" vhdl
+13 "C:\Users\Yair\Desktop\P15_ALU\ALU\anda00.vhdl" vhdl
+14 "C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl" vhdl
+15 "C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl" vhdl
+16 "C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl" vhdl
+17 "C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl" vhdl
+18 "C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl" vhdl
+19 "C:\Users\Yair\Desktop\P15_ALU\ALU\and0.vhdl" vhdl
+20 "C:\Users\Yair\Desktop\P15_ALU\ALU\and00.vhdl" vhdl
+21 "C:\Users\Yair\Desktop\P15_ALU\ALU\fa00.vhdl" vhdl
+22 "C:\Users\Yair\Desktop\P15_ALU\ALU\ha00.vhdl" vhdl
+23 "C:\Users\Yair\Desktop\P15_ALU\ALU\or.vhdl" vhdl
+24 "C:\Users\Yair\Desktop\P15_ALU\ALU\or00.vhdl" vhdl
+25 "C:\Users\Yair\Desktop\P15_ALU\ALU\xnor00.vhdl" vhdl
+26 "C:\Users\Yair\Desktop\P15_ALU\ALU\xor.vhdl" vhdl
+27 "C:\Users\Yair\Desktop\P15_ALU\ALU\xor00.vhdl" vhdl
+28 "C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder8bit00.vhdl" vhdl
+29 "C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl" vhdl
+30 "C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl" vhdl
+31 "C:\Users\Yair\Desktop\P15_ALU\ALU\adder8bits.vhdl" vhdl
+32 "C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl" vhdl
+33 "C:\Users\Yair\Desktop\P15_ALU\ALU\topmult00.vhdl" vhdl
+34 "C:\Users\Yair\Desktop\P15_ALU\ALU\ac00.vhdl" vhdl
+35 "C:\Users\Yair\Desktop\P15_ALU\ALU\packagealu00.vhdl" vhdl
+36 "C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 1 2 5 
+7 -1
+8 -1
+9 19 26 7 
+10 -1
+11 9 23 10 
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 22 24 3 
+22 27 20 4 
+23 -1
+24 -1
+25 -1
+26 -1
+27 -1
+28 -1
+29 -1
+30 -1
+31 27 21 20 25 28 
+32 -1
+33 19 11 8 
+34 -1
+35 -1
+36 6 12 13 14 15 16 17 18 34 31 29 30 32 33 35 
+
+# Dependency Lists (Users Of)
+0 -1
+1 6 
+2 6 
+3 21 
+4 22 
+5 6 
+6 36 
+7 9 
+8 33 
+9 11 
+10 11 
+11 33 
+12 36 
+13 36 
+14 36 
+15 36 
+16 36 
+17 36 
+18 36 
+19 33 9 
+20 31 22 
+21 31 
+22 21 
+23 11 
+24 21 
+25 31 
+26 9 
+27 31 22 
+28 31 
+29 36 
+30 36 
+31 36 
+32 36 
+33 36 
+34 36 
+35 36 
+36 -1
+
+# Design Unit to File Association
+arch work osc00 osc0 1
+module work osc00 1
+arch work div00 div0 2
+module work div00 2
+arch work topdiv00 topdiv0 6
+module work topdiv00 6
+arch work topadder0 topadder00 9
+module work topadder0 9
+arch work topadder1 topadder01 11
+module work topadder1 11
+arch work ora00 ora0 12
+module work ora00 12
+arch work anda00 anda0 13
+module work anda00 13
+arch work nota00 nota0 14
+module work nota00 14
+arch work nanda00 nanda0 15
+module work nanda00 15
+arch work nora00 nora0 16
+module work nora00 16
+arch work xora00 xora0 17
+module work xora00 17
+arch work xnora00 xnora0 18
+module work xnora00 18
+arch work and0 and00 19
+module work and0 19
+arch work and00 and0 20
+module work and00 20
+arch work fa00 fa0 21
+module work fa00 21
+arch work ha00 ha0 22
+module work ha00 22
+arch work or0 or00 23
+module work or0 23
+arch work or00 or0 24
+module work or00 24
+arch work xnor00 xnor0 25
+module work xnor00 25
+arch work xor0 xor00 26
+module work xor0 26
+arch work xor00 xor0 27
+module work xor00 27
+arch work addera00 addera0 29
+module work addera00 29
+arch work subsa00 subsa0 30
+module work subsa00 30
+arch work adder8bits adder8bits0 31
+module work adder8bits 31
+arch work mult8bits mult8bits0 32
+module work mult8bits 32
+arch work topmult00 topmult0 33
+module work topmult00 33
+arch work ac00 ac0 34
+module work ac00 34
+arch work topalu00 topalu0 36
+module work topalu00 36

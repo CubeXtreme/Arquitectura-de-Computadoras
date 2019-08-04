@@ -1,0 +1,10 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_0(topadder00)) of type view:work.AND0_64_0(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_14(topadder00)) of type view:work.AND0_0_13(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_15(topadder00)) of type view:work.AND0_0_16(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_31(topadder00)) of type view:work.AND0_0_32(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_47(topadder00)) of type view:work.AND0_0_48(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_63(topadder00)) of type view:work.AND0_0_64(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_79(topadder00)) of type view:work.AND0_0_80(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_95(topadder00)) of type view:work.AND0_0_96(and00) because it does not drive other instances.

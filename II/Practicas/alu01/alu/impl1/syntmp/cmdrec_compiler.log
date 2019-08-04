@@ -1,0 +1,43 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\synwork\ALU00_impl1_comp.srs  -top  topalu00  -hdllog  C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\synlog\ALU00_impl1_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\osc00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packagefa00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packageha00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packagediv00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packagecomp.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packagemul00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\anda00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\and0.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\and00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\or.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\or00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\xnor00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\xor.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\xor00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packageadder8bit00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\ac00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\packagealu00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\topdiv00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\topadder0.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\topadder01.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\ha00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\fa00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\adder8bits.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\topmult00.vhdl -lib work C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl  -jobname  "compiler" 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\ALU00_impl1_comp.srs -top topalu00 -hdllog ..\synlog\ALU00_impl1_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\osc00.vhdl -lib work ..\..\div00.vhdl -lib work ..\..\packagefa00.vhdl -lib work ..\..\packageha00.vhdl -lib work ..\..\packagediv00.vhdl -lib work ..\..\packagecomp.vhdl -lib work ..\..\packagemul00.vhdl -lib work ..\..\packageadder.vhdl -lib work ..\..\ora00.vhdl -lib work ..\..\anda00.vhdl -lib work ..\..\nota00.vhdl -lib work ..\..\nanda00.vhdl -lib work ..\..\nora00.vhdl -lib work ..\..\xora00.vhdl -lib work ..\..\xnora00.vhdl -lib work ..\..\and0.vhdl -lib work ..\..\and00.vhdl -lib work ..\..\or.vhdl -lib work ..\..\or00.vhdl -lib work ..\..\xnor00.vhdl -lib work ..\..\xor.vhdl -lib work ..\..\xor00.vhdl -lib work ..\..\packageadder8bit00.vhdl -lib work ..\..\addera00.vhdl -lib work ..\..\subsa00.vhdl -lib work ..\..\mult8bits.vhdl -lib work ..\..\ac00.vhdl -lib work ..\..\packagealu00.vhdl -lib work ..\..\topdiv00.vhdl -lib work ..\..\topadder0.vhdl -lib work ..\..\topadder01.vhdl -lib work ..\..\ha00.vhdl -lib work ..\..\fa00.vhdl -lib work ..\..\adder8bits.vhdl -lib work ..\..\topmult00.vhdl -lib work ..\..\topalu00.vhdl -jobname "compiler"
+rc:0 success:1 runtime:5
+file:..\synwork\ALU00_impl1_comp.srs|io:o|time:1560354895|size:38763|exec:0|csum:
+file:..\synlog\ALU00_impl1_compiler.srr|io:o|time:1560354895|size:38468|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\osc00.vhdl|io:i|time:1555990228|size:488|exec:0|csum:8C7223EE5D377AEFB4F483D81D100EEE
+file:..\..\div00.vhdl|io:i|time:1555990008|size:2140|exec:0|csum:DDE8F09F9F3333D0FB3F7B33CE53A728
+file:..\..\packagefa00.vhdl|io:i|time:1556634240|size:353|exec:0|csum:65A9E2A79AEEDD1ACF28EB93F1916BAA
+file:..\..\packageha00.vhdl|io:i|time:1556634240|size:326|exec:0|csum:59015AD0EE41D8D645410A12B7C8C464
+file:..\..\packagediv00.vhdl|io:i|time:1555990228|size:331|exec:0|csum:D24580B86AB43E90D0B9C7495453B73A
+file:..\..\packagecomp.vhdl|io:i|time:1551205659|size:821|exec:0|csum:FA97A5E530D2EBF2788C0F1FDF61D354
+file:..\..\packagemul00.vhdl|io:i|time:1551205614|size:331|exec:0|csum:AEA27001A827221F0D5B80DF54AAA16D
+file:..\..\packageadder.vhdl|io:i|time:1551205636|size:326|exec:0|csum:F72BE1068AB0D6584F6B3D1D9F28CF63
+file:..\..\ora00.vhdl|io:i|time:1560354349|size:1193|exec:0|csum:E443FA46C77C472E13FE9CEEF31F4558
+file:..\..\anda00.vhdl|io:i|time:1560354358|size:1050|exec:0|csum:10D9AB5C16E9D0D4E8AB1705C3B518B1
+file:..\..\nota00.vhdl|io:i|time:1559935399|size:1052|exec:0|csum:78B8ACF0FE97C5818FA1EFC0709B61E7
+file:..\..\nanda00.vhdl|io:i|time:1559935520|size:1101|exec:0|csum:9C681B5DC0E274D0267C9EBEC77D61A0
+file:..\..\nora00.vhdl|io:i|time:1559934907|size:1024|exec:0|csum:2FE0A097F8D896C354D48AF0F6C717D8
+file:..\..\xora00.vhdl|io:i|time:1559935498|size:1017|exec:0|csum:E410ED2C6789E681268FE65D19D35F5D
+file:..\..\xnora00.vhdl|io:i|time:1559935370|size:1046|exec:0|csum:4013F6DECDD70FD10C00D5C5FA61C72D
+file:..\..\and0.vhdl|io:i|time:1551205684|size:247|exec:0|csum:656F5D174461F86D7A3297FB329EE8BF
+file:..\..\and00.vhdl|io:i|time:1556634240|size:239|exec:0|csum:85BE5DE436291181C328BF21E3F35307
+file:..\..\or.vhdl|io:i|time:1551205669|size:244|exec:0|csum:A8FA4BB813C1E372F20640FD5DBE4FE9
+file:..\..\or00.vhdl|io:i|time:1556634240|size:232|exec:0|csum:3D7CC789B70875231D121B1A41C13E06
+file:..\..\xnor00.vhdl|io:i|time:1556634240|size:250|exec:0|csum:B0BE4A2B26438D062F79648211765774
+file:..\..\xor.vhdl|io:i|time:1551205692|size:240|exec:0|csum:25AD5E2878AA5BE26E1A679CB4167A2E
+file:..\..\xor00.vhdl|io:i|time:1556812518|size:239|exec:0|csum:09B6985B3F92FAF21051EBD09D72FA03
+file:..\..\packageadder8bit00.vhdl|io:i|time:1556634240|size:588|exec:0|csum:4795D34DF51CBC166B41931D3756F3A2
+file:..\..\addera00.vhdl|io:i|time:1560135144|size:1023|exec:0|csum:B60636699052235D7F7CE9D14F51DA3A
+file:..\..\subsa00.vhdl|io:i|time:1560135110|size:1016|exec:0|csum:8DF665E616A9E8FDB5A03247F9E782E2
+file:..\..\mult8bits.vhdl|io:i|time:1560144267|size:930|exec:0|csum:1253ADED5E15919AAD1C8065981F577E
+file:..\..\ac00.vhdl|io:i|time:1560353682|size:1377|exec:0|csum:0203E7A19236E6D4749D976EDA8E68D4
+file:..\..\packagealu00.vhdl|io:i|time:1560117128|size:4327|exec:0|csum:4068FD867AB8A22BFEE0F4125E183AAC
+file:..\..\topdiv00.vhdl|io:i|time:1555990406|size:417|exec:0|csum:1E663F84766DE8FC3A206A1E596DAEE5
+file:..\..\topadder0.vhdl|io:i|time:1551205646|size:407|exec:0|csum:A330421C7B45C991CA5713B7C82B6BA0
+file:..\..\topadder01.vhdl|io:i|time:1551205629|size:614|exec:0|csum:2B08CD0A8F575B69C73DCF9D6A5F8F47
+file:..\..\ha00.vhdl|io:i|time:1556634240|size:399|exec:0|csum:00977B651A6A5581E6C963B0A32BAA09
+file:..\..\fa00.vhdl|io:i|time:1556634240|size:587|exec:0|csum:F6D167907F3DACB95BD45967F860ACFF
+file:..\..\adder8bits.vhdl|io:i|time:1559944400|size:4085|exec:0|csum:090F81DD87F27A77140993EB234AB387
+file:..\..\topmult00.vhdl|io:i|time:1560132223|size:12388|exec:0|csum:A27506ACA4E3D5F4F8F9FBDE0E187A83
+file:..\..\topalu00.vhdl|io:i|time:1560354748|size:4623|exec:0|csum:AE35FDE4AA4453B726A05FA886BC4085
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

@@ -1,0 +1,3 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO225 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|There are no possible illegal states for state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0)); safe FSM implementation is not required.

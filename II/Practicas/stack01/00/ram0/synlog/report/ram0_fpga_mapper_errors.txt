@@ -1,0 +1,1 @@
+@E: BN314 :"c:\users\yair\desktop\arquitectura\practicas\ram00\dynamic\stack\ramvf\02\00\topram00.vhd":9:7:9:14|Net outcontW0[0] (in view: work.topram00(topram0)) has multiple drivers 

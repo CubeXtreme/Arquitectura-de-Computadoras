@@ -1,0 +1,25 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:84:85:89|Found ROM .delname. (in view: work.dec00(dec0)) with 32 words by 8 bits.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:16:85:21|Found ROM .delname. (in view: work.dec00(dec0)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance inIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[15] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[14] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[13] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[12] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[11] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[9] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[8] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRDDI[0] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:120:85:125|Found ROM .delname. (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|Found ROM .delname. (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|Removing sequential instance RO02.prom\.inIRDI_2_0_dreg_0[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance RO02.outIRDI[18] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRTDI[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\memProg00_memProg0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

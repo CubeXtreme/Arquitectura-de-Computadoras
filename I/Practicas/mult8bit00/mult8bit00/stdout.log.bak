@@ -1,0 +1,89 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    VICTOR-PC
+Date:        Tue Feb 26 13:03:10 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch mult8bit00_mult8bit00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Tue Feb 26 13:03:10 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+log file: "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srr"
+Running: mult8bit00 in foreground
+
+Running proj_1|mult8bit00
+
+Running: compile (Compile) on proj_1|mult8bit00
+# Tue Feb 26 13:03:11 2019
+
+Running: compile_flow (Compile Process) on proj_1|mult8bit00
+# Tue Feb 26 13:03:11 2019
+
+Running: compiler (Compile Input) on proj_1|mult8bit00
+# Tue Feb 26 13:03:11 2019
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_comp.srs to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srs
+
+compiler completed
+# Tue Feb 26 13:03:13 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|mult8bit00
+# Tue Feb 26 13:03:13 2019
+
+multi_srs_gen completed
+# Tue Feb 26 13:03:13 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_mult.srs to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srs
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srr to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srf
+Complete: Compile Process on proj_1|mult8bit00
+
+Running: premap (Pre-mapping) on proj_1|mult8bit00
+# Tue Feb 26 13:03:13 2019
+
+premap completed
+# Tue Feb 26 13:03:15 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|mult8bit00
+
+Running: map (Map) on proj_1|mult8bit00
+# Tue Feb 26 13:03:15 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|mult8bit00
+# Tue Feb 26 13:03:15 2019
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_m.srm to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srm
+
+fpga_mapper completed
+# Tue Feb 26 13:03:19 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Map on proj_1|mult8bit00
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srr to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\mult8bit00_mult8bit00.srf
+Complete: Logic Synthesis on proj_1|mult8bit00
+TCL script complete: "mult8bit00_mult8bit00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\proj_1.prj
+batch mode default:no

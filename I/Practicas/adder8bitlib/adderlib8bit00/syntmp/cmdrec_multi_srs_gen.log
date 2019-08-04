@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  adder8bitlib00  -multisrs  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bitlib\adderlib8bit00\synwork\adderlib8bit00_adderlib8bit00_comp.srs  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bitlib\adderlib8bit00\synwork\adderlib8bit00_adderlib8bit00_mult.srs  -log  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bitlib\adderlib8bit00\synlog\adderlib8bit00_adderlib8bit00_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top adder8bitlib00 -multisrs ..\synwork\adderlib8bit00_adderlib8bit00_comp.srs -osyn ..\synwork\adderlib8bit00_adderlib8bit00_mult.srs -log ..\synlog\adderlib8bit00_adderlib8bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adderlib8bit00_adderlib8bit00_comp.srs|io:i|time:1550888105|size:1964|exec:0|csum:468EBB701F9325D7C5A06EBF4B75C3E1
+file:..\synwork\adderlib8bit00_adderlib8bit00_mult.srs|io:o|time:1550888106|size:1652|exec:0|csum:
+file:..\synlog\adderlib8bit00_adderlib8bit00_multi_srs_gen.srr|io:o|time:1550888106|size:654|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

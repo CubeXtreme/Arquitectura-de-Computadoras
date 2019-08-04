@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1550839864"/>
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1550839845">
+            <Task name="Map" build_result="2" update_result="0" update_time="1550839845"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1550839857">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1550839857"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1550839843">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1550839843"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1550839826"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1550839844">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1550839844"/>
+        </Milestone>
+        <Report name="shiftLR00_shiftLR00.bgn" last_build_time="1550839863" last_build_size="4265"/>
+        <Report name="shiftLR00_shiftLR00.edi" last_build_time="1550839841" last_build_size="78515"/>
+        <Report name="shiftLR00_shiftLR00.jed" last_build_time="1550839863" last_build_size="1465129"/>
+        <Report name="shiftLR00_shiftLR00.ncd" last_build_time="1550839857" last_build_size="93307"/>
+        <Report name="shiftLR00_shiftLR00.ngd" last_build_time="1550839844" last_build_size="77079"/>
+        <Report name="shiftLR00_shiftLR00_map.ncd" last_build_time="1550839845" last_build_size="66676"/>
+    </Strategy>
+</BuildStatus>

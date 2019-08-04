@@ -1,0 +1,545 @@
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial   "lcdram00_lcdram00.ngd" -o "lcdram00_lcdram00_map.ncd" -pr "lcdram00_lcdram00.prf" -mp "lcdram00_lcdram00.mrp" -lpf "C:/Users/elite/OneDrive/Escritorio/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00_lcdram00_synplify.lpf" -lpf "C:/Users/elite/OneDrive/Escritorio/lcdkeyborrar/lcdram00/lcdram00/lcdram00.lpf" -c 0            
+map:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: lcdram00_lcdram00.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 5.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001030" type="Warning" dynamic="1" navigation="0" arg0="clr0_c"  />
+
+
+
+Design Summary:
+   Number of registers:    356 out of  7209 (5%)
+      PFU registers:          353 out of  6864 (5%)
+      PIO registers:            3 out of   345 (1%)
+   Number of SLICEs:       242 out of  3432 (7%)
+      SLICEs as Logic/ROM:    242 out of  3432 (7%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         28 out of  3432 (1%)
+   Number of LUT4s:        421 out of  6864 (6%)
+      Number used as logic LUTs:        365
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       56
+      Number used as shift registers:     0
+   Number of PIO sites used: 35 + 4(JTAG) out of 115 (34%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net U0.soscout0: 182 loads, 0 rising, 182 falling (Driver: U0/OS00/OSCInst0 )
+   Number of Clock Enables:  38
+     Net current_state_RNI3AC32[3]: 2 loads, 0 LSLICEs
+     Net U1/G_26: 25 loads, 25 LSLICEs
+     Net U1/COLS_1_203_0_o2_RNIKKLC1: 1 loads, 1 LSLICEs
+     Net U1/un1_clr_14_i_0_i_o2_RNISUV42: 4 loads, 4 LSLICEs
+     Net U1/c_key_cnv[0]: 8 loads, 8 LSLICEs
+     Net U1/ram_32_1_sqmuxa_0_o2_RNIFN7F4: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_5_i_0_i_o2_0_RNIQ5LG2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_5_i_0_i_o2_0_RNIREP52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_11_i_0_i_o2_RNIOQEG2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_11_i_0_i_o2_RNIP3J52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_25_i_0_i_o2_2_RNIE64C2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_25_i_0_i_o2_2_RNIFF812: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_15_i_0_i_o2_RNISUV42: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_3_i_0_i_o2_RNINTS52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_3_i_0_i_o2_RNIK2G62: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_15_i_0_i_o2_RNIT74Q1: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_2_i_0_i_o2_1_RNI68B52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_2_i_0_i_o2_1_RNI3DU52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_8_i_0_i_o2_RNIPF502: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_8_i_0_i_o2_RNISAIV1: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_5_i_0_i_o2_0_RNI89H92: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_5_i_0_i_o2_0_RNI5E4A2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_11_i_0_i_o2_RNI6UA92: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_11_i_0_i_o2_RNI33U92: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_25_i_0_i_o2_2_RNIS9052: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_25_i_0_i_o2_2_RNIPEJ52: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_15_i_0_i_o2_RNIA2ST1: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_14_i_0_i_o2_RNIRLRF2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_15_i_0_i_o2_RNI77FU1: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_14_i_0_i_o2_RNI9PN82: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_14_i_0_i_o2_RNI6UA92: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_3_i_0_i_o2_RNI9Q0D2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_3_i_0_i_o2_RNIA3522: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_2_i_0_i_o2_1_RNIO4FC2: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_2_i_0_i_o2_1_RNIPDJ12: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_8_i_0_i_o2_RNIE7M62: 4 loads, 4 LSLICEs
+     Net U1/un1_clr_8_i_0_i_o2_RNIFGQR1: 4 loads, 4 LSLICEs
+     Net current_state_RNIC04Q2[0]: 1 loads, 0 LSLICEs
+   Number of local set/reset loads for net clr0_c merged into GSR:  53
+   Number of LSRs:  1
+     Net U0/OS01/outdiv_0_sqmuxa_0_a2_RNIQUT31: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net U1/addr[4]: 127 loads
+     Net U1/addr[3]: 82 loads
+     Net U1/current_state[8]: 82 loads
+     Net U1/G_26: 62 loads
+     Net U1/addr[2]: 42 loads
+     Net U1/c_key_23_0_a2_0_RNII1I51[5]: 32 loads
+     Net U1/N_1109_0_i: 32 loads
+     Net U1/un1_c_key_10_0_a2[0]: 32 loads
+     Net U1/un1_c_key_10_0_a2[1]: 32 loads
+     Net U1/un1_c_key_10_0_a2[2]: 32 loads
+ 
+
+   Number of warnings:  1
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 2 secs  
+Peak Memory Usage: 61 MB
+
+Dumping design to file lcdram00_lcdram00_map.ncd.
+
+trce -f "lcdram00_lcdram00.mt" -o "lcdram00_lcdram00.tw1" "lcdram00_lcdram00_map.ncd" "lcdram00_lcdram00.prf"
+trce:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file lcdram00_lcdram00_map.ncd.
+Design name: toplcdram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.10.0.111.2
+Tue May 14 09:12:52 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/elite/OneDrive/Escritorio/lcdkeyborrar/lcdram00/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 60455 paths, 1 nets, and 2116 connections (93.22% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.10.0.111.2
+Tue May 14 09:12:52 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o lcdram00_lcdram00.tw1 -gui -msgset C:/Users/elite/OneDrive/Escritorio/lcdkeyborrar/lcdram00/lcdram00/promote.xml lcdram00_lcdram00_map.ncd lcdram00_lcdram00.prf 
+Design file:     lcdram00_lcdram00_map.ncd
+Preference file: lcdram00_lcdram00.prf
+Device,speed:    LCMXO2-7000HE,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 60455 paths, 1 nets, and 2116 connections (93.22% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total time: 0 secs 
+
+mpartrce -p "lcdram00_lcdram00.p2t" -f "lcdram00_lcdram00.p3t" -tf "lcdram00_lcdram00.pt" "lcdram00_lcdram00_map.ncd" "lcdram00_lcdram00.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "lcdram00_lcdram00_map.ncd"
+Tue May 14 09:12:52 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/elite/OneDrive/Escritorio/lcdkeyborrar/lcdram00/lcdram00/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF lcdram00_lcdram00_map.ncd lcdram00_lcdram00.dir/5_1.ncd lcdram00_lcdram00.prf
+Preference file: lcdram00_lcdram00.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file lcdram00_lcdram00_map.ncd.
+Design name: toplcdram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   35+4(JTAG)/336     12% used
+                  35+4(JTAG)/115     34% bonded
+   IOLOGIC            3/336          <1% used
+
+   SLICE            242/3432          7% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+
+
+Number of Signals: 788
+Number of Connections: 2270
+
+Pin Constraint Summary:
+   35 out of 35 pins locked (100% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    U0.soscout0 (driver: U0/OS00/OSCInst0, clk load #: 182)
+
+
+The following 2 signals are selected to use the secondary clock routing resources:
+    U1/G_26 (driver: U1/SLICE_272, clk load #: 0, sr load #: 0, ce load #: 25)
+    U0/OS01/outdiv_0_sqmuxa_0_a2_RNIQUT31 (driver: SLICE_297, clk load #: 0, sr load #: 11, ce load #: 0)
+
+Signal clr0_c is selected as Global Set/Reset.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 4 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 162059.
+Finished Placer Phase 1.  REAL time: 16 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  161719
+Finished Placer Phase 2.  REAL time: 16 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "U0.soscout0" from OSC on comp "U0/OS00/OSCInst0" on site "OSC", clk load = 182
+  SECONDARY "U1/G_26" from F1 on comp "U1/SLICE_272" on site "R14C20D", clk load = 0, ce load = 25, sr load = 0
+  SECONDARY "U0/OS01/outdiv_0_sqmuxa_0_a2_RNIQUT31" from F0 on comp "SLICE_297" on site "R14C18C", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 2 out of 8 (25%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   35 + 4(JTAG) out of 336 (11.6%) PIO sites used.
+   35 + 4(JTAG) out of 115 (33.9%) bonded PIO sites used.
+   Number of PIO comps: 35; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 11 / 28 ( 39%) | 2.5V       | -         |
+| 1        | 8 / 29 ( 27%)  | 2.5V       | -         |
+| 2        | 10 / 29 ( 34%) | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 2 / 10 ( 20%)  | 2.5V       | -         |
+| 5        | 4 / 10 ( 40%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 14 secs 
+
+Dumping design to file lcdram00_lcdram00.dir/5_1.ncd.
+
+0 connections routed; 2270 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 20 secs 
+
+Start NBR router at 09:13:12 05/14/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 09:13:12 05/14/19
+
+Start NBR section for initial routing at 09:13:13 05/14/19
+Level 4, iteration 1
+165(0.04%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.749ns/0.000ns; real time: 22 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 09:13:14 05/14/19
+Level 4, iteration 1
+89(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.749ns/0.000ns; real time: 22 secs 
+Level 4, iteration 2
+43(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.749ns/0.000ns; real time: 22 secs 
+Level 4, iteration 3
+20(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.530ns/0.000ns; real time: 23 secs 
+Level 4, iteration 4
+8(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.530ns/0.000ns; real time: 23 secs 
+Level 4, iteration 5
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.541ns/0.000ns; real time: 23 secs 
+Level 4, iteration 6
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.541ns/0.000ns; real time: 23 secs 
+Level 4, iteration 7
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.541ns/0.000ns; real time: 23 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 09:13:15 05/14/19
+
+Start NBR section for re-routing at 09:13:15 05/14/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 461.541ns/0.000ns; real time: 23 secs 
+
+Start NBR section for post-routing at 09:13:15 05/14/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 461.541ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 21 secs 
+Total REAL time: 24 secs 
+Completely routed.
+End of route.  2270 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file lcdram00_lcdram00.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 461.541
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.307
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 21 secs 
+Total REAL time to completion: 25 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "lcdram00_lcdram00.t2b" -w "lcdram00_lcdram00.ncd" -jedec "lcdram00_lcdram00.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.0.111.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file lcdram00_lcdram00.ncd.
+Design name: toplcdram00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from lcdram00_lcdram00.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "lcdram00_lcdram00.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

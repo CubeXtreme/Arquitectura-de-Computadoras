@@ -1,0 +1,80 @@
+#--  Synopsys, Inc.
+#--  Version M-2017.03L-SP1-1
+#--  Project file D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00\run_options.txt
+#--  Written on Tue Feb 19 15:28:58 2019
+
+
+#project files
+add_file -vhdl -lib work "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
+add_file -vhdl -lib work "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00/osc00.vhdl"
+add_file -vhdl -lib work "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00/div00.vhdl"
+add_file -vhdl -lib work "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00/packagediv00.vhdl"
+add_file -vhdl -lib work "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00/topdiv00.vhdl"
+
+
+
+#implementation: "div00"
+impl -add div00 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology MACHXO2
+set_option -part LCMXO2_7000HE
+set_option -package TG144C
+set_option -speed_grade -5
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "topdiv00"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice XP
+set_option -maxfan 1000
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -pipe 1
+set_option -forcegsr false
+set_option -fix_gated_and_generated_clocks 1
+set_option -rw_check_on_ram 1
+set_option -update_models_cp 0
+set_option -syn_edif_array_rename 1
+set_option -Write_declared_clocks_only 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./div00_div00.edi"
+
+#set log file 
+set_option log_file "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00/div00/div00_div00.srf" 
+impl -active "div00"

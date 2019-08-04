@@ -1,0 +1,81 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\ram0\\synwork\\ram0_comp.srs|-autotop|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\div00.vhdl":1551486799
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501917816
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\osc00.vhdl":1550862270
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\packagediv00.vhdl":1551486265
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\contring00.vhd":1552072664
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\coder00.vhd":1557798486
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\ram00.vhd":1557798859
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\mux00.vhd":1552507046
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\contRead00.vhd":1557798457
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\packageram00.vhd":1557798859
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\topdiv00.vhdl":1551487079
+#CUR:"C:\\Users\\Yair\\Desktop\\Arquitectura\\Practicas\\RAM00\\Dynamic\\Stack\\ramVF\\02\\00\\topram00.vhd":1557798732
+0			"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\div00.vhdl" vhdl
+2			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\osc00.vhdl" vhdl
+3			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\packagediv00.vhdl" vhdl
+4			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topdiv00.vhdl" vhdl
+5			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\contring00.vhd" vhdl
+6			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\coder00.vhd" vhdl
+7			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\ram00.vhd" vhdl
+8			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\mux00.vhd" vhdl
+9			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\contRead00.vhd" vhdl
+10			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\packageram00.vhd" vhdl
+11			"C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\topram00.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 3 1 2
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 10 9 8 7 6 5 4
+#Dependency Lists(Users Of)
+0 -1
+1 4
+2 4
+3 4
+4 11
+5 11
+6 11
+7 11
+8 11
+9 11
+10 11
+11 -1
+#Design Unit to File Association
+module work topram00 11
+arch work topram00 topram0 11
+module work contread00 9
+arch work contread00 contread0 9
+module work mux00 8
+arch work mux00 mux0 8
+module work ram00 7
+arch work ram00 ram0 7
+module work coder00 6
+arch work coder00 coder0 6
+module work contring00 5
+arch work contring00 contring0 5
+module work topdiv00 4
+arch work topdiv00 topdiv0 4
+module work osc00 2
+arch work osc00 osc0 2
+module work div00 1
+arch work div00 div0 1

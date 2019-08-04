@@ -1,0 +1,48 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\topstack00.vhd":7:7:7:16|Synthesizing work.topstack00.topstack0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\contread00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\contread00.vhd":38:5:38:13|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\muxstack00.vhd":6:7:6:16|Synthesizing work.muxstack00.muxstack0.
+Post processing for work.muxstack00.muxstack0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\stack00.vhd":8:7:8:13|Synthesizing work.stack00.stack0.
+Post processing for work.stack00.stack0
+@N: CL134 :"C:\Users\elite\OneDrive\Escritorio\stack00\stack00.vhd":23:7:23:15|Found RAM wordstack, depth=64, width=7
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":8:7:8:18|Synthesizing work.coderstack00.coderstack0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":39:18:39:25|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":48:8:48:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":58:8:58:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":68:8:68:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":78:8:78:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":87:6:87:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":96:5:96:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":106:5:106:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":116:5:116:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":126:5:126:12|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":136:6:136:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":145:8:145:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":155:8:155:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":165:8:165:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":175:8:175:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":184:6:184:13|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":193:8:193:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":203:8:203:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":213:8:213:15|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\stack00\coderstack00.vhd":223:8:223:15|Removing redundant assignment.
+Post processing for work.coderstack00.coderstack0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\stack00\contring00.vhd":18:2:18:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\stack00\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topstack00.topstack0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\stack00\div00.vhd":20:2:20:3|Register bit sdiv(21) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\stack00\div00.vhd":20:2:20:3|Register bit sdiv(22) is always 0.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\stack00\div00.vhd":20:2:20:3|Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\stack00\stack00.vhd":13:4:13:11|Input inFlagra is unused.

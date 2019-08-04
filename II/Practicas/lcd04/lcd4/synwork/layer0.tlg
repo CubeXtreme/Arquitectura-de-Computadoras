@@ -1,0 +1,50 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\topram00.vhd":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\ram00.vhd":11:7:11:11|Synthesizing work.ram00.ram0.
+Post processing for work.ram00.ram0
+@N: CL134 :"C:\Users\elite\OneDrive\Escritorio\lcd04\ram00.vhd":24:7:24:13|Found RAM wordram, depth=32, width=8
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\toplcd00.vhd":12:7:12:14|Synthesizing work.toplcd00.toplcd0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdmux00.vhd":8:7:8:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdData00.vhd":10:7:10:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdContData00.vhd":10:7:10:19|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdContData00.vhd":42:9:42:17|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdconfig00.vhd":10:7:10:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdcontconfig0.vhd":10:7:10:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdcontconfig0.vhd":34:3:34:11|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+Post processing for work.toplcd00.toplcd0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\contRead00.vhd":10:7:10:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\contRead00.vhd":29:6:29:16|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\muxram00.vhd":8:7:8:14|Synthesizing work.muxram00.muxram0.
+Post processing for work.muxram00.muxram0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\topkey00.vhd":9:7:9:14|Synthesizing work.topkey00.topkey0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\coderk00.vhd":10:7:10:14|Synthesizing work.coderk00.coderk0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\coderk00.vhd":36:7:36:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\coderk00.vhd":67:7:67:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\coderk00.vhd":98:7:98:14|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\lcd04\coderk00.vhd":129:7:129:14|Removing redundant assignment.
+Post processing for work.coderk00.coderk0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\contring00.vhd":8:7:8:16|Synthesizing work.contring00.contring0.
+Post processing for work.contring00.contring0
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\lcd04\contring00.vhd":20:2:20:3|Pruning register bits 2 to 0 of soutr(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.topkey00.topkey0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcd04\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.topram00.topram0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdconfig00.vhd":27:4:27:5|Register bit RSc is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdconfig00.vhd":27:4:27:5|Register bit RWc is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdconfig00.vhd":27:4:27:5|Pruning register bit 7 of outWordc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdContData00.vhd":27:4:27:5|Register bit RScd is always 1.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdContData00.vhd":27:4:27:5|Register bit RWcd is always 0.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\lcd04\lcdData00.vhd":16:4:16:11|Input incontdd is unused.

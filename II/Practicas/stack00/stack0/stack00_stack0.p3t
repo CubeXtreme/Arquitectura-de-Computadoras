@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "stack00_stack0.log"
+-o "stack00_stack0.csv"
+-pr "stack00_stack0.prf"

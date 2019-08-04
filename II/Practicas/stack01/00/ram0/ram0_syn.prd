@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version M-2017.03L-SP1-1
+#--  Project file C:\Users\Yair\Desktop\Arquitectura\Practicas\RAM00\Dynamic\Stack\ramVF\02\00\ram0\ram0_syn.prd
+#--  Written on Mon May 13 23:59:44 2019
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

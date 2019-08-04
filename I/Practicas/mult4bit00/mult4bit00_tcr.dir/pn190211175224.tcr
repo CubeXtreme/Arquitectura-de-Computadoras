@@ -1,0 +1,9 @@
+#Start recording tcl command: 2/11/2019 16:45:23
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/mult4bit00; Project name: mult4bit00
+prj_project new -name "mult4bit00" -impl "mult4bit00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/and00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/fa00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/ha00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/or00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/packagefa00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/packageha00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/fa00vhdl/xor00.vhdl"
+prj_run Export -impl mult4bit00 -task Jedecgen
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/mult4bit00/packagemult4bit00.vhdl"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/mult4bit00/mult4bit00.vhd"
+#Stop recording: 2/11/2019 17:52:24

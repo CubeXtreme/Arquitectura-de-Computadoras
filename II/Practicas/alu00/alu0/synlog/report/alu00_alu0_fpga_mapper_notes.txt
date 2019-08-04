@@ -1,0 +1,21 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\anda00.vhd":23:2:23:3|Removing sequential instance AL01.outrda_cl_7[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\anda00.vhd":23:2:23:3|Removing sequential instance AL01.outrda_cl_6[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\anda00.vhd":23:2:23:3|Removing sequential instance AL01.outrda_cl_3[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\anda00.vhd":23:2:23:3|Removing sequential instance AL01.outrda_cl_1[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\anda00.vhd":23:2:23:3|Removing sequential instance AL01.outrda_cl[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_7[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_6[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_5[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_4[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_3[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_2[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outrdo_cl_1[7] (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\elite\onedrive\escritorio\alu00\ora00.vhd":23:2:23:3|Removing sequential instance AL02.outFlago_cl (in view: work.topalu00(topalu0)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: C:\Users\elite\OneDrive\Escritorio\alu00\alu0\alu00_alu0.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

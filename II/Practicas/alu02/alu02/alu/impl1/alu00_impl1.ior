@@ -1,0 +1,113 @@
+Loading design for application iotiming from file alu00_impl1.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file alu00_impl1.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file alu00_impl1.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: topalu00
+// Package: TQFP144
+// ncd File: alu00_impl1.ncd
+// Version: Diamond (64-bit) 3.10.0.111.2
+// Written on Wed Jun 12 15:05:12 2019
+// M: Minimum Performance Grade
+// iotiming ALU00_impl1.ncd ALU00_impl1.prf -gui -msgset C:/Users/Yair/Desktop/alu02/alu02/alu/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+(no clock to output min/max data)
+
+
+// Internal_Clock to Input
+
+Port  Internal_Clock
+--------------------------------------------------------
+SL    AL00.sclk_0   
+cdiv0 AL00.sclk_0   
+cdiv0 AL00.sclk_0   
+cdiv0 AL00.sclk_0   
+cdiv0 AL00.sclk_0   
+cdiv0 AL00.sclk_0   
+enabl AL00.sclk_0   
+funct AL00.sclk_0   
+funct AL00.sclk_0   
+funct AL00.sclk_0   
+funct AL00.sclk_0   
+funct AL00.sclk_0   
+funct AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRS0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+inRT0 AL00.sclk_0   
+outFl AL00.sclk_0   
+
+
+// Internal_Clock to Output
+
+Port         Internal_Clock
+--------------------------------------------------------
+LED          AL00.sclk_0   
+clk00        AL00.sclk_0   
+outFlagInst0 AL00.sclk_0   
+outFlagac0   AL00.sclk_0   
+outRD0[0]    AL00.sclk_0   
+outRD0[10]   AL00.sclk_0   
+outRD0[11]   AL00.sclk_0   
+outRD0[12]   AL00.sclk_0   
+outRD0[13]   AL00.sclk_0   
+outRD0[14]   AL00.sclk_0   
+outRD0[15]   AL00.sclk_0   
+outRD0[1]    AL00.sclk_0   
+outRD0[2]    AL00.sclk_0   
+outRD0[3]    AL00.sclk_0   
+outRD0[4]    AL00.sclk_0   
+outRD0[5]    AL00.sclk_0   
+outRD0[6]    AL00.sclk_0   
+outRD0[7]    AL00.sclk_0   
+outRD0[8]    AL00.sclk_0   
+outRD0[9]    AL00.sclk_0   

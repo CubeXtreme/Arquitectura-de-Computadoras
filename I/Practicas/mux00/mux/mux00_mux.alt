@@ -1,0 +1,35 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Aug 22 08:51:31 2018 *
+NOTE DESIGN NAME: mux00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Ym[0] : 115 : out *
+NOTE PINS Am[0] : 38 : in *
+NOTE PINS Ym[7] : 109 : out *
+NOTE PINS Ym[6] : 110 : out *
+NOTE PINS Ym[5] : 111 : out *
+NOTE PINS Ym[4] : 112 : out *
+NOTE PINS Ym[3] : 114 : out *
+NOTE PINS Ym[2] : 113 : out *
+NOTE PINS Ym[1] : 117 : out *
+NOTE PINS Sel[2] : 71 : in *
+NOTE PINS Sel[1] : 70 : in *
+NOTE PINS Sel[0] : 68 : in *
+NOTE PINS Bm[7] : 56 : in *
+NOTE PINS Bm[6] : 54 : in *
+NOTE PINS Bm[5] : 55 : in *
+NOTE PINS Bm[4] : 52 : in *
+NOTE PINS Bm[3] : 50 : in *
+NOTE PINS Bm[2] : 48 : in *
+NOTE PINS Bm[1] : 49 : in *
+NOTE PINS Bm[0] : 47 : in *
+NOTE PINS Am[7] : 45 : in *
+NOTE PINS Am[6] : 43 : in *
+NOTE PINS Am[5] : 44 : in *
+NOTE PINS Am[4] : 42 : in *
+NOTE PINS Am[3] : 41 : in *
+NOTE PINS Am[2] : 39 : in *
+NOTE PINS Am[1] : 40 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

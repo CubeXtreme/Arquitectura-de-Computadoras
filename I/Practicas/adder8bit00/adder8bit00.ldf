@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="adder8bit00" device="LCMXO2-7000HE-5TG144C" default_implementation="adder8bit00">
+    <Options/>
+    <Implementation title="adder8bit00" dir="adder8bit00" description="adder8bit00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topadder8bit00"/>
+        <Source name="xor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="and00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="ha00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="or00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagefa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="fa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xnor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packageadder8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topadder8bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topadder8bit00"/>
+        </Source>
+        <Source name="adder8bit00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="adder8bit00/adder8bit00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="adder8bit001.sty"/>
+</BaliProject>

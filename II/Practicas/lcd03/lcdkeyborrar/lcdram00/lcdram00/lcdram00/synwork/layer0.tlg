@@ -1,0 +1,87 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":9:7:9:17|Synthesizing work.toplcdram00.toplcdram0.
+@W: CD326 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":33:1:33:2|Port led2 of entity work.lcdram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":8:7:8:14|Synthesizing work.lcdram00.lcdram0.
+@N: CD231 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":60:16:60:17|Using onehot encoding for type state_type. For example, enumeration s0 is mapped to "10000000000000000000000000000".
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":92:0:92:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:3:94:5|Referenced variable clr is not in sensitivity list.
+Post processing for work.lcdram00.lcdram0
+@W: CL240 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":16:1:16:4|Signal LED2 is floating; a simulation mismatch is possible.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_31[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_30[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_29[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_28[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_27[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_26[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_25[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_24[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_23[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_22[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_21[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_20[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_19[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_18[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_17[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_16[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_15[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_14[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_13[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_12[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_11[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_10[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_9[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_8[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_7[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_6[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_5[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_4[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_3[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_2[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_1[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_0[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_32[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_DATA[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_RS. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_ENABLE. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal del. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal c_key[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Register bit c_key(7) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Register bit del is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Pruning register bit 7 of c_key(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcdram00.toplcdram0
+@N: CL201 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Trying to extract state machine for register COLS.
+Extracted state machine for register COLS
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+@N: CL201 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 18 reachable states with original encodings of:
+   00000000000000000000000000001
+   00000000000000000000000000010
+   00000000000000000000000000100
+   00000000000000000000000001000
+   00000000000000000000000010000
+   00000000000000000000000100000
+   00000000000000000000001000000
+   00000000000000000000010000000
+   00000000000000000000100000000
+   00000000000000000001000000000
+   00000000000000000010000000000
+   00000000000000000100000000000
+   00000000000000001000000000000
+   00000000000000010000000000000
+   00000000000000100000000000000
+   00000000000001000000000000000
+   00000000000010000000000000000
+   10000000000000000000000000000

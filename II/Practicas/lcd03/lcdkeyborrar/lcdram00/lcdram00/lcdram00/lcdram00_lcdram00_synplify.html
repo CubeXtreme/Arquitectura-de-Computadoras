@@ -1,0 +1,738 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-9QN1JB0J
+
+# Tue May 14 09:00:30 2019
+
+#Implementation: lcdram00
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":9:7:9:17|Top entity is set to toplcdram00.
+Options changed - recompiling
+@N: CD895 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":90:16:90:20|Setting attribute syn_ramstyle to "no_rw_check" on shared variable c_key
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":9:7:9:17|Synthesizing work.toplcdram00.toplcdram0.
+@W: CD326 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toplcdram00.vhd":33:1:33:2|Port led2 of entity work.lcdram00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":8:7:8:14|Synthesizing work.lcdram00.lcdram0.
+@N: CD231 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":60:16:60:17|Using onehot encoding for type state_type. For example, enumeration s0 is mapped to "10000000000000000000000000000".
+@W: CG296 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":92:0:92:6|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:3:94:5|Referenced variable clr is not in sensitivity list.
+Post processing for work.lcdram00.lcdram0
+@W: CL240 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":16:1:16:4|Signal LED2 is floating; a simulation mismatch is possible.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_31[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_30[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_29[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_28[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_27[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_26[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_25[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_24[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_23[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_22[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_21[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_20[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_19[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_18[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_17[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_16[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_15[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_14[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_13[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_12[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_11[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_10[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_9[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_8[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_7[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_6[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_5[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_4[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_3[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_2[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_1[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_0[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal ram_32[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_DATA[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_RS. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal LCD_ENABLE. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal del. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Feedback mux created for signal c_key[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Register bit c_key(7) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Register bit del is always 0.
+@W: CL260 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Pruning register bit 7 of c_key(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\div00.vhd":10:7:10:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\osc00.vhd":8:7:8:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.toposc00.toposc0
+Post processing for work.toplcdram00.toplcdram0
+@N: CL201 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Trying to extract state machine for register COLS.
+Extracted state machine for register COLS
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+@N: CL201 :"C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 18 reachable states with original encodings of:
+   00000000000000000000000000001
+   00000000000000000000000000010
+   00000000000000000000000000100
+   00000000000000000000000001000
+   00000000000000000000000010000
+   00000000000000000000000100000
+   00000000000000000000001000000
+   00000000000000000000010000000
+   00000000000000000000100000000
+   00000000000000000001000000000
+   00000000000000000010000000000
+   00000000000000000100000000000
+   00000000000000001000000000000
+   00000000000000010000000000000
+   00000000000000100000000000000
+   00000000000001000000000000000
+   00000000000010000000000000000
+   10000000000000000000000000000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 85MB peak: 95MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 14 09:00:34 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\justi.DESKTOP-0J927DR.000\Desktop\Arqui\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 14 09:00:35 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 14 09:00:35 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe changed - recompiling
+File C:\Users\justi.DESKTOP-0J927DR.000\Desktop\Arqui\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 14 09:00:37 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Tue May 14 09:00:37 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00_scck.rpt 
+Printing clock  summary report in "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toplcdram00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     336  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\div00.vhd":22:2:22:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including U0.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Encoding state machine current_state[0:17] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   00000000000000000000000000001 -> 000000000000000001
+   00000000000000000000000000010 -> 000000000000000010
+   00000000000000000000000000100 -> 000000000000000100
+   00000000000000000000000001000 -> 000000000000001000
+   00000000000000000000000010000 -> 000000000000010000
+   00000000000000000000000100000 -> 000000000000100000
+   00000000000000000000001000000 -> 000000000001000000
+   00000000000000000000010000000 -> 000000000010000000
+   00000000000000000000100000000 -> 000000000100000000
+   00000000000000000001000000000 -> 000000001000000000
+   00000000000000000010000000000 -> 000000010000000000
+   00000000000000000100000000000 -> 000000100000000000
+   00000000000000001000000000000 -> 000001000000000000
+   00000000000000010000000000000 -> 000010000000000000
+   00000000000000100000000000000 -> 000100000000000000
+   00000000000001000000000000000 -> 001000000000000000
+   00000000000010000000000000000 -> 010000000000000000
+   10000000000000000000000000000 -> 100000000000000000
+Encoding state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|There are no possible illegal states for state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 145MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Tue May 14 09:00:40 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Tue May 14 09:00:41 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_31[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_30[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_29[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_28[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_27[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_26[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_25[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_24[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_23[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_22[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_21[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_20[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_19[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_18[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_17[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_16[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_15[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_14[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_13[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_12[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_11[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_10[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_9[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_8[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_7[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_6[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_5[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_4[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_3[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_2[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_1[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_0[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_32[7:0].
+@N: FX493 |Applying initial value "0000000" on instance U1.c_key[6:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+Encoding state machine current_state[0:17] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   00000000000000000000000000001 -> 000000000000000001
+   00000000000000000000000000010 -> 000000000000000010
+   00000000000000000000000000100 -> 000000000000000100
+   00000000000000000000000001000 -> 000000000000001000
+   00000000000000000000000010000 -> 000000000000010000
+   00000000000000000000000100000 -> 000000000000100000
+   00000000000000000000001000000 -> 000000000001000000
+   00000000000000000000010000000 -> 000000000010000000
+   00000000000000000000100000000 -> 000000000100000000
+   00000000000000000001000000000 -> 000000001000000000
+   00000000000000000010000000000 -> 000000010000000000
+   00000000000000000100000000000 -> 000000100000000000
+   00000000000000001000000000000 -> 000001000000000000
+   00000000000000010000000000000 -> 000010000000000000
+   00000000000000100000000000000 -> 000100000000000000
+   00000000000001000000000000000 -> 001000000000000000
+   00000000000010000000000000000 -> 010000000000000000
+   10000000000000000000000000000 -> 100000000000000000
+Encoding state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|There are no possible illegal states for state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Found counter in view:work.lcdram00(lcdram0) instance addr[31:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 149MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 150MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 150MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 150MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 152MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 152MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 152MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 152MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 152MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 181MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		   466.00ns		 372 /       356
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 181MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 356 clock pin(s) of sequential element(s)
+0 instances converted, 356 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks ==================================================================================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       U0.OS00.OSCInst0     OSCH                   356        U1.LCD_DATA[7]      Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+===========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 181MB)
+
+Writing Analyst data base C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 177MB peak: 181MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 184MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:U0.OS00.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue May 14 09:00:46 2019
+#
+
+
+Top view:               toplcdram00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 467.063
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       73.0 MHz      480.769       13.706        467.063     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise   |    fall  to  fall     |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack  |  constraint  slack    |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  No paths    -      |  480.769     467.063  |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                                          Arrival            
+Instance        Reference                        Type        Pin     Net          Time        Slack  
+                Clock                                                                                
+-----------------------------------------------------------------------------------------------------
+U1.c_key[5]     osc00|osc_int_inferred_clock     FD1P3AX     Q       c_key[5]     1.188       467.063
+U1.c_key[6]     osc00|osc_int_inferred_clock     FD1P3AX     Q       c_key[6]     1.180       467.071
+U1.c_key[0]     osc00|osc_int_inferred_clock     FD1P3AX     Q       c_key[0]     1.148       467.103
+U1.c_key[2]     osc00|osc_int_inferred_clock     FD1P3AX     Q       c_key[2]     1.188       467.271
+U1.c_key[3]     osc00|osc_int_inferred_clock     FD1P3AX     Q       c_key[3]     1.188       467.271
+U1.addr[9]      osc00|osc_int_inferred_clock     FD1P3DX     Q       addr[9]      1.044       467.831
+U1.addr[10]     osc00|osc_int_inferred_clock     FD1P3DX     Q       addr[10]     1.044       467.831
+U1.addr[11]     osc00|osc_int_inferred_clock     FD1P3DX     Q       addr[11]     1.044       467.831
+U1.addr[12]     osc00|osc_int_inferred_clock     FD1P3DX     Q       addr[12]     1.044       467.831
+U1.addr[13]     osc00|osc_int_inferred_clock     FD1P3DX     Q       addr[13]     1.044       467.831
+=====================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                            Required            
+Instance        Reference                        Type        Pin     Net            Time         Slack  
+                Clock                                                                                   
+--------------------------------------------------------------------------------------------------------
+U1.addr[30]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[30]     480.664      467.063
+U1.addr[31]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[31]     480.664      467.063
+U1.addr[28]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[28]     480.664      467.206
+U1.addr[29]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[29]     480.664      467.206
+U1.addr[26]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[26]     480.664      467.349
+U1.addr[27]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[27]     480.664      467.349
+U1.addr[24]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[24]     480.664      467.491
+U1.addr[25]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[25]     480.664      467.491
+U1.addr[22]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[22]     480.664      467.634
+U1.addr[23]     osc00|osc_int_inferred_clock     FD1P3DX     D       addr_s[23]     480.664      467.634
+========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      13.601
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     467.063
+
+    Number of logic level(s):                22
+    Starting point:                          U1.c_key[5] / Q
+    Ending point:                            U1.addr[31] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+U1.c_key[5]                                FD1P3AX      Q        Out     1.188     1.188       -         
+c_key[5]                                   Net          -        -       -         -           6         
+U1.c_key_23_0_o2_1[4]                      ORCALUT4     B        In      0.000     1.188       -         
+U1.c_key_23_0_o2_1[4]                      ORCALUT4     Z        Out     1.225     2.413       -         
+N_291                                      Net          -        -       -         -           5         
+U1.COLS_1_203_0_o2                         ORCALUT4     A        In      0.000     2.413       -         
+U1.COLS_1_203_0_o2                         ORCALUT4     Z        Out     1.233     3.645       -         
+N_321                                      Net          -        -       -         -           6         
+U1.current_state_ns_0_a2_4[12]             ORCALUT4     C        In      0.000     3.645       -         
+U1.current_state_ns_0_a2_4[12]             ORCALUT4     Z        Out     1.193     4.838       -         
+N_561                                      Net          -        -       -         -           4         
+U1.current_state_ns_0_a2_4_RNI588V[12]     ORCALUT4     B        In      0.000     4.838       -         
+U1.current_state_ns_0_a2_4_RNI588V[12]     ORCALUT4     Z        Out     1.153     5.991       -         
+N_555                                      Net          -        -       -         -           3         
+U1.current_state_RNIDDS23[6]               ORCALUT4     C        In      0.000     5.991       -         
+U1.current_state_RNIDDS23[6]               ORCALUT4     Z        Out     1.153     7.144       -         
+addre                                      Net          -        -       -         -           3         
+U1.current_state_RNIJIA17[6]               ORCALUT4     A        In      0.000     7.144       -         
+U1.current_state_RNIJIA17[6]               ORCALUT4     Z        Out     1.364     8.508       -         
+N_1109_0_i                                 Net          -        -       -         -           32        
+U1.addr_cry_0[0]                           CCU2D        A0       In      0.000     8.508       -         
+U1.addr_cry_0[0]                           CCU2D        COUT     Out     1.544     10.052      -         
+addr_cry[1]                                Net          -        -       -         -           1         
+U1.addr_cry_0[2]                           CCU2D        CIN      In      0.000     10.052      -         
+U1.addr_cry_0[2]                           CCU2D        COUT     Out     0.143     10.195      -         
+addr_cry[3]                                Net          -        -       -         -           1         
+U1.addr_cry_0[4]                           CCU2D        CIN      In      0.000     10.195      -         
+U1.addr_cry_0[4]                           CCU2D        COUT     Out     0.143     10.338      -         
+addr_cry[5]                                Net          -        -       -         -           1         
+U1.addr_cry_0[6]                           CCU2D        CIN      In      0.000     10.338      -         
+U1.addr_cry_0[6]                           CCU2D        COUT     Out     0.143     10.481      -         
+addr_cry[7]                                Net          -        -       -         -           1         
+U1.addr_cry_0[8]                           CCU2D        CIN      In      0.000     10.481      -         
+U1.addr_cry_0[8]                           CCU2D        COUT     Out     0.143     10.623      -         
+addr_cry[9]                                Net          -        -       -         -           1         
+U1.addr_cry_0[10]                          CCU2D        CIN      In      0.000     10.623      -         
+U1.addr_cry_0[10]                          CCU2D        COUT     Out     0.143     10.766      -         
+addr_cry[11]                               Net          -        -       -         -           1         
+U1.addr_cry_0[12]                          CCU2D        CIN      In      0.000     10.766      -         
+U1.addr_cry_0[12]                          CCU2D        COUT     Out     0.143     10.909      -         
+addr_cry[13]                               Net          -        -       -         -           1         
+U1.addr_cry_0[14]                          CCU2D        CIN      In      0.000     10.909      -         
+U1.addr_cry_0[14]                          CCU2D        COUT     Out     0.143     11.052      -         
+addr_cry[15]                               Net          -        -       -         -           1         
+U1.addr_cry_0[16]                          CCU2D        CIN      In      0.000     11.052      -         
+U1.addr_cry_0[16]                          CCU2D        COUT     Out     0.143     11.195      -         
+addr_cry[17]                               Net          -        -       -         -           1         
+U1.addr_cry_0[18]                          CCU2D        CIN      In      0.000     11.195      -         
+U1.addr_cry_0[18]                          CCU2D        COUT     Out     0.143     11.338      -         
+addr_cry[19]                               Net          -        -       -         -           1         
+U1.addr_cry_0[20]                          CCU2D        CIN      In      0.000     11.338      -         
+U1.addr_cry_0[20]                          CCU2D        COUT     Out     0.143     11.480      -         
+addr_cry[21]                               Net          -        -       -         -           1         
+U1.addr_cry_0[22]                          CCU2D        CIN      In      0.000     11.480      -         
+U1.addr_cry_0[22]                          CCU2D        COUT     Out     0.143     11.623      -         
+addr_cry[23]                               Net          -        -       -         -           1         
+U1.addr_cry_0[24]                          CCU2D        CIN      In      0.000     11.623      -         
+U1.addr_cry_0[24]                          CCU2D        COUT     Out     0.143     11.766      -         
+addr_cry[25]                               Net          -        -       -         -           1         
+U1.addr_cry_0[26]                          CCU2D        CIN      In      0.000     11.766      -         
+U1.addr_cry_0[26]                          CCU2D        COUT     Out     0.143     11.909      -         
+addr_cry[27]                               Net          -        -       -         -           1         
+U1.addr_cry_0[28]                          CCU2D        CIN      In      0.000     11.909      -         
+U1.addr_cry_0[28]                          CCU2D        COUT     Out     0.143     12.052      -         
+addr_cry[29]                               Net          -        -       -         -           1         
+U1.addr_cry_0[30]                          CCU2D        CIN      In      0.000     12.052      -         
+U1.addr_cry_0[30]                          CCU2D        S1       Out     1.549     13.601      -         
+addr_s[31]                                 Net          -        -       -         -           1         
+U1.addr[31]                                FD1P3DX      D        In      0.000     13.601      -         
+=========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 181MB peak: 184MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 356 of 6864 (5%)
+PIC Latch:       0
+I/O cells:       35
+
+
+Details:
+CCU2D:          28
+FD1P3AX:        213
+FD1P3AY:        65
+FD1P3BX:        3
+FD1P3DX:        49
+FD1S3AX:        1
+FD1S3AY:        1
+FD1S3IX:        21
+GSR:            1
+IB:             10
+INV:            1
+L6MUX21:        40
+OB:             25
+OFS1P3DX:       3
+ORCALUT4:       364
+OSCH:           1
+PFUMX:          63
+PUR:            1
+VHI:            5
+VLO:            5
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 35MB peak: 184MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Tue May 14 09:00:46 2019
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

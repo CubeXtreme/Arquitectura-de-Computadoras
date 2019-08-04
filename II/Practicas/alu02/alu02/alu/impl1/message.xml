@@ -1,0 +1,2641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>AL00/DI00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>AL00/DI00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl&quot;:52:16:52:22|Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl&quot;:52:25:52:28|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Signal sout is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl&quot;:53:15:53:20|Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl&quot;:53:23:53:27|Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl&quot;:53:30:53:34|Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\topalu00.vhdl</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outFlagbarrelrotR_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagbarrelrotR_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotR_cl_7(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotR_cl_7(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outFlagbarrelrotL_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagbarrelrotL_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelrotL_cl_7(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelrotL_cl_7(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl&quot;:27:7:27:32|Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelrotL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outFlagbarrelshiftR_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagbarrelshiftR_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftR_cl_7(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftR_cl_7(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftR00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outFlagbarrelshiftL_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagbarrelshiftL_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:26:4:26:5|Pruning unused register outRDbarrelshiftL_cl_7(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDbarrelshiftL_cl_7(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl&quot;:27:7:27:34|Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\barrelshiftL00.vhdl</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>Sharing sequential element outRDbarrelshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagrotL_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagrotL_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotL_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotL_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagrotR_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagrotR_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDrotR_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDrotR_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl&quot;:26:7:26:26|Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\rotR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDrotR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagshiftR_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagshiftR_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftR_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftR_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftR00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftR_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outFlagshiftL_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outFlagshiftL_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:25:4:25:5|Pruning unused register outRDshiftL_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning unused register outRDshiftL_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl&quot;:26:7:26:28|Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\shiftL00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Sharing sequential element outRDshiftL_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outFlagm_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outFlagm_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(15). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(15). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(14). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(14). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(13). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(13). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(12). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(12). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(11). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(11). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(10). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(10). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(9). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(9). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(8). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(8). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:22:2:22:3|Pruning unused register outmult_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused register outmult_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(6). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(6). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(5). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(5). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(4). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(4). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(3). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(3). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(2). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(2). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(1). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(1). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:24:3:24:4|Pruning unused register outsb_cl_6(0). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outsb_cl_6(0). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:24:3:24:4|Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:24:3:24:4|Pruning unused register outad_cl_6(7). Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Pruning unused register outad_cl_6(7). Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl&quot;:23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl&quot;:23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl&quot;:23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl&quot;:23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Users\Yair\Desktop\alu02\alu02\alu\xnora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\yair\desktop\alu02\alu02\alu\div00.vhdl&quot;:20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.DI01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\div00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 23 sequential elements including AL00.DI01.sdiv[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\subsa00.vhdl&quot;:25:10:25:27|Removing sequential instance AL11.outFlagsb_1 because it is equivalent to instance AL10.outFlagad_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\subsa00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Removing sequential instance AL11.outFlagsb_1 because it is equivalent to instance AL10.outFlagad_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\addera00.vhdl&quot;:25:10:25:27|Removing sequential instance AL10.outFlagad_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\addera00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>Removing sequential instance AL10.outFlagad_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\nota00.vhdl&quot;:24:7:24:24|Removing sequential instance AL03.outFlagno_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\nota00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>Removing sequential instance AL03.outFlagno_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\nanda00.vhdl&quot;:24:7:24:26|Removing sequential instance AL04.outFlagnand_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\nanda00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Removing sequential instance AL04.outFlagnand_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\nora00.vhdl&quot;:23:7:23:25|Removing sequential instance AL05.outFlagnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\nora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Removing sequential instance AL05.outFlagnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\xora00.vhdl&quot;:23:7:23:25|Removing sequential instance AL06.outFlagxor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\xora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>Removing sequential instance AL06.outFlagxor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\xnora00.vhdl&quot;:23:7:23:26|Removing sequential instance AL07.outFlagxnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\xnora00.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Removing sequential instance AL07.outFlagxnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\mult8bits.vhdl&quot;:23:6:23:22|Removing sequential instance AL12.outFlagm_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\mult8bits.vhdl</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Removing sequential instance AL12.outFlagm_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\shiftl00.vhdl&quot;:26:7:26:28|Removing sequential instance AL14.outFlagshiftL_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\shiftl00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Removing sequential instance AL14.outFlagshiftL_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\yair\desktop\alu02\alu02\alu\shiftr00.vhdl&quot;:26:7:26:28|Removing sequential instance AL15.outFlagshiftR_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\yair\desktop\alu02\alu02\alu\shiftr00.vhdl</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>28</Navigation>
+            <Navigation>Removing sequential instance AL15.outFlagshiftR_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:AL00.DI00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:AL00.DI00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

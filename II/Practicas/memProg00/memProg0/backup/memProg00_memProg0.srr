@@ -1,0 +1,562 @@
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-EL0197T
+
+# Wed Jun 12 00:08:59 2019
+
+#Implementation: memProg0
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":13:7:13:14|Top entity is set to topdec00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":13:7:13:14|Synthesizing work.topdec00.topdec0.
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":15:4:15:14|Map for port outopcodedi of component dec00 not found
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":16:4:16:10|Map for port outrsdi of component dec00 not found
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":17:4:17:10|Map for port outrtdi of component dec00 not found
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":18:4:18:10|Map for port outrddi of component dec00 not found
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":19:4:19:13|Map for port outshamtdi of component dec00 not found
+@W: CD276 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":20:4:20:13|Map for port outfunctdi of component dec00 not found
+@W: CD730 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Component declaration has 5 ports but entity declares 11 ports
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outfunctdi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outshamtdi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outrddi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outrtdi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outrsdi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":57:1:57:4|Port outopcodedi of entity work.dec00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\decoderInst00.vhd":7:7:7:19|Synthesizing work.decoderinst00.decoderinst0.
+Post processing for work.decoderinst00.decoderinst0
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":9:7:9:11|Synthesizing work.dec00.dec0.
+Post processing for work.dec00.dec0
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":27:6:27:14|Removing redundant assignment.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topdec00.topdec0
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":19:2:19:3|Register bit outcontrd(0) is always 0.
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":19:2:19:3|Register bit outcontrd(1) is always 0.
+@W: CL279 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":19:2:19:3|Pruning register bits 1 to 0 of outcontrd(5 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 00:09:01 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 00:09:01 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 00:09:01 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 00:09:03 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Jun 12 00:09:03 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\memProg00_memProg0_scck.rpt 
+Printing clock  summary report in "C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\memProg00_memProg0_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outopcodeDI[5:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outRSDI[4:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outRTDI[4:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outRDDI[4:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outshamtDI[4:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outfunctDI[5:0] (in view: work.dec00(dec0)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topdec00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     110  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\div00.vhd":20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including RO00.DI01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 12 00:09:05 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun 12 00:09:06 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:84:85:89|ROM prom\.inIRDI_2[15:8] (in view: work.dec00(dec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:84:85:89|Found ROM .delname. (in view: work.dec00(dec0)) with 32 words by 8 bits.
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:16:85:21|ROM prom\.outwordro_2[7:0] (in view: work.dec00(dec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:16:85:21|Found ROM .delname. (in view: work.dec00(dec0)) with 16 words by 8 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[15] because it is equivalent to instance RO02.inIRDI[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[14] because it is equivalent to instance RO02.inIRDI[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[13] because it is equivalent to instance RO02.inIRDI[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[12] because it is equivalent to instance RO02.inIRDI[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[11] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[9] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[8] because it is equivalent to instance RO02.inIRDI[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[30] because it is equivalent to instance RO02.inIRDI[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.inIRDI[25] because it is equivalent to instance RO02.inIRDI[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing instance RO02.outwordro[6] because it is equivalent to instance RO02.outwordro[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance inIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[14] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[13] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[12] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[11] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[10] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[9] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[8] (in view: work.dec00(dec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance outIRDI[15] (in view: work.dec00(dec0)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRDDI[0] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Boundary register RO03.outRDDI[0] (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:120:85:125|ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:120:85:125|ROM RO02.prom\.inIRDI_2_0[7:0] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:120:85:125|Found ROM .delname. (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@W: FA239 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|ROM RO02.prom\.inIRDI_2_0[23:16] (in view: work.topdec00(topdec0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|Found ROM .delname. (in view: work.topdec00(topdec0)) with 16 words by 8 bits.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":85:48:85:53|Removing sequential instance RO02.prom\.inIRDI_2_0_dreg_0[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Removing sequential instance RO02.outIRDI[18] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@N: BN362 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Removing sequential instance RO03.outRTDI[2] (in view: work.topdec00(topdec0)) because it does not drive other instances.
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\decoderinst00.vhd":28:2:28:3|Boundary register RO03.outRTDI[2] (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   469.48ns		  47 /        65
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Boundary register RO02.outwordro_7_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Boundary register RO02.outwordro_3_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Boundary register RO02.outwordro_2_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\mp00.vhd":78:2:78:3|Boundary register RO02.outwordro_0_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\contread00.vhd":19:2:19:3|Boundary register RO01.outcontrd_1_2_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\contread00.vhd":19:2:19:3|Boundary register RO01.outcontrd_1_3_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\contread00.vhd":19:2:19:3|Boundary register RO01.outcontrd_1_4_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\arquitectura\practicas\memdec\dec\rom\01\contread00.vhd":19:2:19:3|Boundary register RO01.outcontrd_1_5_.fb (in view: work.topdec00(topdec0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 65 clock pin(s) of sequential element(s)
+0 instances converted, 65 sequential instances remain driven by gated/generated clocks
+
+==================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance         Explanation                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       RO00.DI00.OSCInst0     OSCH                   65         RO02_outwordroio[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 146MB)
+
+Writing Analyst data base C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\synwork\memProg00_memProg0_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 146MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\memProg0\memProg00_memProg0.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:RO00.DI00.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 12 00:09:09 2019
+#
+
+
+Top view:               topdec00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 469.597
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       89.5 MHz      480.769       11.172        469.597     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     469.597  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival            
+Instance               Reference                        Type        Pin     Net          Time        Slack  
+                       Clock                                                                                
+------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[18]     1.148       469.597
+RO00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.148       469.597
+RO00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.148       469.597
+RO00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[17]     1.044       469.701
+RO00.DI01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[16]     1.148       470.790
+RO00.DI01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[14]     1.044       470.894
+RO00.DI01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[15]     1.044       470.894
+RO00.DI01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       471.102
+RO00.DI01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.044       471.102
+RO00.DI01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.044       471.102
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                              Required            
+Instance               Reference                        Type        Pin     Net              Time         Slack  
+                       Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      469.597
+RO00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      469.597
+RO00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      469.740
+RO00.DI01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      469.740
+RO00.DI01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      469.883
+RO00.DI01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      469.883
+RO00.DI01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      470.026
+RO00.DI01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      470.026
+RO00.DI01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[11]     480.664      470.168
+RO00.DI01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      470.168
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      11.066
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     469.597
+
+    Number of logic level(s):                16
+    Starting point:                          RO00.DI01.sdiv[18] / Q
+    Ending point:                            RO00.DI01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+RO00.DI01.sdiv[18]                            FD1S3IX      Q        Out     1.148     1.148       -         
+sdiv[18]                                      Net          -        -       -         -           4         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_0[0]     ORCALUT4     A        In      0.000     1.148       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_0[0]     ORCALUT4     Z        Out     1.193     2.341       -         
+N_41                                          Net          -        -       -         -           4         
+RO00.DI01.un1_outdiv_1_sqmuxa_i_a2_2          ORCALUT4     A        In      0.000     2.341       -         
+RO00.DI01.un1_outdiv_1_sqmuxa_i_a2_2          ORCALUT4     Z        Out     1.089     3.429       -         
+N_44                                          Net          -        -       -         -           2         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     A        In      0.000     3.429       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a2_1[0]     ORCALUT4     Z        Out     1.225     4.654       -         
+un1_outdiv_0_sqmuxa_1_0_a2_1[0]               Net          -        -       -         -           5         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a9[0]       ORCALUT4     B        In      0.000     4.654       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0_a9[0]       ORCALUT4     Z        Out     1.017     5.671       -         
+un1_outdiv_0_sqmuxa_1_0_a9[0]                 Net          -        -       -         -           1         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     A        In      0.000     5.671       -         
+RO00.DI01.un1_outdiv_0_sqmuxa_1_0[0]          ORCALUT4     Z        Out     1.017     6.688       -         
+un1_outdiv_0_sqmuxa_1_0[0]                    Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_0_0                    CCU2D        B0       In      0.000     6.688       -         
+RO00.DI01.un1_sdiv_cry_0_0                    CCU2D        COUT     Out     1.544     8.232       -         
+un1_sdiv_cry_0                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_1_0                    CCU2D        CIN      In      0.000     8.232       -         
+RO00.DI01.un1_sdiv_cry_1_0                    CCU2D        COUT     Out     0.143     8.375       -         
+un1_sdiv_cry_2                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_3_0                    CCU2D        CIN      In      0.000     8.375       -         
+RO00.DI01.un1_sdiv_cry_3_0                    CCU2D        COUT     Out     0.143     8.518       -         
+un1_sdiv_cry_4                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_5_0                    CCU2D        CIN      In      0.000     8.518       -         
+RO00.DI01.un1_sdiv_cry_5_0                    CCU2D        COUT     Out     0.143     8.661       -         
+un1_sdiv_cry_6                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_7_0                    CCU2D        CIN      In      0.000     8.661       -         
+RO00.DI01.un1_sdiv_cry_7_0                    CCU2D        COUT     Out     0.143     8.803       -         
+un1_sdiv_cry_8                                Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_9_0                    CCU2D        CIN      In      0.000     8.803       -         
+RO00.DI01.un1_sdiv_cry_9_0                    CCU2D        COUT     Out     0.143     8.946       -         
+un1_sdiv_cry_10                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_11_0                   CCU2D        CIN      In      0.000     8.946       -         
+RO00.DI01.un1_sdiv_cry_11_0                   CCU2D        COUT     Out     0.143     9.089       -         
+un1_sdiv_cry_12                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_13_0                   CCU2D        CIN      In      0.000     9.089       -         
+RO00.DI01.un1_sdiv_cry_13_0                   CCU2D        COUT     Out     0.143     9.232       -         
+un1_sdiv_cry_14                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_15_0                   CCU2D        CIN      In      0.000     9.232       -         
+RO00.DI01.un1_sdiv_cry_15_0                   CCU2D        COUT     Out     0.143     9.375       -         
+un1_sdiv_cry_16                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_17_0                   CCU2D        CIN      In      0.000     9.375       -         
+RO00.DI01.un1_sdiv_cry_17_0                   CCU2D        COUT     Out     0.143     9.518       -         
+un1_sdiv_cry_18                               Net          -        -       -         -           1         
+RO00.DI01.un1_sdiv_cry_19_0                   CCU2D        CIN      In      0.000     9.518       -         
+RO00.DI01.un1_sdiv_cry_19_0                   CCU2D        S1       Out     1.549     11.066      -         
+un1_sdiv[20]                                  Net          -        -       -         -           1         
+RO00.DI01.sdiv[20]                            FD1S3IX      D        In      0.000     11.066      -         
+============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 147MB peak: 148MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 65 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       60
+
+
+Details:
+CCU2D:          11
+FD1P3AX:        15
+FD1P3IX:        15
+FD1P3JX:        3
+FD1S3AX:        1
+FD1S3IX:        21
+FD1S3JX:        1
+GSR:            1
+IB:             7
+IFS1P3DX:       1
+OB:             53
+OFS1P3DX:       7
+OFS1P3JX:       1
+ORCALUT4:       46
+OSCH:           1
+PFUMX:          1
+PUR:            1
+VHI:            7
+VLO:            7
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 148MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Wed Jun 12 00:09:09 2019
+
+###########################################################]

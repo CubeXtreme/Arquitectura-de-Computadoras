@@ -1,0 +1,1215 @@
+
+synpwrap -msg -prj "ALU00_impl1_synplify.tcl" -log "ALU00_impl1.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.10.0.111.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of ALU00_impl1.srf
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-EL0197T
+
+# Wed Jun 12 10:54:51 2019
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":22:7:22:14|Top entity is set to topalu00.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":22:7:22:14|Synthesizing work.topalu00.topalu0.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":42:16:42:22|Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":42:25:42:28|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:15:43:20|Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:23:43:27|Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:30:43:34|Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topmult00.vhdl":7:7:7:15|Synthesizing work.topmult00.topmult0.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topadder01.vhdl":7:7:7:15|Synthesizing work.topadder1.topadder01.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topadder0.vhdl":7:7:7:15|Synthesizing work.topadder0.topadder00.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xor.vhdl":6:7:6:10|Synthesizing work.xor0.xor00.
+Post processing for work.xor0.xor00
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\and0.vhdl":6:7:6:10|Synthesizing work.and0.and00.
+Post processing for work.and0.and00
+Post processing for work.topadder0.topadder00
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\or.vhdl":6:7:6:9|Synthesizing work.or0.or00.
+Post processing for work.or0.or00
+Post processing for work.topadder1.topadder01
+Post processing for work.topmult00.topmult0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":7:7:7:15|Synthesizing work.mult8bits.mult8bits0.
+Post processing for work.mult8bits.mult8bits0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outFlagm_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(15). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(14). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(13). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(12). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(10). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(9). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":6:7:6:13|Synthesizing work.subsa00.subsa0.
+Post processing for work.subsa00.subsa0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":6:7:6:14|Synthesizing work.addera00.addera0.
+Post processing for work.addera00.addera0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\adder8bits.vhdl":7:7:7:16|Synthesizing work.adder8bits.adder8bits0.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+Post processing for work.ha00.ha0
+Post processing for work.fa00.fa0
+Post processing for work.adder8bits.adder8bits0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ac00.vhdl":6:7:6:10|Synthesizing work.ac00.ac0.
+Post processing for work.ac00.ac0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":6:7:6:13|Synthesizing work.xnora00.xnora0.
+Post processing for work.xnora00.xnora0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outFlagxnor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":6:7:6:12|Synthesizing work.xora00.xora0.
+Post processing for work.xora00.xora0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outFlagxor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":6:7:6:12|Synthesizing work.nora00.nora0.
+Post processing for work.nora00.nora0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outFlagnor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":6:7:6:13|Synthesizing work.nanda00.nanda0.
+Post processing for work.nanda00.nanda0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outFlagnand_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":6:7:6:12|Synthesizing work.nota00.nota0.
+Post processing for work.nota00.nota0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outFlagno_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\anda00.vhdl":6:7:6:12|Synthesizing work.anda00.anda0.
+Post processing for work.anda00.anda0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":6:7:6:11|Synthesizing work.ora00.ora0.
+Post processing for work.ora00.ora0
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outFlago_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\P15_ALU\ALU\div00.vhdl":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\Yair\Desktop\P15_ALU\ALU\osc00.vhdl":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topalu00.topalu0
+@N: CL159 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":12:4:12:9|Input inRTno is unused.
+@N: CL159 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":9:4:9:7|Input SLad is unused.
+@N: CL159 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":9:4:9:7|Input SLsb is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 10:54:54 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 10:54:55 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 10:54:55 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\synwork\ALU00_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 12 10:54:57 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Jun 12 10:54:57 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\ALU00_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\ALU00_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_0(topadder00)) of type view:work.AND0_64_0(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_14(topadder00)) of type view:work.AND0_0_13(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_15(topadder00)) of type view:work.AND0_0_16(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_31(topadder00)) of type view:work.AND0_0_32(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_47(topadder00)) of type view:work.AND0_0_48(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_63(topadder00)) of type view:work.AND0_0_64(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_79(topadder00)) of type view:work.AND0_0_80(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\p15_alu\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_95(topadder00)) of type view:work.AND0_0_96(and00) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist topalu00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     139  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\yair\desktop\p15_alu\alu\div00.vhdl":20:2:20:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including AL00.DI01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 147MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 147MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Wed Jun 12 10:54:59 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun 12 10:55:00 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\subsa00.vhdl":25:10:25:27|Removing sequential instance AL11.outFlagsb_1 because it is equivalent to instance AL10.outFlagad_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\addera00.vhdl":25:10:25:27|Removing sequential instance AL10.outFlagad_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\nota00.vhdl":24:7:24:24|Removing sequential instance AL03.outFlagno_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\nanda00.vhdl":24:7:24:26|Removing sequential instance AL04.outFlagnand_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\nora00.vhdl":23:7:23:25|Removing sequential instance AL05.outFlagnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\xora00.vhdl":23:7:23:25|Removing sequential instance AL06.outFlagxor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\xnora00.vhdl":23:7:23:26|Removing sequential instance AL07.outFlagxnor_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\mult8bits.vhdl":23:6:23:22|Removing sequential instance AL12.outFlagm_1 because it is equivalent to instance AL01.outFlago_1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\subsa00.vhdl":25:10:25:27|Removing sequential instance AL11.outsb_1[0] because it is equivalent to instance AL10.outad_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\yair\desktop\p15_alu\alu\subsa00.vhdl":25:10:25:27|Removing sequential instance AL11.outsb_1[1] because it is equivalent to instance AL10.outad_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 155MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 152MB peak: 155MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 152MB peak: 155MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 159MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 159MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 159MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 159MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 159MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 156MB peak: 172MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		   470.76ns		 323 /       137
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 156MB peak: 172MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_15_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_14_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_13_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_12_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_11_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_10_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_9_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_8_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_7_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_6_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_5_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_4_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_3_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_2_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_1_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outac_0_.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\yair\desktop\p15_alu\alu\ac00.vhdl":23:4:23:5|Boundary register AL08.outFlagac.fb (in view: work.topalu00(topalu0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 157MB peak: 172MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 137 clock pin(s) of sequential element(s)
+0 instances converted, 137 sequential instances remain driven by gated/generated clocks
+
+================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       AL00.DI00.OSCInst0     OSCH                   137        AL08_outacio[0]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 121MB peak: 172MB)
+
+Writing Analyst data base C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\synwork\ALU00_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 156MB peak: 172MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\Yair\Desktop\P15_ALU\ALU\impl1\ALU00_impl1.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 161MB peak: 172MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 160MB peak: 172MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:AL00.DI00.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 12 10:55:07 2019
+#
+
+
+Top view:               topalu00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 471.102
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       103.4 MHz     480.769       9.667         471.102     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     471.102  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival            
+Instance               Reference                        Type        Pin     Net          Time        Slack  
+                       Clock                                                                                
+------------------------------------------------------------------------------------------------------------
+AL00.DI01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       471.102
+AL00.DI01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.044       471.102
+AL00.DI01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.044       471.102
+AL00.DI01.sdiv[10]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[10]     1.044       471.102
+AL00.DI01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.044       471.102
+AL00.DI01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[12]     1.044       471.102
+AL00.DI01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[13]     1.044       471.102
+AL00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.108       471.991
+AL00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.108       471.991
+AL00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[17]     1.180       472.055
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                              Required            
+Instance               Reference                        Type        Pin     Net              Time         Slack  
+                       Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------
+AL00.DI01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      471.102
+AL00.DI01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      471.102
+AL00.DI01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      471.245
+AL00.DI01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      471.245
+AL00.DI01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      471.387
+AL00.DI01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      471.387
+AL00.DI01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      471.530
+AL00.DI01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      471.530
+AL00.DI01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[11]     480.664      471.673
+AL00.DI01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      471.673
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      9.562
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     471.102
+
+    Number of logic level(s):                15
+    Starting point:                          AL00.DI01.sdiv[7] / Q
+    Ending point:                            AL00.DI01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                            Pin      Pin               Arrival     No. of    
+Name                                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------
+AL00.DI01.sdiv[7]                            FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[7]                                      Net          -        -       -         -           2         
+AL00.DI01.un1_outdiv_1_sqmuxa_i_a2_0         ORCALUT4     A        In      0.000     1.044       -         
+AL00.DI01.un1_outdiv_1_sqmuxa_i_a2_0         ORCALUT4     Z        Out     1.089     2.133       -         
+N_48                                         Net          -        -       -         -           2         
+AL00.DI01.un1_outdiv_0_sqmuxa_1_0_i_4[0]     ORCALUT4     C        In      0.000     2.133       -         
+AL00.DI01.un1_outdiv_0_sqmuxa_1_0_i_4[0]     ORCALUT4     Z        Out     1.017     3.149       -         
+un1_outdiv_0_sqmuxa_1_0_i_4[0]               Net          -        -       -         -           1         
+AL00.DI01.un1_outdiv_0_sqmuxa_1_0_i_5[0]     ORCALUT4     C        In      0.000     3.149       -         
+AL00.DI01.un1_outdiv_0_sqmuxa_1_0_i_5[0]     ORCALUT4     Z        Out     1.017     4.166       -         
+un1_outdiv_0_sqmuxa_1_0_i_5[0]               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_0_0_RNO               ORCALUT4     A        In      0.000     4.166       -         
+AL00.DI01.un1_sdiv_cry_0_0_RNO               ORCALUT4     Z        Out     1.017     5.183       -         
+N_4_i                                        Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_0_0                   CCU2D        B0       In      0.000     5.183       -         
+AL00.DI01.un1_sdiv_cry_0_0                   CCU2D        COUT     Out     1.544     6.728       -         
+un1_sdiv_cry_0                               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_1_0                   CCU2D        CIN      In      0.000     6.728       -         
+AL00.DI01.un1_sdiv_cry_1_0                   CCU2D        COUT     Out     0.143     6.870       -         
+un1_sdiv_cry_2                               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_3_0                   CCU2D        CIN      In      0.000     6.870       -         
+AL00.DI01.un1_sdiv_cry_3_0                   CCU2D        COUT     Out     0.143     7.013       -         
+un1_sdiv_cry_4                               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_5_0                   CCU2D        CIN      In      0.000     7.013       -         
+AL00.DI01.un1_sdiv_cry_5_0                   CCU2D        COUT     Out     0.143     7.156       -         
+un1_sdiv_cry_6                               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_7_0                   CCU2D        CIN      In      0.000     7.156       -         
+AL00.DI01.un1_sdiv_cry_7_0                   CCU2D        COUT     Out     0.143     7.299       -         
+un1_sdiv_cry_8                               Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_9_0                   CCU2D        CIN      In      0.000     7.299       -         
+AL00.DI01.un1_sdiv_cry_9_0                   CCU2D        COUT     Out     0.143     7.441       -         
+un1_sdiv_cry_10                              Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_11_0                  CCU2D        CIN      In      0.000     7.441       -         
+AL00.DI01.un1_sdiv_cry_11_0                  CCU2D        COUT     Out     0.143     7.584       -         
+un1_sdiv_cry_12                              Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_13_0                  CCU2D        CIN      In      0.000     7.584       -         
+AL00.DI01.un1_sdiv_cry_13_0                  CCU2D        COUT     Out     0.143     7.727       -         
+un1_sdiv_cry_14                              Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_15_0                  CCU2D        CIN      In      0.000     7.727       -         
+AL00.DI01.un1_sdiv_cry_15_0                  CCU2D        COUT     Out     0.143     7.870       -         
+un1_sdiv_cry_16                              Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_17_0                  CCU2D        CIN      In      0.000     7.870       -         
+AL00.DI01.un1_sdiv_cry_17_0                  CCU2D        COUT     Out     0.143     8.013       -         
+un1_sdiv_cry_18                              Net          -        -       -         -           1         
+AL00.DI01.un1_sdiv_cry_19_0                  CCU2D        CIN      In      0.000     8.013       -         
+AL00.DI01.un1_sdiv_cry_19_0                  CCU2D        S1       Out     1.549     9.562       -         
+un1_sdiv[20]                                 Net          -        -       -         -           1         
+AL00.DI01.sdiv[20]                           FD1S3IX      D        In      0.000     9.562       -         
+===========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 161MB peak: 172MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 161MB peak: 172MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 137 of 6864 (2%)
+PIC Latch:       0
+I/O cells:       49
+
+
+Details:
+BB:             1
+CCU2D:          11
+FD1P3AX:        17
+FD1P3IX:        82
+FD1S3AX:        1
+FD1S3IX:        21
+GSR:            1
+IB:             29
+INV:            8
+OB:             18
+OBZ:            1
+OFS1P3IX:       16
+ORCALUT4:       309
+OSCH:           1
+PFUMX:          9
+PUR:            1
+VHI:            281
+VLO:            281
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 35MB peak: 172MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Wed Jun 12 10:55:07 2019
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "C:/Users/Yair/Desktop/P15_ALU/ALU/impl1" -path "C:/Users/Yair/Desktop/P15_ALU/ALU"   "C:/Users/Yair/Desktop/P15_ALU/ALU/impl1/ALU00_impl1.edi" "ALU00_impl1.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to ALU00_impl1.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "C:/Users/Yair/Desktop/P15_ALU/ALU/impl1" -p "C:/Users/Yair/Desktop/P15_ALU/ALU"  "ALU00_impl1.ngo" "ALU00_impl1.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'ALU00_impl1.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="AL00/DI00/OSCInst0_SEDSTDBY" arg2="AL00/DI00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
+
+Design Results:
+   1087 blocks expanded
+Complete the first expansion.
+Writing 'ALU00_impl1.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial   "ALU00_impl1.ngd" -o "ALU00_impl1_map.ncd" -pr "ALU00_impl1.prf" -mp "ALU00_impl1.mrp" -lpf "C:/Users/Yair/Desktop/P15_ALU/ALU/impl1/ALU00_impl1_synplify.lpf" -lpf "C:/Users/Yair/Desktop/P15_ALU/ALU/ALU00.lpf" -c 0            
+map:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: ALU00_impl1.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=4
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 4.
+
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:    137 out of  7209 (2%)
+      PFU registers:          121 out of  6864 (2%)
+      PIO registers:           16 out of   345 (5%)
+   Number of SLICEs:       172 out of  3432 (5%)
+      SLICEs as Logic/ROM:    172 out of  3432 (5%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        339 out of  6864 (5%)
+      Number used as logic LUTs:        317
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 49 + 4(JTAG) out of 115 (46%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net AL00.sclk_0: 86 loads, 86 rising, 0 falling (Driver: AL00/DI00/OSCInst0 )
+   Number of Clock Enables:  5
+     Net aux_RNI1R171: 17 loads, 1 LSLICEs
+     Net AL10/LEDad_1_RNO: 1 loads, 1 LSLICEs
+     Net un1_outdiv_1_sqmuxa_i_0_RNISNJT: 50 loads, 50 LSLICEs
+     Net AL11/LEDsb_1_RNO: 1 loads, 1 LSLICEs
+     Net AL02/un1_functa_RNI2O1L1: 5 loads, 5 LSLICEs
+   Number of LSRs:  6
+     Net un1_aux_1_RNILMT83[0]: 8 loads, 0 LSLICEs
+     Net AL10/outad_1_127: 4 loads, 4 LSLICEs
+     Net un1_outdiv_1_sqmuxa_i_0_RNILRD91: 32 loads, 32 LSLICEs
+     Net AL02/aux_0_sqmuxa_RNIK0U61: 5 loads, 5 LSLICEs
+     Net un1_outdiv_1_sqmuxa_i_0_RNI7UF81: 9 loads, 1 LSLICEs
+     Net AL00/DI01/N_8_i: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net un1_outdiv_1_sqmuxa_i_0_RNISNJT: 51 loads
+     Net un1_outdiv_1_sqmuxa_i_0_RNILRD91: 32 loads
+     Net inRS0_c[2]: 25 loads
+     Net inRS0_c[3]: 25 loads
+     Net inRS0_c[7]: 25 loads
+     Net inRS0_c[5]: 24 loads
+     Net inRS0_c[6]: 24 loads
+     Net inRT0_c[7]: 24 loads
+     Net inRS0_c[4]: 23 loads
+     Net inRT0_c[3]: 23 loads
+ 
+
+   Number of warnings:  0
+   Number of errors:    0
+
+
+
+Total CPU Time: 1 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 60 MB
+
+Dumping design to file ALU00_impl1_map.ncd.
+
+mpartrce -p "ALU00_impl1.p2t" -f "ALU00_impl1.p3t" -tf "ALU00_impl1.pt" "ALU00_impl1_map.ncd" "ALU00_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "ALU00_impl1_map.ncd"
+Wed Jun 12 10:55:16 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Users/Yair/Desktop/P15_ALU/ALU/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF ALU00_impl1_map.ncd ALU00_impl1.dir/5_1.ncd ALU00_impl1.prf
+Preference file: ALU00_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file ALU00_impl1_map.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   49+4(JTAG)/336     16% used
+                  49+4(JTAG)/115     46% bonded
+   IOLOGIC           16/336           4% used
+
+   SLICE            172/3432          5% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 508
+Number of Connections: 1478
+
+Pin Constraint Summary:
+   48 out of 49 pins locked (97% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    AL00.sclk_0 (driver: AL00/DI00/OSCInst0, clk load #: 86)
+
+
+The following 4 signals are selected to use the secondary clock routing resources:
+    un1_outdiv_1_sqmuxa_i_0_RNISNJT (driver: SLICE_122, clk load #: 0, sr load #: 0, ce load #: 50)
+    un1_outdiv_1_sqmuxa_i_0_RNILRD91 (driver: AL00/DI01/SLICE_59, clk load #: 0, sr load #: 32, ce load #: 0)
+    aux_RNI1R171 (driver: AL08/SLICE_140, clk load #: 0, sr load #: 0, ce load #: 17)
+    AL00/DI01/N_8_i (driver: AL00/DI01/SLICE_143, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+...........
+Finished Placer Phase 0.  REAL time: 3 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 103861.
+Finished Placer Phase 1.  REAL time: 11 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  103506
+Finished Placer Phase 2.  REAL time: 11 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "AL00.sclk_0" from OSC on comp "AL00/DI00/OSCInst0" on site "OSC", clk load = 86
+  SECONDARY "un1_outdiv_1_sqmuxa_i_0_RNISNJT" from F1 on comp "SLICE_122" on site "R21C18B", clk load = 0, ce load = 50, sr load = 0
+  SECONDARY "un1_outdiv_1_sqmuxa_i_0_RNILRD91" from F1 on comp "AL00/DI01/SLICE_59" on site "R21C18A", clk load = 0, ce load = 0, sr load = 32
+  SECONDARY "aux_RNI1R171" from F0 on comp "AL08/SLICE_140" on site "R21C18C", clk load = 0, ce load = 17, sr load = 0
+  SECONDARY "AL00/DI01/N_8_i" from F0 on comp "AL00/DI01/SLICE_143" on site "R14C18A", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 4 out of 8 (50%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   49 + 4(JTAG) out of 336 (15.8%) PIO sites used.
+   49 + 4(JTAG) out of 115 (46.1%) bonded PIO sites used.
+   Number of PIO comps: 49; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 3 / 28 ( 10%)  | 2.5V       | -         |
+| 1        | 2 / 29 (  6%)  | 2.5V       | -         |
+| 2        | 18 / 29 ( 62%) | 2.5V       | -         |
+| 3        | 8 / 9 ( 88%)   | 2.5V       | -         |
+| 4        | 8 / 10 ( 80%)  | 2.5V       | -         |
+| 5        | 10 / 10 (100%) | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 10 secs 
+
+Dumping design to file ALU00_impl1.dir/5_1.ncd.
+
+0 connections routed; 1478 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 16 secs 
+
+Start NBR router at 10:55:32 06/12/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 10:55:32 06/12/19
+
+Start NBR section for initial routing at 10:55:32 06/12/19
+Level 4, iteration 1
+19(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.856ns/0.000ns; real time: 17 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 10:55:33 06/12/19
+Level 4, iteration 1
+10(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.723ns/0.000ns; real time: 17 secs 
+Level 4, iteration 2
+5(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.533ns/0.000ns; real time: 17 secs 
+Level 4, iteration 3
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.533ns/0.000ns; real time: 17 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.533ns/0.000ns; real time: 17 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 10:55:33 06/12/19
+
+Start NBR section for re-routing at 10:55:34 06/12/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 467.533ns/0.000ns; real time: 18 secs 
+
+Start NBR section for post-routing at 10:55:34 06/12/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 467.533ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 18 secs 
+Total REAL time: 19 secs 
+Completely routed.
+End of route.  1478 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file ALU00_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 467.533
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.377
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 18 secs 
+Total REAL time to completion: 19 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "ALU00_impl1.t2b" -w "ALU00_impl1.ncd" -jedec "ALU00_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.0.111.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file ALU00_impl1.ncd.
+Design name: topalu00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 4
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from ALU00_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "ALU00_impl1.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

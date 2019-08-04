@@ -1,0 +1,14 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\sandra\Desktop\barrelLR01\shiftLR00\synwork\shiftLR00_shiftLR00_hdl_.srs  -top  topshiftRL00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\sandra\Desktop\barrelLR01\shiftLR00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\div00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\osc00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\packagediv00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\packageshiftRL00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\shiftRL00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\topdiv00.vhd -lib work C:\Users\sandra\Desktop\barrelLR01\topshiftRL00.vhd  -log  C:\Users\sandra\Desktop\barrelLR01\shiftLR00\syntax.log  -fileorder  C:\Users\sandra\Desktop\barrelLR01\shiftLR00\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\shiftLR00_shiftLR00_hdl_.srs -top topshiftRL00 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\div00.vhd -lib work ..\..\osc00.vhd -lib work ..\..\packagediv00.vhd -lib work ..\..\packageshiftRL00.vhd -lib work ..\..\shiftRL00.vhd -lib work ..\..\topdiv00.vhd -lib work ..\..\topshiftRL00.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:1
+file:..\synwork\shiftLR00_shiftLR00_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\div00.vhd|io:i|time:1550790930|size:2101|exec:0|csum:97FA0174442E92641A3A9A03755BFDA9
+file:..\..\osc00.vhd|io:i|time:1550790929|size:516|exec:0|csum:E2F3D3978EE8D99A92549B561ACC7066
+file:..\..\packagediv00.vhd|io:i|time:1550791065|size:344|exec:0|csum:BA3C9B7812195CE03CE5FEA9F98DBA27
+file:..\..\packageshiftRL00.vhd|io:i|time:1550798102|size:562|exec:0|csum:8070F51B5527C8FD744557C005FE5F38
+file:..\..\shiftRL00.vhd|io:i|time:1550800209|size:936|exec:0|csum:976187C1A6A5E10C927B5A95B193607B
+file:..\..\topdiv00.vhd|io:i|time:1550799108|size:463|exec:0|csum:E1368218B327E08C3B021C5855A6A2C6
+file:..\..\topshiftRL00.vhd|io:i|time:1550797943|size:731|exec:0|csum:2CD2EB2BA8D24DCCA525CD066604FA6F
+file:..\syntax.log|io:o|time:1550800218|size:994|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

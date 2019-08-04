@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell mux00
+   Instance path: mux00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOBUF	         27        100.0

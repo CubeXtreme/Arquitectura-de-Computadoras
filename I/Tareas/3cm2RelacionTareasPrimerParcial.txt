@@ -1,0 +1,27 @@
+Grupo 3CM2
+
+Relación de Tareas Primer Parcial
+Periodo agosto diciembre 2018
+
+
+1.- Lenguajes de Descripción de Harware (HDL). Una cuartilla como máximo.
+    ENTREGAR MARTES 22 DE ENERO DE 2019
+
+2.- Estilos de Programacion en VHDL. Dos cuartillas como máximo.
+    ENTREGAR EL JUEVES 24 DE ENERO 2019
+
+3.- Clasificación de las memorias
+    ENTREGAR LUNES 29 DE ENERO DE 2019
+
+4.- Tecnologia DDR1, DDR2, DDR3 y DDR4, SIMM, DIMM,
+    TRES CUARTILLAS MAXIMO
+    PARA EL MARTES 5 DE FEBRERO DE 2019
+
+5.- Sistema de memorias
+    MAXIMO TRES CUARTILLAS
+    ENTREGAR EL JUEVES 14 DE FEBRERO
+
+6.- Conceptos: Arquitectura de computadoras.
+    ENTREGAR EL LUNES 18 DE FEBRERO DE 2019
+    MAXIMO TRES CUARTILLAS
+    

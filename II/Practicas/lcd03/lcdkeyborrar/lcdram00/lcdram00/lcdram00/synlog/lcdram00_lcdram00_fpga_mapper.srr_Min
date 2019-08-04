@@ -1,0 +1,132 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Dec 06 21:32:08 2017
+#
+
+
+Top view:               toplcdram00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.657
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       71.1 MHz      480.769       14.059        466.710     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  No paths    -      |  0.000       0.657  |  No paths    -      |  No paths    -    
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                                   Arrival          
+Instance                 Reference                        Type        Pin     Net                   Time        Slack
+                         Clock                                                                                       
+---------------------------------------------------------------------------------------------------------------------
+U1.current_state[15]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[15]     0.731       0.657
+U1.current_state[7]      osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[7]      0.775       0.702
+U1.current_state[11]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[11]     0.775       0.702
+U1.current_state[13]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[13]     0.775       0.702
+U1.current_state[14]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[14]     0.775       0.702
+U1.current_state[5]      osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[5]      0.803       0.730
+U1.current_state[9]      osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[9]      0.803       0.730
+U1.current_state[10]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[10]     0.803       0.730
+U1.current_state[12]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[12]     0.803       0.730
+U1.current_state[16]     osc00|osc_int_inferred_clock     FD1P3DX     Q       current_state[16]     0.832       0.758
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                   Required          
+Instance                 Reference                        Type        Pin     Net                   Time         Slack
+                         Clock                                                                                        
+----------------------------------------------------------------------------------------------------------------------
+U1.current_state[14]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[15]     0.074        0.657
+U1.current_state[6]      osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[7]      0.074        0.702
+U1.current_state[10]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[11]     0.074        0.702
+U1.current_state[12]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[13]     0.074        0.702
+U1.current_state[13]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[14]     0.074        0.702
+U1.current_state[4]      osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[5]      0.074        0.730
+U1.current_state[8]      osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[9]      0.074        0.730
+U1.current_state[9]      osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[10]     0.074        0.730
+U1.current_state[11]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[12]     0.074        0.730
+U1.current_state[15]     osc00|osc_int_inferred_clock     FD1P3DX     D       current_state[16]     0.074        0.758
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.731
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.657
+
+    Number of logic level(s):                0
+    Starting point:                          U1.current_state[15] / Q
+    Ending point:                            U1.current_state[14] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [falling] on pin CK
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                     Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+U1.current_state[15]     FD1P3DX     Q        Out     0.731     0.731       -         
+current_state[15]        Net         -        -       -         -           2         
+U1.current_state[14]     FD1P3DX     D        In      0.000     0.731       -         
+======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Constraints that could not be applied
+None

@@ -1,0 +1,89 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LAPTOP-9QN1JB0J
+Date:        Fri Apr 12 08:45:56 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch lcd00_lcd0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+Copied C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr to C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\backup\lcd00_lcd0.srr
+log file: "C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Fri Apr 12 08:45:58 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr to C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srf
+log file: "C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr"
+Running: lcd0 in foreground
+
+Running proj_1|lcd0
+
+Running: compile (Compile) on proj_1|lcd0
+# Fri Apr 12 08:45:59 2019
+
+Running: compile_flow (Compile Process) on proj_1|lcd0
+# Fri Apr 12 08:45:59 2019
+
+Running: compiler (Compile Input) on proj_1|lcd0
+# Fri Apr 12 08:45:59 2019
+
+compiler completed
+# Fri Apr 12 08:46:01 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|lcd0
+# Fri Apr 12 08:46:01 2019
+
+multi_srs_gen completed
+# Fri Apr 12 08:46:02 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr to C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srf
+Complete: Compile Process on proj_1|lcd0
+
+Running: premap (Pre-mapping) on proj_1|lcd0
+# Fri Apr 12 08:46:02 2019
+
+premap completed with warnings
+# Fri Apr 12 08:46:06 2019
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Compile on proj_1|lcd0
+
+Running: map (Map) on proj_1|lcd0
+# Fri Apr 12 08:46:06 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|lcd0
+# Fri Apr 12 08:46:06 2019
+Copied C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\synwork\lcd00_lcd0_m.srm to C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srm
+
+fpga_mapper completed with warnings
+# Fri Apr 12 08:46:12 2019
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on proj_1|lcd0
+Copied C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srr to C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\lcd00_lcd0.srf
+Complete: Logic Synthesis on proj_1|lcd0
+TCL script complete: "lcd00_lcd0_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\elite\OneDrive\Escritorio\lcd00\lcd0\proj_1.prj
+batch mode default:no

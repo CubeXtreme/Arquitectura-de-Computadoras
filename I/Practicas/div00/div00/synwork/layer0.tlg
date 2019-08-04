@@ -1,0 +1,17 @@
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":32:6:32:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":40:6:40:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":56:6:56:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\div00.vhdl":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\div00\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0

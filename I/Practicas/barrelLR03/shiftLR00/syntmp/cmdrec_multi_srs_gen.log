@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftRL00  -multisrs  C:\Users\sandra\Desktop\barrelLR03\shiftLR00\synwork\shiftLR00_shiftLR00_comp.srs  -osyn  C:\Users\sandra\Desktop\barrelLR03\shiftLR00\synwork\shiftLR00_shiftLR00_mult.srs  -log  C:\Users\sandra\Desktop\barrelLR03\shiftLR00\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topshiftRL00 -multisrs ..\synwork\shiftLR00_shiftLR00_comp.srs -osyn ..\synwork\shiftLR00_shiftLR00_mult.srs -log ..\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\shiftLR00_shiftLR00_comp.srs|io:i|time:1550800931|size:7272|exec:0|csum:CCC076BD46C877009566FE5ECEC301F5
+file:..\synwork\shiftLR00_shiftLR00_mult.srs|io:o|time:1550800933|size:2514|exec:0|csum:
+file:..\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr|io:o|time:1550800933|size:409|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

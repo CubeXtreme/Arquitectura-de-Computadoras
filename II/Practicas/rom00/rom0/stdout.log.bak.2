@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LAPTOP-9QN1JB0J
+Date:        Thu Mar 21 10:45:31 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch rom00_rom0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Thu Mar 21 10:45:32 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srr to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srf
+log file: "C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srr"
+Running: rom0 in foreground
+
+Running proj_1|rom0
+
+Running: compile (Compile) on proj_1|rom0
+# Thu Mar 21 10:45:32 2019
+
+Running: compile_flow (Compile Process) on proj_1|rom0
+# Thu Mar 21 10:45:32 2019
+
+Running: compiler (Compile Input) on proj_1|rom0
+# Thu Mar 21 10:45:32 2019
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_comp.srs to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srs
+
+compiler completed
+# Thu Mar 21 10:45:34 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|rom0
+# Thu Mar 21 10:45:34 2019
+
+multi_srs_gen completed
+# Thu Mar 21 10:45:35 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_mult.srs to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srs
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srr to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srf
+Complete: Compile Process on proj_1|rom0
+
+Running: premap (Pre-mapping) on proj_1|rom0
+# Thu Mar 21 10:45:35 2019
+
+premap completed with warnings
+# Thu Mar 21 10:45:36 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|rom0
+
+Running: map (Map) on proj_1|rom0
+# Thu Mar 21 10:45:36 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|rom0
+# Thu Mar 21 10:45:37 2019
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_m.srm to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srm
+
+fpga_mapper completed with warnings
+# Thu Mar 21 10:45:39 2019
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on proj_1|rom0
+Copied C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srr to C:\Users\elite\OneDrive\Escritorio\rom00\rom0\rom00_rom0.srf
+Complete: Logic Synthesis on proj_1|rom0
+TCL script complete: "rom00_rom0_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\elite\OneDrive\Escritorio\rom00\rom0\proj_1.prj
+batch mode default:no

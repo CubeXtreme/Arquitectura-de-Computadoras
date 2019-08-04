@@ -1,0 +1,34 @@
+Tareas para el Tercer parcial
+Grupo 3CM2
+
+*************************************************************************
+*************************************************************************
+TAREA 1
+Basada en el libro Computer Organization and Design:
+The Hardware/Software Interface
+
+
+1.- Register File Definition
+Page 252
+
+2.- Clasificación de las instrucciones MIPS
+A).- Formato de las instrucciones R (los campos utilizados, como se utilizan, y los no utilizados, los tipos de instrucción)
+B).- Formato de las instrucciones I
+C).- Formato de las instrucciones J
+
+
+3.- Explicar puntualmente el pie de figura de la Figura 4.7
+
+4.- Explicar el formato y operación de las instrucciones "lw" y "sw".
+Page 254
+
+5.- Explicar el formato y operación de las instrucciones "beq".
+Page 254.
+
+6.- Explicar puntualmente la Figura 4.8
+
+
+ENTREGAR EL MIERCOLES 22 DE MAYO DE 2019
+A Mano
+*************************************************************************
+*************************************************************************

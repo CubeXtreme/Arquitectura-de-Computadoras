@@ -1,0 +1,94 @@
+# Tue May 14 09:00:37 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00_scck.rpt 
+Printing clock  summary report in "C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toplcdram00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     336  
+====================================================================================================================================================
+
+@W: MT529 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\div00.vhd":22:2:22:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including U0.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Encoding state machine current_state[0:17] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   00000000000000000000000000001 -> 000000000000000001
+   00000000000000000000000000010 -> 000000000000000010
+   00000000000000000000000000100 -> 000000000000000100
+   00000000000000000000000001000 -> 000000000000001000
+   00000000000000000000000010000 -> 000000000000010000
+   00000000000000000000000100000 -> 000000000000100000
+   00000000000000000000001000000 -> 000000000001000000
+   00000000000000000000010000000 -> 000000000010000000
+   00000000000000000000100000000 -> 000000000100000000
+   00000000000000000001000000000 -> 000000001000000000
+   00000000000000000010000000000 -> 000000010000000000
+   00000000000000000100000000000 -> 000000100000000000
+   00000000000000001000000000000 -> 000001000000000000
+   00000000000000010000000000000 -> 000010000000000000
+   00000000000000100000000000000 -> 000100000000000000
+   00000000000001000000000000000 -> 001000000000000000
+   00000000000010000000000000000 -> 010000000000000000
+   10000000000000000000000000000 -> 100000000000000000
+Encoding state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0))
+original code -> new code
+   0001 -> 00
+   0010 -> 01
+   0100 -> 10
+   1000 -> 11
+@N: MO225 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|There are no possible illegal states for state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0)); safe FSM implementation is not required.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 145MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Tue May 14 09:00:40 2019
+
+###########################################################]

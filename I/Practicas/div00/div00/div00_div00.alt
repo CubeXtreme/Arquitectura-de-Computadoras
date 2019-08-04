@@ -1,0 +1,14 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Feb 19 15:32:54 2019 *
+NOTE DESIGN NAME: topdiv00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 107 : out *
+NOTE PINS cdiv0[0] : 71 : in *
+NOTE PINS cdiv0[4] : 67 : in *
+NOTE PINS cdiv0[3] : 68 : in *
+NOTE PINS cdiv0[2] : 70 : in *
+NOTE PINS cdiv0[1] : 69 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

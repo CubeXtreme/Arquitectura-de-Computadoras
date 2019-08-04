@@ -1,0 +1,17 @@
+1.- Teclado matricial de 4x4, resolviendo que no se capture otro botón hasta que se suelte el previo ==> key02
+2.- "ram00". Entrada el teclado matricial. Salida Display de 7 segmentos ==> ram00
+3.- Stack Operación básica LIFO ==> stack00
+4.- Stack Pointer: Stack base o stack dinámico. Para que el concepto de pila quede completo, debe ser dinámico. Esto es, si se hace pop se debe disminuir el satck base y si a continuación de nuevo escribes entonces el contador base de nuevo deberá empezar a escribir, pero desde la última posición de donde se leyó ==> stack01
+5.- "rom00". Salida en el display de 7 segmentos == rom00
+6.- Práctica de configuración de la pantalla lcd, "lcd00" Utilizando una ROM ==> lcd00
+7.- Escritura en la LCD a dos renglones. Desde una ROM ==> lcd01
+8.- Escribir desde el teclado en la LCD ==> lcd02
+9.- Escribir y borrar desde el teclado a la pantalla LCD. (Escribir un mensaje como “HOLA MUNDO”, a continuación, presionar un botón de clear, a continuación, escribir de nuevo) ==> lcd03
+10.- Convertidor de código de binario natural a BCD ==> bcd00
+11.- RAM con salida en la pantalla LCD ==> lcd04
+12.- Extensor de signo ==> signo00
+13.- Memoria de Programa. Instrucciones de 32 bit, en un arreglo de vectores de 8 bit (Byte) ==> memProg00
+14.- ALU00: Contiene como instrucciones las puertas and00 y or00 ==> alu00
+15.- ALU01: ==> alu01
+16.- ALU02: ==> alu02
+18.- Decodificar la instrucción ==> memProg00 (viene dentro)

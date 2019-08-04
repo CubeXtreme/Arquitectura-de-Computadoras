@@ -1,0 +1,5 @@
+@W: FA239 :"c:\users\elite\onedrive\escritorio\lcd00\lcddata00.vhd":42:18:42:25|ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\elite\onedrive\escritorio\lcd00\lcddata00.vhd":42:18:42:25|ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\elite\onedrive\escritorio\lcd00\lcddata00.vhd":42:18:42:25|ROM outWordd_2[6:5] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"c:\users\elite\onedrive\escritorio\lcd00\lcddata00.vhd":42:18:42:25|ROM outWordd_2[3:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:LC00.OS00.osc_int"

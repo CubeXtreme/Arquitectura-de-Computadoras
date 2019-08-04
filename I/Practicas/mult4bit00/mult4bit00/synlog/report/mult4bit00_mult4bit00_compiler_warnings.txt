@@ -1,0 +1,2 @@
+@W: CL157 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult4bit00\mult4bit00.vhd":11:2:11:3|Output Rm has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

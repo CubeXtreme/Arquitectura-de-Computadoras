@@ -1,0 +1,1112 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+           Lattice Mapping Report File for Design Module 'topalu00'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 4 -oc Commercial
+     ALU00_impl1.ngd -o ALU00_impl1_map.ncd -pr ALU00_impl1.prf -mp
+     ALU00_impl1.mrp -lpf
+     C:/Users/Yair/Desktop/alu02/alu02/alu/impl1/ALU00_impl1_synplify.lpf -lpf
+     C:/Users/Yair/Desktop/alu02/alu02/alu/ALU00.lpf -c 0 -gui -msgset
+     C:/Users/Yair/Desktop/alu02/alu02/alu/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  06/12/19  15:04:37
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    286 out of  7209 (4%)
+      PFU registers:          270 out of  6864 (4%)
+      PIO registers:           16 out of   345 (5%)
+   Number of SLICEs:       271 out of  3432 (8%)
+      SLICEs as Logic/ROM:    271 out of  3432 (8%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         24 out of  3432 (1%)
+   Number of LUT4s:        537 out of  6864 (8%)
+      Number used as logic LUTs:        489
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       48
+      Number used as shift registers:     0
+   Number of PIO sites used: 49 + 4(JTAG) out of 115 (46%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net AL00.sclk_0: 168 loads, 168 rising, 0 falling (Driver:
+     AL00/DI00/OSCInst0 )
+
+   Number of Clock Enables:  13
+     Net aux_RNI3CGL1: 17 loads, 1 LSLICEs
+     Net G_17: 99 loads, 99 LSLICEs
+     Net AL10/LEDad_1_RNO: 1 loads, 1 LSLICEs
+     Net AL11/LEDsb_1_RNO: 1 loads, 1 LSLICEs
+     Net AL02/aux_RNI49G32: 5 loads, 5 LSLICEs
+     Net AL14/un1_functshiftl_0_a2_RNIK6UM1: 4 loads, 4 LSLICEs
+     Net AL15/un1_functshiftr_0_a2_RNIRVQC1: 4 loads, 4 LSLICEs
+     Net AL16/un1_functrotr_0_a2_RNIJRDG1: 4 loads, 4 LSLICEs
+     Net AL17/un1_functrotl_0_a2_RNIEMTN1: 4 loads, 4 LSLICEs
+     Net AL18/un7_functbarrelshiftl_0_I_21_0_RNI9ST22: 4 loads, 4 LSLICEs
+     Net AL19/un7_functbarrelshiftr_0_I_21_0_RNINP232: 4 loads, 4 LSLICEs
+     Net AL20/un7_functbarrelrotl_0_I_21_0_RNI99582: 4 loads, 4 LSLICEs
+     Net AL21/un7_functbarrelrotr_0_I_21_0_RNIN2QA2: 4 loads, 4 LSLICEs
+   Number of LSRs:  6
+     Net un1_aux_1_RNIPOQ54[0]: 8 loads, 0 LSLICEs
+     Net AL10/outad_1_186: 4 loads, 4 LSLICEs
+     Net G_100: 64 loads, 64 LSLICEs
+     Net G_140: 5 loads, 5 LSLICEs
+     Net G_139: 9 loads, 1 LSLICEs
+     Net AL00/DI01/N_135_i: 12 loads, 12 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net G_17: 115 loads
+     Net outFlagac0_c: 90 loads
+     Net G_100: 64 loads
+     Net inRT0_c[2]: 44 loads
+     Net inRS0_c[2]: 33 loads
+     Net inRS0_c[3]: 33 loads
+     Net inRS0_c[4]: 33 loads
+     Net inRS0_c[7]: 32 loads
+     Net inRS0_c[5]: 31 loads
+     Net inRS0_c[6]: 31 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| outFlagInst0        | BIDIR     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LED                 | OUTPUT    | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outFlagac0          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outRD0[15]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[14]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[13]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[12]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[11]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[10]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[9]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[8]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[7]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[6]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[5]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[4]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[3]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[2]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[1]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outRD0[0]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| SL                  | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[7]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[6]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[5]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[4]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRT0[0]            | INPUT     | LVCMOS25  |            |
+
++---------------------+-----------+-----------+------------+
+| inRS0[7]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[6]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[5]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[4]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[3]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[2]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[1]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inRS0[0]            | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[5]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| funct0[0]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| enable0             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[4]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv00[1]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block AL00/GND undriven or does not drive anything - clipped.
+Block AL00/VCC undriven or does not drive anything - clipped.
+Block AL00/DI00/VCC undriven or does not drive anything - clipped.
+Block AL00/DI01/VCC undriven or does not drive anything - clipped.
+Block AL08/VCC undriven or does not drive anything - clipped.
+Block AL08/GND undriven or does not drive anything - clipped.
+Block AL09/GND undriven or does not drive anything - clipped.
+Block AL09/VCC undriven or does not drive anything - clipped.
+Block AL09/A08/GND undriven or does not drive anything - clipped.
+Block AL09/A08/VCC undriven or does not drive anything - clipped.
+
+Block AL09/A08/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A08/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A08/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A08/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A08/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A08/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A09/GND undriven or does not drive anything - clipped.
+Block AL09/A09/VCC undriven or does not drive anything - clipped.
+Block AL09/A09/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A09/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A09/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A09/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A09/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A09/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A10/GND undriven or does not drive anything - clipped.
+Block AL09/A10/VCC undriven or does not drive anything - clipped.
+Block AL09/A10/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A10/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A10/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A10/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A10/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A10/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A11/GND undriven or does not drive anything - clipped.
+Block AL09/A11/VCC undriven or does not drive anything - clipped.
+Block AL09/A11/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A11/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A11/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A11/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A11/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A11/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A12/GND undriven or does not drive anything - clipped.
+Block AL09/A12/VCC undriven or does not drive anything - clipped.
+Block AL09/A12/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A12/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A12/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A12/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A12/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A12/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A13/GND undriven or does not drive anything - clipped.
+Block AL09/A13/VCC undriven or does not drive anything - clipped.
+Block AL09/A13/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A13/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A13/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A13/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A13/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A13/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A14/GND undriven or does not drive anything - clipped.
+Block AL09/A14/VCC undriven or does not drive anything - clipped.
+Block AL09/A14/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A14/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A14/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A14/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A14/F02/GND undriven or does not drive anything - clipped.
+Block AL09/A14/F02/VCC undriven or does not drive anything - clipped.
+Block AL09/A15/GND undriven or does not drive anything - clipped.
+Block AL09/A15/VCC undriven or does not drive anything - clipped.
+
+Block AL09/A15/F01/GND undriven or does not drive anything - clipped.
+Block AL09/A15/F01/VCC undriven or does not drive anything - clipped.
+Block AL09/A15/F01/H00/VCC undriven or does not drive anything - clipped.
+Block AL09/A15/F01/H00/GND undriven or does not drive anything - clipped.
+Block AL09/A24/GND undriven or does not drive anything - clipped.
+Block AL09/A24/VCC undriven or does not drive anything - clipped.
+Block AL13/GND undriven or does not drive anything - clipped.
+Block AL13/VCC undriven or does not drive anything - clipped.
+Block AL13/A03/VCC undriven or does not drive anything - clipped.
+Block AL13/A03/GND undriven or does not drive anything - clipped.
+Block AL13/A04/VCC undriven or does not drive anything - clipped.
+Block AL13/A04/GND undriven or does not drive anything - clipped.
+Block AL13/A07/VCC undriven or does not drive anything - clipped.
+Block AL13/A07/GND undriven or does not drive anything - clipped.
+Block AL13/A14/VCC undriven or does not drive anything - clipped.
+Block AL13/A14/GND undriven or does not drive anything - clipped.
+Block AL13/A15/VCC undriven or does not drive anything - clipped.
+Block AL13/A15/GND undriven or does not drive anything - clipped.
+Block AL13/S00S01/GND undriven or does not drive anything - clipped.
+Block AL13/S00S01/VCC undriven or does not drive anything - clipped.
+Block AL13/S00S01/US001/GND undriven or does not drive anything - clipped.
+Block AL13/S00S01/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/S00S01/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S00S01/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S00S01/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S00S01/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S01S11/GND undriven or does not drive anything - clipped.
+Block AL13/S01S11/VCC undriven or does not drive anything - clipped.
+Block AL13/S01S11/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S01S11/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S01S11/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S01S11/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S01S11/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S01S11/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S02S12/GND undriven or does not drive anything - clipped.
+Block AL13/S02S12/VCC undriven or does not drive anything - clipped.
+Block AL13/S02S12/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S02S12/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S03S13/GND undriven or does not drive anything - clipped.
+Block AL13/S03S13/VCC undriven or does not drive anything - clipped.
+Block AL13/S03S13/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S03S13/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S03S13/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S03S13/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S03S13/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S03S13/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S04S14/GND undriven or does not drive anything - clipped.
+Block AL13/S04S14/VCC undriven or does not drive anything - clipped.
+
+Block AL13/S04S14/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S04S14/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S04S14/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S04S14/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S04S14/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S04S14/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S05S15/GND undriven or does not drive anything - clipped.
+Block AL13/S05S15/VCC undriven or does not drive anything - clipped.
+Block AL13/S05S15/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S05S15/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S05S15/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S05S15/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S05S15/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S05S15/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S06S16/GND undriven or does not drive anything - clipped.
+Block AL13/S06S16/VCC undriven or does not drive anything - clipped.
+Block AL13/S06S16/US010/GND undriven or does not drive anything - clipped.
+Block AL13/S06S16/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/S06S16/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S06S16/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S06S16/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/S06S16/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S07S17/GND undriven or does not drive anything - clipped.
+Block AL13/S07S17/VCC undriven or does not drive anything - clipped.
+Block AL13/S07S17/US011/GND undriven or does not drive anything - clipped.
+Block AL13/S07S17/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/S07S17/US011/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/S07S17/US011/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P00S20/GND undriven or does not drive anything - clipped.
+Block AL13/P00S20/VCC undriven or does not drive anything - clipped.
+Block AL13/P00S20/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P00S20/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P00S20/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P00S20/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P00S20/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P00S20/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P01S21/GND undriven or does not drive anything - clipped.
+Block AL13/P01S21/VCC undriven or does not drive anything - clipped.
+Block AL13/P01S21/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P01S21/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P01S21/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P01S21/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+
+Block AL13/P01S21/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P01S21/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P01S21/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P01S21/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P02S22/GND undriven or does not drive anything - clipped.
+Block AL13/P02S22/VCC undriven or does not drive anything - clipped.
+Block AL13/P02S22/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P02S22/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P02S22/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P02S22/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P02S22/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P02S22/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P03S23/GND undriven or does not drive anything - clipped.
+Block AL13/P03S23/VCC undriven or does not drive anything - clipped.
+Block AL13/P03S23/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P03S23/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P03S23/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P03S23/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P03S23/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P03S23/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P04S24/GND undriven or does not drive anything - clipped.
+Block AL13/P04S24/VCC undriven or does not drive anything - clipped.
+Block AL13/P04S24/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P04S24/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P04S24/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P04S24/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P04S24/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P04S24/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P05S25/GND undriven or does not drive anything - clipped.
+Block AL13/P05S25/VCC undriven or does not drive anything - clipped.
+Block AL13/P05S25/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P05S25/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P05S25/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P05S25/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P05S25/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P05S25/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P06S26/GND undriven or does not drive anything - clipped.
+Block AL13/P06S26/VCC undriven or does not drive anything - clipped.
+Block AL13/P06S26/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P06S26/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P06S26/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P06S26/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P06S26/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P06S26/US011/US100/GND undriven or does not drive anything - clipped.
+     
+
+Block AL13/C07S27/GND undriven or does not drive anything - clipped.
+Block AL13/C07S27/VCC undriven or does not drive anything - clipped.
+Block AL13/C07S27/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C07S27/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/C07S27/US011/GND undriven or does not drive anything - clipped.
+Block AL13/C07S27/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/C07S27/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/C07S27/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P10S30/GND undriven or does not drive anything - clipped.
+Block AL13/P10S30/VCC undriven or does not drive anything - clipped.
+Block AL13/P10S30/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P10S30/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P10S30/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P10S30/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P10S30/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P10S30/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P11S31/GND undriven or does not drive anything - clipped.
+Block AL13/P11S31/VCC undriven or does not drive anything - clipped.
+Block AL13/P11S31/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P11S31/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P11S31/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P11S31/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P11S31/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P11S31/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P12S32/GND undriven or does not drive anything - clipped.
+Block AL13/P12S32/VCC undriven or does not drive anything - clipped.
+Block AL13/P12S32/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P12S32/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P12S32/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P12S32/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P12S32/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P12S32/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P13S33/GND undriven or does not drive anything - clipped.
+Block AL13/P13S33/VCC undriven or does not drive anything - clipped.
+Block AL13/P13S33/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P13S33/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P13S33/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P13S33/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P13S33/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P13S33/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P14S34/GND undriven or does not drive anything - clipped.
+Block AL13/P14S34/VCC undriven or does not drive anything - clipped.
+Block AL13/P14S34/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P14S34/US010/VCC undriven or does not drive anything - clipped.
+
+Block AL13/P14S34/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P14S34/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P14S34/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P14S34/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P15S35/GND undriven or does not drive anything - clipped.
+Block AL13/P15S35/VCC undriven or does not drive anything - clipped.
+Block AL13/P15S35/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P15S35/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P15S35/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P15S35/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P15S35/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P15S35/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P16S36/GND undriven or does not drive anything - clipped.
+Block AL13/P16S36/VCC undriven or does not drive anything - clipped.
+Block AL13/P16S36/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P16S36/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P16S36/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P16S36/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P16S36/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P16S36/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/C17S37/GND undriven or does not drive anything - clipped.
+Block AL13/C17S37/VCC undriven or does not drive anything - clipped.
+Block AL13/C17S37/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C17S37/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/C17S37/US011/GND undriven or does not drive anything - clipped.
+Block AL13/C17S37/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/C17S37/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/C17S37/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P20S40/GND undriven or does not drive anything - clipped.
+Block AL13/P20S40/VCC undriven or does not drive anything - clipped.
+Block AL13/P20S40/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P20S40/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P20S40/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P20S40/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P20S40/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P20S40/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P21S41/GND undriven or does not drive anything - clipped.
+Block AL13/P21S41/VCC undriven or does not drive anything - clipped.
+Block AL13/P21S41/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P21S41/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P21S41/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P21S41/US001/US100/GND undriven or does not drive anything - clipped.
+     
+
+Block AL13/P21S41/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P21S41/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P22S42/GND undriven or does not drive anything - clipped.
+Block AL13/P22S42/VCC undriven or does not drive anything - clipped.
+Block AL13/P22S42/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P22S42/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P22S42/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P22S42/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P22S42/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P22S42/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P23S43/GND undriven or does not drive anything - clipped.
+Block AL13/P23S43/VCC undriven or does not drive anything - clipped.
+Block AL13/P23S43/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P23S43/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P23S43/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P23S43/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P23S43/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P23S43/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P24S44/GND undriven or does not drive anything - clipped.
+Block AL13/P24S44/VCC undriven or does not drive anything - clipped.
+Block AL13/P24S44/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P24S44/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P24S44/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P24S44/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P24S44/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P24S44/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P25S45/GND undriven or does not drive anything - clipped.
+Block AL13/P25S45/VCC undriven or does not drive anything - clipped.
+Block AL13/P25S45/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P25S45/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P25S45/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P25S45/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P25S45/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P25S45/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P26S46/GND undriven or does not drive anything - clipped.
+Block AL13/P26S46/VCC undriven or does not drive anything - clipped.
+Block AL13/P26S46/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P26S46/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P26S46/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P26S46/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P26S46/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P26S46/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/C27S47/GND undriven or does not drive anything - clipped.
+Block AL13/C27S47/VCC undriven or does not drive anything - clipped.
+Block AL13/C27S47/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C27S47/US010/VCC undriven or does not drive anything - clipped.
+
+Block AL13/C27S47/US011/GND undriven or does not drive anything - clipped.
+Block AL13/C27S47/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/C27S47/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/C27S47/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P30S50/GND undriven or does not drive anything - clipped.
+Block AL13/P30S50/VCC undriven or does not drive anything - clipped.
+Block AL13/P30S50/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P30S50/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P30S50/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P30S50/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P30S50/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P30S50/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P31S51/GND undriven or does not drive anything - clipped.
+Block AL13/P31S51/VCC undriven or does not drive anything - clipped.
+Block AL13/P31S51/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P31S51/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P31S51/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P31S51/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P31S51/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P31S51/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P32S52/GND undriven or does not drive anything - clipped.
+Block AL13/P32S52/VCC undriven or does not drive anything - clipped.
+Block AL13/P32S52/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P32S52/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P32S52/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P32S52/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P32S52/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P32S52/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P33S53/GND undriven or does not drive anything - clipped.
+Block AL13/P33S53/VCC undriven or does not drive anything - clipped.
+Block AL13/P33S53/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P33S53/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P33S53/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P33S53/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P33S53/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P33S53/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P34S54/GND undriven or does not drive anything - clipped.
+Block AL13/P34S54/VCC undriven or does not drive anything - clipped.
+Block AL13/P34S54/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P34S54/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P34S54/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P34S54/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P34S54/US011/US100/GND undriven or does not drive anything - clipped.
+     
+
+Block AL13/P34S54/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P35S55/GND undriven or does not drive anything - clipped.
+Block AL13/P35S55/VCC undriven or does not drive anything - clipped.
+Block AL13/P35S55/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P35S55/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P35S55/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P35S55/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P35S55/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P35S55/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P36S56/GND undriven or does not drive anything - clipped.
+Block AL13/P36S56/VCC undriven or does not drive anything - clipped.
+Block AL13/P36S56/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P36S56/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P36S56/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P36S56/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P36S56/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P36S56/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/C37S57/GND undriven or does not drive anything - clipped.
+Block AL13/C37S57/VCC undriven or does not drive anything - clipped.
+Block AL13/C37S57/US001/GND undriven or does not drive anything - clipped.
+Block AL13/C37S57/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/C37S57/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/C37S57/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/C37S57/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C37S57/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P40S60/GND undriven or does not drive anything - clipped.
+Block AL13/P40S60/VCC undriven or does not drive anything - clipped.
+Block AL13/P40S60/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P40S60/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P40S60/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P40S60/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P40S60/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P40S60/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P41S61/GND undriven or does not drive anything - clipped.
+Block AL13/P41S61/VCC undriven or does not drive anything - clipped.
+Block AL13/P41S61/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P41S61/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P41S61/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P41S61/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P41S61/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P41S61/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P42S62/GND undriven or does not drive anything - clipped.
+Block AL13/P42S62/VCC undriven or does not drive anything - clipped.
+
+Block AL13/P42S62/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P42S62/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P42S62/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P42S62/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P42S62/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P42S62/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P43S63/GND undriven or does not drive anything - clipped.
+Block AL13/P43S63/VCC undriven or does not drive anything - clipped.
+Block AL13/P43S63/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P43S63/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P43S63/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P43S63/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P43S63/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P43S63/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P44S64/GND undriven or does not drive anything - clipped.
+Block AL13/P44S64/VCC undriven or does not drive anything - clipped.
+Block AL13/P44S64/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P44S64/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P44S64/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P44S64/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P44S64/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P44S64/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P45S65/GND undriven or does not drive anything - clipped.
+Block AL13/P45S65/VCC undriven or does not drive anything - clipped.
+Block AL13/P45S65/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P45S65/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P45S65/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P45S65/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P45S65/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P45S65/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P46S66/GND undriven or does not drive anything - clipped.
+Block AL13/P46S66/VCC undriven or does not drive anything - clipped.
+Block AL13/P46S66/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P46S66/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P46S66/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P46S66/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P46S66/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P46S66/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/C47S67/GND undriven or does not drive anything - clipped.
+Block AL13/C47S67/VCC undriven or does not drive anything - clipped.
+Block AL13/C47S67/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C47S67/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/C47S67/US011/GND undriven or does not drive anything - clipped.
+Block AL13/C47S67/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/C47S67/US011/US100/GND undriven or does not drive anything - clipped.
+     
+
+Block AL13/C47S67/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P50S70/GND undriven or does not drive anything - clipped.
+Block AL13/P50S70/VCC undriven or does not drive anything - clipped.
+Block AL13/P50S70/US001/GND undriven or does not drive anything - clipped.
+Block AL13/P50S70/US001/VCC undriven or does not drive anything - clipped.
+Block AL13/P50S70/US001/US000/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P50S70/US001/US000/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P50S70/US001/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P50S70/US001/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P51S71/GND undriven or does not drive anything - clipped.
+Block AL13/P51S71/VCC undriven or does not drive anything - clipped.
+Block AL13/P51S71/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P51S71/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P51S71/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P51S71/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P51S71/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P51S71/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P52S72/GND undriven or does not drive anything - clipped.
+Block AL13/P52S72/VCC undriven or does not drive anything - clipped.
+Block AL13/P52S72/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P52S72/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P52S72/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P52S72/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P52S72/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P52S72/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P53S73/GND undriven or does not drive anything - clipped.
+Block AL13/P53S73/VCC undriven or does not drive anything - clipped.
+Block AL13/P53S73/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P53S73/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P53S73/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P53S73/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P53S73/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P53S73/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P54S74/GND undriven or does not drive anything - clipped.
+Block AL13/P54S74/VCC undriven or does not drive anything - clipped.
+Block AL13/P54S74/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P54S74/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P54S74/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P54S74/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P54S74/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P54S74/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P55S75/GND undriven or does not drive anything - clipped.
+Block AL13/P55S75/VCC undriven or does not drive anything - clipped.
+
+Block AL13/P55S75/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P55S75/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P55S75/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P55S75/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P55S75/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P55S75/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/P56S76/GND undriven or does not drive anything - clipped.
+Block AL13/P56S76/VCC undriven or does not drive anything - clipped.
+Block AL13/P56S76/US010/GND undriven or does not drive anything - clipped.
+Block AL13/P56S76/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/P56S76/US011/GND undriven or does not drive anything - clipped.
+Block AL13/P56S76/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/P56S76/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/P56S76/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL13/C57S77/GND undriven or does not drive anything - clipped.
+Block AL13/C57S77/VCC undriven or does not drive anything - clipped.
+Block AL13/C57S77/US010/GND undriven or does not drive anything - clipped.
+Block AL13/C57S77/US010/VCC undriven or does not drive anything - clipped.
+Block AL13/C57S77/US011/GND undriven or does not drive anything - clipped.
+Block AL13/C57S77/US011/VCC undriven or does not drive anything - clipped.
+Block AL13/C57S77/US011/US100/GND undriven or does not drive anything - clipped.
+     
+Block AL13/C57S77/US011/US100/VCC undriven or does not drive anything - clipped.
+     
+Block AL21/VCC undriven or does not drive anything - clipped.
+Block AL20/VCC undriven or does not drive anything - clipped.
+Block AL19/VCC undriven or does not drive anything - clipped.
+Block AL18/VCC undriven or does not drive anything - clipped.
+Block AL17/GND undriven or does not drive anything - clipped.
+Block AL17/VCC undriven or does not drive anything - clipped.
+Block AL16/GND undriven or does not drive anything - clipped.
+Block AL16/VCC undriven or does not drive anything - clipped.
+Block AL15/GND undriven or does not drive anything - clipped.
+Block AL15/VCC undriven or does not drive anything - clipped.
+Block AL14/GND undriven or does not drive anything - clipped.
+Block AL14/VCC undriven or does not drive anything - clipped.
+Block AL12/GND undriven or does not drive anything - clipped.
+Block AL12/VCC undriven or does not drive anything - clipped.
+Block AL07/GND undriven or does not drive anything - clipped.
+Block AL07/VCC undriven or does not drive anything - clipped.
+Block AL06/GND undriven or does not drive anything - clipped.
+Block AL06/VCC undriven or does not drive anything - clipped.
+Block AL05/GND undriven or does not drive anything - clipped.
+Block AL05/VCC undriven or does not drive anything - clipped.
+Block AL04/GND undriven or does not drive anything - clipped.
+Block AL04/VCC undriven or does not drive anything - clipped.
+Block AL03/GND undriven or does not drive anything - clipped.
+Block AL03/VCC undriven or does not drive anything - clipped.
+Block AL02/VCC undriven or does not drive anything - clipped.
+Block AL02/GND undriven or does not drive anything - clipped.
+Block AL01/GND undriven or does not drive anything - clipped.
+Block AL01/VCC undriven or does not drive anything - clipped.
+
+Block AL11/GND undriven or does not drive anything - clipped.
+Block AL11/VCC undriven or does not drive anything - clipped.
+Block AL10/GND undriven or does not drive anything - clipped.
+Block AL10/VCC undriven or does not drive anything - clipped.
+Signal AL00/DI00/GND undriven or does not drive anything - clipped.
+Signal AL00/DI01/GND undriven or does not drive anything - clipped.
+Signal AL21/GND undriven or does not drive anything - clipped.
+Signal AL20/GND undriven or does not drive anything - clipped.
+Signal AL19/GND undriven or does not drive anything - clipped.
+Signal AL18/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal AL00/DI00/OSCInst0_SEDSTDBY undriven or does not drive anything -
+     clipped.
+Signal AL00/DI01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL00/DI01/N_1 undriven or does not drive anything - clipped.
+Signal AL00/DI01/un1_sdiv_s_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal AL00/DI01/un1_sdiv_s_21_0_COUT undriven or does not drive anything -
+     clipped.
+Signal AL21/un7_functbarrelrotr_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal AL21/un7_functbarrelrotr_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL21/un7_functbarrelrotr_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL21/un7_functbarrelrotr_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal AL21/N_47_i_0 undriven or does not drive anything - clipped.
+Signal AL21/un7_functbarrelrotr_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL21/N_1 undriven or does not drive anything - clipped.
+Signal AL20/N_45_i_0 undriven or does not drive anything - clipped.
+Signal AL20/un7_functbarrelrotl_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL20/N_1 undriven or does not drive anything - clipped.
+Signal AL20/un7_functbarrelrotl_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal AL20/un7_functbarrelrotl_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal AL20/un7_functbarrelrotl_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL20/un7_functbarrelrotl_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal AL19/N_43_i undriven or does not drive anything - clipped.
+Signal AL19/un7_functbarrelshiftr_0_I_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL19/N_1 undriven or does not drive anything - clipped.
+Signal AL19/un7_functbarrelshiftr_0_I_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal AL19/un7_functbarrelshiftr_0_I_9_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL19/un7_functbarrelshiftr_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal AL19/un7_functbarrelshiftr_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+
+Signal AL18/N_41_i_0 undriven or does not drive anything - clipped.
+Signal AL18/un7_functbarrelshiftl_0_I_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL18/N_1 undriven or does not drive anything - clipped.
+Signal AL18/un7_functbarrelshiftl_0_I_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal AL18/un7_functbarrelshiftl_0_I_9_0_S0 undriven or does not drive anything
+     - clipped.
+Signal AL18/un7_functbarrelshiftl_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal AL18/un7_functbarrelshiftl_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Block AL00/DI00/GND was optimized away.
+Block AL00/DI01/GND was optimized away.
+Block AL21/GND was optimized away.
+Block AL20/GND was optimized away.
+Block AL19/GND was optimized away.
+Block AL18/GND was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                AL00/DI00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     AL00.sclk_0
+  OSC Nominal Frequency (MHz):                      2.08
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: AL00/DI00/OSCInst0
+         Type: OSCH
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 3 secs  
+   Peak Memory Usage: 62 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

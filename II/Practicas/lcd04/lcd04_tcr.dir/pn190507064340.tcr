@@ -1,0 +1,33 @@
+#Start recording tcl command: 5/7/2019 03:29:34
+#Project Location: C:/Users/elite/OneDrive/Escritorio/lcd04; Project name: lcd04
+prj_project new -name "lcd04" -impl "lcd4" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/div00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/osc00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/packageosc00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/toposc00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/contring00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/coderk00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/packagekey00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/topkey00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdconfig00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdcontconfig00.vhd"
+prj_src remove "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdcontconfig00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdcontconfig0.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdmux00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdContData00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/lcdData00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/packagelcd00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/toplcd00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/muxram00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/ram00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/contRead00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/packageram00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/lcd04/topram00.vhd"
+prj_run Export -impl lcd4 -task Jedecgen
+prj_run Export -impl lcd4 -task Jedecgen
+prj_run Export -impl lcd4 -task Jedecgen
+prj_run Export -impl lcd4 -task Jedecgen
+prj_run Export -impl lcd4 -task Jedecgen
+prj_run Export -impl lcd4 -task Jedecgen
+#Stop recording: 5/7/2019 06:43:40

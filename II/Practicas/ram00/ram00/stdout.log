@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    LAPTOP-9QN1JB0J
+Date:        Wed Mar 13 20:58:58 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch ram00_ram00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Wed Mar 13 20:59:00 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srr to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srf
+log file: "C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srr"
+Running: ram00 in foreground
+
+Running proj_1|ram00
+
+Running: compile (Compile) on proj_1|ram00
+# Wed Mar 13 20:59:00 2019
+
+Running: compile_flow (Compile Process) on proj_1|ram00
+# Wed Mar 13 20:59:00 2019
+
+Running: compiler (Compile Input) on proj_1|ram00
+# Wed Mar 13 20:59:00 2019
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\synwork\ram00_ram00_comp.srs to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srs
+
+compiler completed
+# Wed Mar 13 20:59:03 2019
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|ram00
+# Wed Mar 13 20:59:03 2019
+
+multi_srs_gen completed
+# Wed Mar 13 20:59:03 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\synwork\ram00_ram00_mult.srs to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srs
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srr to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srf
+Complete: Compile Process on proj_1|ram00
+
+Running: premap (Pre-mapping) on proj_1|ram00
+# Wed Mar 13 20:59:03 2019
+
+premap completed with warnings
+# Wed Mar 13 20:59:05 2019
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on proj_1|ram00
+
+Running: map (Map) on proj_1|ram00
+# Wed Mar 13 20:59:05 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|ram00
+# Wed Mar 13 20:59:05 2019
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\synwork\ram00_ram00_m.srm to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srm
+
+fpga_mapper completed with warnings
+# Wed Mar 13 20:59:09 2019
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Map on proj_1|ram00
+Copied C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srr to C:\Users\elite\OneDrive\Escritorio\ram00\ram00\ram00_ram00.srf
+Complete: Logic Synthesis on proj_1|ram00
+TCL script complete: "ram00_ram00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+C:\Users\elite\OneDrive\Escritorio\ram00\ram00\proj_1.prj
+batch mode default:no

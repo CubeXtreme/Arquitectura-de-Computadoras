@@ -1,0 +1,2 @@
+CKID0001:@|S:RA00.DI00.OSCInst0@|E:RA00.DI01.outdiv@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:RA00.DI01.outdiv@|E:RA03.swordram_ram@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 

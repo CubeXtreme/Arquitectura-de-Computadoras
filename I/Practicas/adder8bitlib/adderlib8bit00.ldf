@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="adderlib8bit00" device="LCMXO2-7000HE-5TG144C" default_implementation="adderlib8bit00">
+    <Options/>
+    <Implementation title="adderlib8bit00" dir="adderlib8bit00" description="adderlib8bit00" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+        <Source name="adderlib8bit00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="adderlib8bit001.sty"/>
+</BaliProject>

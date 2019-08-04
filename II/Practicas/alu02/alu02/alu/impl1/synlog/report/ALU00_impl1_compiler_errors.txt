@@ -1,0 +1,2 @@
+@E: CL123 :"F:\Escuela\10mo semestre\Arquitectura de computadoras\Practicas Finales\Segundo parcial\practicas\P15_ALU\ALU\ora00.vhdl":22:4:22:5|Logic for outFlago_7 does not match a standard flip-flop
+

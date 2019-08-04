@@ -1,0 +1,12 @@
+#Start recording tcl command: 5/30/2019 13:58:35
+#Project Location: C:/Users/elite/OneDrive/Escritorio/ark00; Project name: ark00
+prj_project new -name "ark00" -impl "ark0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/div00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/osc00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/packagediv00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/topdiv00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/romData00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/uc00.vhd"
+prj_src add "C:/Users/elite/OneDrive/Escritorio/ark00/memProg00.vhd"
+#Stop recording: 5/30/2019 20:47:06

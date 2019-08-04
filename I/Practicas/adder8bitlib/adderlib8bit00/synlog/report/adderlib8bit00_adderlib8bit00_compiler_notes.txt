@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bitlib\addder8lib.vhd":8:7:8:20|Top entity is set to adder8bitlib00.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bitlib\addder8lib.vhd":8:7:8:20|Synthesizing work.adder8bitlib00.ad8l.
+@N|Running in 64-bit mode
+

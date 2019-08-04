@@ -1,0 +1,24 @@
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Tue May 07 04:06:47 2019
+
+C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f lcd04_lcd4.p2t
+lcd04_lcd4_map.ncd lcd04_lcd4.dir lcd04_lcd4.prf -gui
+
+
+Preference file: lcd04_lcd4.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            462.836      0            0.304        0            27           Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 27 secs 
+
+par done!

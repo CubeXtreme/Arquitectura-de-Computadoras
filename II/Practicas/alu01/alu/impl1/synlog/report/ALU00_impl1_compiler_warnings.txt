@@ -1,0 +1,176 @@
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":42:16:42:22|Signal soutssb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":42:25:42:28|Signal sout is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:15:43:20|Signal sledsb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:23:43:27|Signal sslad is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Yair\Desktop\P15_ALU\ALU\topalu00.vhdl":43:30:43:34|Signal sslsb is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outFlagm_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(15). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(14). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(13). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(12). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(11). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(10). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(9). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(8). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":22:2:22:3|Pruning unused register outmult_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\mult8bits.vhdl":23:6:23:22|Sharing sequential element outmult_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outFlagsb_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":24:3:24:4|Pruning unused register outsb_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\subsa00.vhdl":25:10:25:27|Sharing sequential element outsb_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outFlagad_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":24:3:24:4|Pruning unused register outad_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\addera00.vhdl":25:10:25:27|Sharing sequential element outad_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outFlagxnor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":22:4:22:5|Pruning unused register outRDxnor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xnora00.vhdl":23:7:23:26|Sharing sequential element outRDxnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outFlagxor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":22:4:22:5|Pruning unused register outRDxor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\xora00.vhdl":23:7:23:25|Sharing sequential element outRDxor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outFlagnor_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":22:4:22:5|Pruning unused register outRDnor_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nora00.vhdl":23:7:23:25|Sharing sequential element outRDnor_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outFlagnand_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":23:4:23:5|Pruning unused register outRDnand_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nanda00.vhdl":24:7:24:26|Sharing sequential element outRDnand_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outFlagno_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":23:4:23:5|Pruning unused register outRDno_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\nota00.vhdl":24:7:24:24|Sharing sequential element outRDno_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outFlago_cl_6. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(7). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(6). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(5). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(4). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(3). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(2). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(1). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":23:4:23:5|Pruning unused register outRDo_cl_6(0). Make sure that there are no unused intermediate registers.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\Yair\Desktop\P15_ALU\ALU\ora00.vhdl":24:7:24:23|Sharing sequential element outRDo_tri_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+

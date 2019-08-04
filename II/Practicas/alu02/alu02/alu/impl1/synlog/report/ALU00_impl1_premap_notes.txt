@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_0(topadder00)) of type view:work.AND0_64_0(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_14(topadder00)) of type view:work.AND0_0_13(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_15(topadder00)) of type view:work.AND0_0_16(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_31(topadder00)) of type view:work.AND0_0_32(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_47(topadder00)) of type view:work.AND0_0_48(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_63(topadder00)) of type view:work.AND0_0_64(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_79(topadder00)) of type view:work.AND0_0_80(and00) because it does not drive other instances.
+@N: BN115 :"c:\users\yair\desktop\alu02\alu02\alu\topadder0.vhdl":17:1:17:5|Removing instance US000 (in view: work.TOPADDER0_1_95(topadder00)) of type view:work.AND0_0_96(and00) because it does not drive other instances.
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotr00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelrotR00(barrelrotr0)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelrotl00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelrotL00(barrelrotl0)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftr00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelshiftR00(barrelshiftr0)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\yair\desktop\alu02\alu02\alu\barrelshiftl00.vhdl":26:4:26:5|There are no possible illegal states for state machine cont_saltos[0:7] (in view: work.barrelshiftL00(barrelshiftl0)); safe FSM implementation is not required.

@@ -1,0 +1,15 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_hdl_.srs  -top  toprom00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\osc00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\packagediv00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\topdiv00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\contRead00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\rom00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\packagerom00.vhd -lib work C:\Users\elite\OneDrive\Escritorio\rom00\toprom00.vhd  -log  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\syntax.log  -fileorder  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\syntmp\hdlorder.tcl  -jobname  "hdl_info_gen" 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\rom00_rom0_hdl_.srs -top toprom00 -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\..\div00.vhd -lib work ..\..\osc00.vhd -lib work ..\..\packagediv00.vhd -lib work ..\..\topdiv00.vhd -lib work ..\..\contRead00.vhd -lib work ..\..\rom00.vhd -lib work ..\..\packagerom00.vhd -lib work ..\..\toprom00.vhd -log ..\syntax.log -fileorder hdlorder.tcl -jobname "hdl_info_gen"
+rc:0 success:1 runtime:0
+file:..\synwork\rom00_rom0_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
+file:..\..\div00.vhd|io:i|time:1553009237|size:1957|exec:0|csum:C5033F02152E2CED9BED61A498ADEE8D
+file:..\..\osc00.vhd|io:i|time:1553009237|size:536|exec:0|csum:BC9B430E8DD9452EB8CB93419CE7BC1D
+file:..\..\packagediv00.vhd|io:i|time:1553009237|size:321|exec:0|csum:2E07D87D5E6A118839D4F195A848BBCC
+file:..\..\topdiv00.vhd|io:i|time:1553009237|size:466|exec:0|csum:657BA6141C13A422775372C9D893B9EB
+file:..\..\contRead00.vhd|io:i|time:1553009237|size:573|exec:0|csum:D62AFA28B1C57C6244B62A160C6A04C4
+file:..\..\rom00.vhd|io:i|time:1553189495|size:1222|exec:0|csum:DAF6E9DAE6B8C94EE6AA29A1967576BA
+file:..\..\packagerom00.vhd|io:i|time:1553009237|size:572|exec:0|csum:6DA25BCFFABC47F90D0C5EBEA9F8C23A
+file:..\..\toprom00.vhd|io:i|time:1553188549|size:776|exec:0|csum:A71714AA846FCC909974D61B9BE1C99A
+file:..\syntax.log|io:o|time:1553189500|size:992|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

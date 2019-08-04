@@ -1,0 +1,7 @@
+#Start recording tcl command: 12/2/2017 10:22:48
+#Project Location: E:/Users/Dowloads/lcdram00; Project name: lcdram00
+prj_project open "E:/Users/Dowloads/lcdram00/lcdram00.ldf"
+pgr_project open "E:/Users/Dowloads/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+prj_run Export -impl lcdram00 -task Jedecgen
+#Stop recording: 12/2/2017 10:28:30

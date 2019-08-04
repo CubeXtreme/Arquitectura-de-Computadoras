@@ -1,0 +1,59 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue May 07 04:07:20 2019 *
+NOTE DESIGN NAME: topram00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk0 : 77 : out *
+NOTE PINS enable0 : 49 : in *
+NOTE PINS EN00 : 52 : out *
+NOTE PINS RS00 : 54 : out *
+NOTE PINS RW00 : 14 : out *
+NOTE PINS soutcontrk[4] : 24 : out *
+NOTE PINS soutcontrk[3] : 23 : out *
+NOTE PINS soutcontrk[2] : 26 : out *
+NOTE PINS soutcontrk[1] : 22 : out *
+NOTE PINS soutcontrk[0] : 21 : out *
+NOTE PINS outLCD0[7] : 39 : out *
+NOTE PINS outLCD0[6] : 40 : out *
+NOTE PINS outLCD0[5] : 28 : out *
+NOTE PINS outLCD0[4] : 25 : out *
+NOTE PINS outLCD0[3] : 27 : out *
+NOTE PINS outLCD0[2] : 43 : out *
+NOTE PINS outLCD0[1] : 41 : out *
+NOTE PINS outLCD0[0] : 38 : out *
+NOTE PINS soutcontwk0[4] : 19 : out *
+NOTE PINS soutcontwk0[3] : 11 : out *
+NOTE PINS soutcontwk0[2] : 13 : out *
+NOTE PINS soutcontwk0[1] : 17 : out *
+NOTE PINS soutcontwk0[0] : 15 : out *
+NOTE PINS outr0[3] : 140 : out *
+NOTE PINS outr0[2] : 141 : out *
+NOTE PINS outr0[1] : 143 : out *
+NOTE PINS outr0[0] : 139 : out *
+NOTE PINS soutContData00[5] : 70 : out *
+NOTE PINS soutContData00[4] : 69 : out *
+NOTE PINS soutContData00[3] : 65 : out *
+NOTE PINS soutContData00[2] : 67 : out *
+NOTE PINS soutContData00[1] : 68 : out *
+NOTE PINS soutContData00[0] : 71 : out *
+NOTE PINS soutContConfig00[4] : 47 : out *
+NOTE PINS soutContConfig00[3] : 45 : out *
+NOTE PINS soutContConfig00[2] : 44 : out *
+NOTE PINS soutContConfig00[1] : 48 : out *
+NOTE PINS soutContConfig00[0] : 50 : out *
+NOTE PINS soutFlagData00 : 57 : out *
+NOTE PINS soutFlagContData00 : 56 : out *
+NOTE PINS soutFlagContConfig00 : 42 : out *
+NOTE PINS soutFlagconfig00 : 55 : out *
+NOTE PINS inkey0[3] : 138 : in *
+NOTE PINS inkey0[2] : 142 : in *
+NOTE PINS inkey0[1] : 9 : in *
+NOTE PINS inkey0[0] : 12 : in *
+NOTE PINS cdiv0[3] : 125 : in *
+NOTE PINS cdiv0[2] : 121 : in *
+NOTE PINS cdiv0[1] : 122 : in *
+NOTE PINS cdiv0[0] : 126 : in *
+NOTE PINS rw0 : 20 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

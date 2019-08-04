@@ -1,0 +1,6 @@
+#Start recording tcl command: 5/2/2019 10:31:43
+#Project Location: F:/Escuela/10mo semestre/Arquitectura de computadoras/Practicas Finales/Segundo parcial/practicas/P15_ALU/ALU; Project name: ALU00
+prj_project open "F:/Escuela/10mo semestre/Arquitectura de computadoras/Practicas Finales/Segundo parcial/practicas/P15_ALU/ALU/ALU00.ldf"
+prj_src remove "F:/Escuela/10mo semestre/Arquitectura de computadoras/Practicas Finales/Segundo parcial/practicas/P15_ALU/ALU/xor.vhdl"
+prj_src add "F:/Escuela/10mo semestre/Arquitectura de computadoras/Practicas Finales/Segundo parcial/practicas/P15_ALU/ALU/xor00.vhdl"
+#Stop recording: 5/2/2019 11:39:05

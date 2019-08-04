@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  work.mux00  -multisrs  C:\Users\erik_\Documents\cursoArqui\projectMachX02\mux00\mux\synwork\mux00_mux_comp.srs  -osyn  C:\Users\erik_\Documents\cursoArqui\projectMachX02\mux00\mux\synwork\mux00_mux_mult.srs  -log  C:\Users\erik_\Documents\cursoArqui\projectMachX02\mux00\mux\synlog\mux00_mux_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top work.mux00 -multisrs ..\synwork\mux00_mux_comp.srs -osyn ..\synwork\mux00_mux_mult.srs -log ..\synlog\mux00_mux_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\mux00_mux_comp.srs|io:i|time:1534945849|size:2564|exec:0|csum:BF1DC1A00565D2FFE4E6C076DB12E46A
+file:..\synwork\mux00_mux_mult.srs|io:o|time:1534945851|size:2280|exec:0|csum:
+file:..\synlog\mux00_mux_multi_srs_gen.srr|io:o|time:1534945851|size:525|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501910190|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

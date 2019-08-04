@@ -1,0 +1,31 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Feb 22 06:51:03 2019 *
+NOTE DESIGN NAME: topshiftRL00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk00 : 61 : out *
+NOTE PINS cdiv00[0] : 14 : in *
+NOTE PINS outs0[7] : 49 : out *
+NOTE PINS outs0[6] : 47 : out *
+NOTE PINS outs0[5] : 45 : out *
+NOTE PINS outs0[4] : 43 : out *
+NOTE PINS outs0[3] : 42 : out *
+NOTE PINS outs0[2] : 44 : out *
+NOTE PINS outs0[1] : 39 : out *
+NOTE PINS outs0[0] : 41 : out *
+NOTE PINS ins0[7] : 19 : in *
+NOTE PINS ins0[6] : 20 : in *
+NOTE PINS ins0[5] : 21 : in *
+NOTE PINS ins0[4] : 22 : in *
+NOTE PINS ins0[3] : 132 : in *
+NOTE PINS ins0[2] : 133 : in *
+NOTE PINS ins0[1] : 24 : in *
+NOTE PINS ins0[0] : 23 : in *
+NOTE PINS en0 : 4 : in *
+NOTE PINS cdiv00[4] : 10 : in *
+NOTE PINS cdiv00[3] : 11 : in *
+NOTE PINS cdiv00[2] : 12 : in *
+NOTE PINS cdiv00[1] : 13 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,241 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn161208205212"></A><B><U><big>pn161208205212</big></U></B>
+#Start recording tcl command: 12/8/2016 19:10:24
+#Project Location: C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00; Project name: lcdram00
+C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcd00
+lcd00
+#Start recording tcl command: 12/8/2016 20:52:10
+#Project Location: C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcd00; Project name: lcd00
+prj_project open "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00.ldf"
+prj_run Map -impl lcdram00
+file copy -force -- "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/toplcdram00.vhd" "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/packagelcdram00.vhd" "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00.vhd" "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/source"
+prj_src add "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/source/toplcdram00.vhd" "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/source/packagelcdram00.vhd" "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/source/lcdram00.vhd"
+prj_run Map -impl lcdram00
+prj_run Map -impl lcdram00
+prj_run Map -impl lcdram00
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+prj_src add -exclude "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+prj_src enable "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project save "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Map -impl lcdram00
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Map -impl lcdram00
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Synthesis -impl lcdram00
+prj_run Translate -impl lcdram00
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcdram00/lcdram00/lcdram00.xcf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/David/Documents/ESCOM/ARQUI/practicas/lcd00/lcd00.ldf"
+#Stop recording: 12/8/2016 20:52:12
+
+
+
+<A name="pn170521151840"></A><B><U><big>pn170521151840</big></U></B>
+#Start recording tcl command: 5/21/2017 13:46:25
+#Project Location: C:/Users/markp/Documents/Arquitectura de Computadoras/Arquitectura/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/markp/Documents/Arquitectura de Computadoras/Arquitectura/lcdram00/lcdram00.ldf"
+prj_run Synthesis -impl lcdram00 -task Synplify_Synthesis
+prj_run Translate -impl lcdram00
+#Stop recording: 5/21/2017 15:18:40
+
+
+
+<A name="pn170522031919"></A><B><U><big>pn170522031919</big></U></B>
+#Start recording tcl command: 5/22/2017 02:47:08
+#Project Location: C:/Users/markp/Documents/Arquitectura de Computadoras/Arquitectura/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/markp/Documents/Arquitectura de Computadoras/Arquitectura/lcdram00/lcdram00.ldf"
+#Stop recording: 5/22/2017 03:19:19
+
+
+
+<A name="pn171202102830"></A><B><U><big>pn171202102830</big></U></B>
+#Start recording tcl command: 12/2/2017 10:22:48
+#Project Location: E:/Users/Dowloads/lcdram00; Project name: lcdram00
+prj_project open "E:/Users/Dowloads/lcdram00/lcdram00.ldf"
+pgr_project open "E:/Users/Dowloads/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+prj_run Export -impl lcdram00 -task Jedecgen
+#Stop recording: 12/2/2017 10:28:30
+
+
+
+<A name="pn171203153925"></A><B><U><big>pn171203153925</big></U></B>
+#Start recording tcl command: 12/3/2017 15:34:42
+#Project Location: E:/Users/Dowloads/lcdram00; Project name: lcdram00
+prj_project open "E:/Users/Dowloads/lcdram00/lcdram00.ldf"
+pgr_project open "E:/Users/Dowloads/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 12/3/2017 15:39:25
+
+
+
+<A name="pn171207084710"></A><B><U><big>pn171207084710</big></U></B>
+#Start recording tcl command: 12/7/2017 08:02:33
+#Project Location: C:/Users/Juan/Desktop/QUINTO SEMESTRE/ARQUITECTURA DE COMPUTADORAS/project3cm1MachXO2/LCD/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/Juan/Desktop/QUINTO SEMESTRE/ARQUITECTURA DE COMPUTADORAS/project3cm1MachXO2/LCD/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+#Stop recording: 12/7/2017 08:47:10
+
+
+
+<A name="pn181204192449"></A><B><U><big>pn181204192449</big></U></B>
+#Start recording tcl command: 12/4/2018 17:55:17
+#Project Location: C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project close
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 12/4/2018 19:24:49
+
+
+
+<A name="pn190511233417"></A><B><U><big>pn190511233417</big></U></B>
+#Start recording tcl command: 5/11/2019 17:56:30
+#Project Location: C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project close
+pgr_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project close
+pgr_project open "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project save "C:/Users/justi.DESKTOP-0J927DR.000/Desktop/Arqui/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+#Stop recording: 5/11/2019 23:34:17
+
+
+
+<A name="pn190513113302"></A><B><U><big>pn190513113302</big></U></B>
+#Start recording tcl command: 5/13/2019 11:31:26
+#Project Location: H:/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+pgr_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_project close
+#Stop recording: 5/13/2019 11:33:03
+
+
+
+<A name="pn190513114859"></A><B><U><big>pn190513114859</big></U></B>
+#Start recording tcl command: 5/13/2019 11:33:18
+#Project Location: H:/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+pgr_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project save "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_project close
+#Stop recording: 5/13/2019 11:48:59
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

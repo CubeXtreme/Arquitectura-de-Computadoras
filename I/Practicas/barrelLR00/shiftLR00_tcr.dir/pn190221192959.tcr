@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/21/2019 19:28:13
+#Project Location: C:/Users/sandra/Desktop/barrelLR00; Project name: shiftLR00
+prj_project open "C:/Users/sandra/Desktop/barrelLR00/shiftLR00.ldf"
+prj_project close
+#Stop recording: 2/21/2019 19:29:59

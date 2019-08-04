@@ -1,0 +1,20 @@
+#Start recording tcl command: 12/4/2018 17:55:17
+#Project Location: C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_project close
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_run Export -impl lcdram00 -task Jedecgen
+pgr_project close
+pgr_project open "C:/Users/isra/Desktop/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 12/4/2018 19:24:49

@@ -1,0 +1,47 @@
+----------------------------------------------------------------------
+Report for cell topdiv00.topdiv0
+
+Register bits: 22 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB        5       100.0
+                                 OB        1       100.0
+                           ORCALUT4       44       100.0
+                               OSCH        1       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            94           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       44       100.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            79           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL             3           

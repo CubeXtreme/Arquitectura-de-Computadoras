@@ -1,0 +1,90 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    VICTOR-PC
+Date:        Thu Feb  7 17:32:08 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch adder4bit00_adder4bit00_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+log file: "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+hdl_info_gen completed
+# Thu Feb  7 17:32:08 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srr to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srf
+log file: "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srr"
+Running: adder4bit00 in foreground
+
+Running proj_1|adder4bit00
+
+Running: compile (Compile) on proj_1|adder4bit00
+# Thu Feb  7 17:32:09 2019
+
+Running: compile_flow (Compile Process) on proj_1|adder4bit00
+# Thu Feb  7 17:32:09 2019
+
+Running: compiler (Compile Input) on proj_1|adder4bit00
+# Thu Feb  7 17:32:09 2019
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srs
+
+compiler completed
+# Thu Feb  7 17:32:11 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|adder4bit00
+# Thu Feb  7 17:32:11 2019
+
+multi_srs_gen completed
+# Thu Feb  7 17:32:11 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_mult.srs to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srs
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srr to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srf
+Complete: Compile Process on proj_1|adder4bit00
+
+Running: premap (Pre-mapping) on proj_1|adder4bit00
+# Thu Feb  7 17:32:11 2019
+
+premap completed
+# Thu Feb  7 17:32:12 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on proj_1|adder4bit00
+
+Running: map (Map) on proj_1|adder4bit00
+# Thu Feb  7 17:32:12 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_1|adder4bit00
+# Thu Feb  7 17:32:12 2019
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_m.srm to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srm
+
+fpga_mapper completed
+# Thu Feb  7 17:32:14 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Map on proj_1|adder4bit00
+Copied D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srr to D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\adder4bit00_adder4bit00.srf
+Complete: Logic Synthesis on proj_1|adder4bit00
+TCL script complete: "adder4bit00_adder4bit00_synplify.tcl"
+exit status=0
+exit status=0
+Save changes for project:
+D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder4bit00\adder4bit00\proj_1.prj
+batch mode default:no

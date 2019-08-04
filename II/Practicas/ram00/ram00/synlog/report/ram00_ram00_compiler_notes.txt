@@ -1,0 +1,29 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\ram00\topram00.vhd":9:7:9:14|Top entity is set to topram00.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\topram00.vhd":9:7:9:14|Synthesizing work.topram00.topram0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\muxram00.vhd":8:7:8:14|Synthesizing work.muxram00.muxram0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":8:7:8:11|Synthesizing work.ram00.ram0.
+@N: CL134 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":23:8:23:14|Found RAM wordram, depth=65, width=7
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":8:7:8:16|Synthesizing work.coderram00.coderram0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\coderram00.vhd":43:6:43:13|Removing redundant assignment.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\toposc00.vhd":9:7:9:14|Synthesizing work.toposc00.toposc0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":28:6:28:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":37:6:37:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":46:6:46:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":55:6:55:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":73:6:73:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":82:6:82:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":91:6:91:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":100:6:100:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\ram00\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\ram00\div00.vhd":21:2:21:3|Register bit sdiv(21) is always 0.
+@N: CL159 :"C:\Users\elite\OneDrive\Escritorio\ram00\ram00.vhd":10:4:10:11|Input inFlagra is unused.
+@N|Running in 64-bit mode
+

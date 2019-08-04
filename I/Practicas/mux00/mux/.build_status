@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1534945891"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1534945864">
+            <Task name="Map" build_result="2" update_result="0" update_time="1534945864"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1534945877">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1534945877"/>
+            <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1534945860">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1534945860"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="0" update_result="2" update_time="1534716381"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1534945862">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1534945862"/>
+        </Milestone>
+        <Report name="mux00_mux.bgn" last_build_time="1534945891" last_build_size="4254"/>
+        <Report name="mux00_mux.edi" last_build_time="1534945858" last_build_size="23106"/>
+        <Report name="mux00_mux.jed" last_build_time="1534945891" last_build_size="1465182"/>
+        <Report name="mux00_mux.ncd" last_build_time="1534945877" last_build_size="31821"/>
+        <Report name="mux00_mux.ngd" last_build_time="1534945862" last_build_size="27335"/>
+        <Report name="mux00_mux_map.ncd" last_build_time="1534945864" last_build_size="23669"/>
+    </Strategy>
+</BuildStatus>

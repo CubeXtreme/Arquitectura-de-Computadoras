@@ -1,0 +1,8 @@
+#Start recording tcl command: 5/13/2019 11:33:18
+#Project Location: H:/lcdkeyborrar/lcdram00/lcdram00; Project name: lcdram00
+prj_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00.ldf"
+pgr_project open "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project save "H:/lcdkeyborrar/lcdram00/lcdram00/lcdram00/lcdram00.xcf"
+prj_project close
+#Stop recording: 5/13/2019 11:48:59

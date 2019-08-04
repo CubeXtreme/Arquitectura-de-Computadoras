@@ -1,0 +1,2 @@
+@W: CL240 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\adder8bit00\ha00.vhdl":12:2:12:3|Signal C0 is floating; a simulation mismatch is possible.
+

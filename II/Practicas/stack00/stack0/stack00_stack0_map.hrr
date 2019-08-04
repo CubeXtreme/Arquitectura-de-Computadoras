@@ -1,0 +1,88 @@
+---------------------------------------------------
+Report for cell topstack00
+   Instance path: topstack00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      81.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	     109.00        100.0
+                               DISTRAM	      12.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	         43        100.0
+                                PFUREG	         56        100.0
+                                RIPPLE	         14        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        36.2
+                               stack00	          1        22.2
+                            muxstack00	          1         4.7
+                            contread00	          1         6.0
+                            contring00	          1         1.6
+                          coderstack00	          1        28.6
+---------------------------------------------------
+Report for cell contread00
+   Instance path: topstack00/RA05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.83         6.0
+                                  LUT4	       4.00         3.7
+                                PFUREG	          5         8.9
+                                RIPPLE	          3        21.4
+---------------------------------------------------
+Report for cell muxstack00
+   Instance path: topstack00/RA04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.83         4.7
+                                  LUT4	       8.00         7.3
+---------------------------------------------------
+Report for cell stack00
+   Instance path: topstack00/RA03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      18.00        22.2
+                                  LUT4	      11.00        10.1
+                               DISTRAM	      12.00        100.0
+                                PFUREG	          8        14.3
+---------------------------------------------------
+Report for cell coderstack00
+   Instance path: topstack00/RA02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.17        28.6
+                                  LUT4	      48.00        44.0
+                                PFUREG	         16        28.6
+---------------------------------------------------
+Report for cell contring00
+   Instance path: topstack00/RA01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.33         1.6
+                                PFUREG	          5         8.9
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topstack00/RA00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.33        36.2
+                                  LUT4	      36.00        33.0
+                                PFUREG	         22        39.3
+                                RIPPLE	         11        78.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        36.2
+---------------------------------------------------
+Report for cell div00
+   Instance path: topstack00/RA00/D01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      29.33        36.2
+                                  LUT4	      36.00        33.0
+                                PFUREG	         22        39.3
+                                RIPPLE	         11        78.6
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topstack00/RA00/D00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcdram00  -multisrs  C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_comp.srs  -osyn  C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synwork\lcdram00_lcdram00_mult.srs  -log  C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\synlog\lcdram00_lcdram00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcdram00 -multisrs ..\synwork\lcdram00_lcdram00_comp.srs -osyn ..\synwork\lcdram00_lcdram00_mult.srs -log ..\synlog\lcdram00_lcdram00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\lcdram00_lcdram00_comp.srs|io:i|time:1557842435|size:20099|exec:0|csum:A9C75DECA82D91E698A8850733EE6DA3
+file:..\synwork\lcdram00_lcdram00_mult.srs|io:o|time:1557842436|size:3205|exec:0|csum:
+file:..\synlog\lcdram00_lcdram00_multi_srs_gen.srr|io:o|time:1557842437|size:640|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

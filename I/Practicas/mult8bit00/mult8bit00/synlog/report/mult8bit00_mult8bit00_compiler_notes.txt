@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00.vhdl":8:7:8:16|Top entity is set to mult4bit00.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00.vhdl":8:7:8:16|Synthesizing work.mult4bit00.mult4bit0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\source\fa00.vhdl":7:7:7:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\source\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\source\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\source\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\source\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+@N|Running in 64-bit mode
+

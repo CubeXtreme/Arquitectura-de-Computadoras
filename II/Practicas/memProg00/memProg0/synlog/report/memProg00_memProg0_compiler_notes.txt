@@ -1,0 +1,27 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":13:7:13:14|Top entity is set to topdec00.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\toprom00.vhd":13:7:13:14|Synthesizing work.topdec00.topdec0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\decoderInst00.vhd":7:7:7:19|Synthesizing work.decoderinst00.decoderinst0.
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\decoderInst00.vhd":28:2:28:3|Register bit outFlagDI is always 1.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\mP00.vhd":9:7:9:11|Synthesizing work.dec00.dec0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":27:6:27:14|Removing redundant assignment.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":25:6:25:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":34:6:34:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":43:6:43:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":52:6:52:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":61:6:61:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":70:6:70:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":79:6:79:11|Removing redundant assignment.
+@N: CD364 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\div00.vhd":88:6:88:11|Removing redundant assignment.
+@N: CD630 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":19:2:19:3|Register bit outcontrd(0) is always 0.
+@N: CL189 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\contRead00.vhd":19:2:19:3|Register bit outcontrd(1) is always 0.
+@N: CL159 :"C:\Users\Yair\Desktop\Arquitectura\Practicas\memDec\dec\rom\01\decoderInst00.vhd":10:1:10:8|Input inFlagDI is unused.
+@N|Running in 64-bit mode
+

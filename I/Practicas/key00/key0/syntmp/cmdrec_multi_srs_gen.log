@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topkey00  -multisrs  C:\Users\elite\OneDrive\Escritorio\key00\key0\synwork\key00_key0_comp.srs  -osyn  C:\Users\elite\OneDrive\Escritorio\key00\key0\synwork\key00_key0_mult.srs  -log  C:\Users\elite\OneDrive\Escritorio\key00\key0\synlog\key00_key0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topkey00 -multisrs ..\synwork\key00_key0_comp.srs -osyn ..\synwork\key00_key0_mult.srs -log ..\synlog\key00_key0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\key00_key0_comp.srs|io:i|time:1551798521|size:9542|exec:0|csum:93A223F4467AAF40CBE0C6F2B0F08E52
+file:..\synwork\key00_key0_mult.srs|io:o|time:1551798523|size:3050|exec:0|csum:
+file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1551798523|size:511|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

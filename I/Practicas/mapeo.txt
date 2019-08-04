@@ -1,0 +1,20 @@
+5.- Programación e implementación de las siete puertas lógicas básicas ==> mux00
+6.- MUX de tres canales de entrada a un canal de salida. Cada canal de tres bits ==> mux00
+7.- Sumador restador, cada operando de 4 bits ==> adder4bit00
+8.- Sumador restador, cada operando de 8 bits ==> adder8bit00
+9.- Evaluación del sumador de cuatro bits obtenido con las librerías “arith” y “unsigned”. Comparando sus características con los sumadores obtenidos en las practicas 7 y 8 ==> adder9bitlib
+10.- Multiplicador combinatorio de 4 bits ==> mult4bit00
+11.- Multiplicador combinatorio de 8 bits ==> mult8bit00
+12.- Configuración del oscilador interno del FPGA machXO2 ==> div00
+13.- Divisor de frecuencia. Cinco bits de control ==> div00
+14.- Registro de desplazamiento hacia la izquierda ==> shiftRL00
+15.- Registro de desplazamiento hacia la derecha ==> shiftRL01
+16.- Registro de rotación hacia la izquierda ==> shiftRL02
+17.- Registro de rotación hacia la derecha ==> shiftRL03
+18.- Barrel de desplazamiento hacia la izquierda ==> barrelLR00
+19.- Barrel de desplazamiento hacia la derecha ==> barrelLR01
+20.- Barrel de rotación hacia la izquierda ==> barrelLR02
+21.- Barrel de rotación hacia la derecha ==> barrelLR03
+22.- Palabra de 4 letras ==> word00
+23.- Teclado matricial ==> key00
+24.- Detector de secuencia de la secuencia 11010 ==> CANCELADA

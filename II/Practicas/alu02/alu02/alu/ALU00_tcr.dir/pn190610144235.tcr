@@ -1,0 +1,19 @@
+#Start recording tcl command: 6/10/2019 01:49:59
+#Project Location: C:/Users/kioki/Desktop/Arqui3CM4/P16_ALU02/ALU; Project name: ALU00
+prj_project open "C:/Users/kioki/Desktop/Arqui3CM4/P16_ALU02/ALU/ALU00.ldf"
+pgr_project close
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "C:/Users/kioki/Desktop/Arqui3CM4/P16_ALU02/ALU/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/kioki/Desktop/Arqui3CM4/P16_ALU02/ALU/impl1/impl1.xcf"
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/kioki/Desktop/Arqui3CM4/P16_ALU02/ALU/impl1/impl1.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 6/10/2019 14:42:35

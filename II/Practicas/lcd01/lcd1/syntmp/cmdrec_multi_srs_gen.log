@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toplcd00  -multisrs  C:\Users\elite\OneDrive\Escritorio\lcd01\lcd1\synwork\lcd01_lcd1_comp.srs  -osyn  C:\Users\elite\OneDrive\Escritorio\lcd01\lcd1\synwork\lcd01_lcd1_mult.srs  -log  C:\Users\elite\OneDrive\Escritorio\lcd01\lcd1\synlog\lcd01_lcd1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toplcd00 -multisrs ..\synwork\lcd01_lcd1_comp.srs -osyn ..\synwork\lcd01_lcd1_mult.srs -log ..\synlog\lcd01_lcd1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\lcd01_lcd1_comp.srs|io:i|time:1556813263|size:14514|exec:0|csum:83FC6AECDC66E2EA0BC1A8806B80D73D
+file:..\synwork\lcd01_lcd1_mult.srs|io:o|time:1556813264|size:4752|exec:0|csum:
+file:..\synlog\lcd01_lcd1_multi_srs_gen.srr|io:o|time:1556813264|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

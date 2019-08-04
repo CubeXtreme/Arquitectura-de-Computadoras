@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/22/2019 20:58:41
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder8bitlib; Project name: adderlib8bit00
+prj_project open "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/adder8bitlib/adderlib8bit00.ldf"
+prj_project close
+#Stop recording: 2/22/2019 20:59:11

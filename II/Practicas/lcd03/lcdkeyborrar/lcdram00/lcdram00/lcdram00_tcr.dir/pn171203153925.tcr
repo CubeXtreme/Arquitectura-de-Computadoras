@@ -1,0 +1,7 @@
+#Start recording tcl command: 12/3/2017 15:34:42
+#Project Location: E:/Users/Dowloads/lcdram00; Project name: lcdram00
+prj_project open "E:/Users/Dowloads/lcdram00/lcdram00.ldf"
+pgr_project open "E:/Users/Dowloads/lcdram00/lcdram00/lcdram00.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 12/3/2017 15:39:25

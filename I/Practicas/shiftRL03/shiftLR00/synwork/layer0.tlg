@@ -1,0 +1,21 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\topshiftRL00.vhd":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\shiftRL00.vhd":6:7:6:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":28:5:28:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":36:5:36:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":44:5:44:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":52:5:52:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":60:5:60:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":68:5:68:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":76:5:76:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\div00.vhd":84:5:84:10|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\shiftRL03\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.topshiftrl00.topshiftrl0

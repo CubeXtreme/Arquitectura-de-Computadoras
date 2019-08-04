@@ -1,0 +1,44 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_31[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_30[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_29[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_28[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_27[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_26[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_25[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_24[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_23[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_22[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_21[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_20[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_19[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_18[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_17[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_16[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_15[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_14[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_13[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_12[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_11[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_10[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_9[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_8[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_7[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_6[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_5[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_4[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_3[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_2[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_1[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_0[7:0].
+@N: FX493 |Applying initial value "10100000" on instance U1.ram_32[7:0].
+@N: FX493 |Applying initial value "0000000" on instance U1.c_key[6:0].
+@N: MO225 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|There are no possible illegal states for state machine COLS_1[0:3] (in view: work.lcdram00(lcdram0)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\elite\onedrive\escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\source\lcdram00.vhd":94:0:94:1|Found counter in view:work.lcdram00(lcdram0) instance addr[31:0] 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+@N: FX1056 |Writing EDF file: C:\Users\elite\OneDrive\Escritorio\lcdkeyborrar\lcdram00\lcdram00\lcdram00\lcdram00_lcdram00.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,19 @@
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\toprom00.vhd":8:7:8:14|Synthesizing work.toprom00.toprom0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\rom00.vhd":8:7:8:11|Synthesizing work.rom00.rom0.
+Post processing for work.rom00.rom0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+Post processing for work.contread00.contread0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+Post processing for work.div00.div0
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\rom00\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toprom00.toprom0
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd":20:2:20:3|Register bit sdiv(21) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd":20:2:20:3|Register bit sdiv(22) is always 0.
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\rom00\div00.vhd":20:2:20:3|Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL247 :"C:\Users\elite\OneDrive\Escritorio\rom00\rom00.vhd":12:3:12:9|Input port bit 4 of indirro(4 downto 0) is unused 

@@ -1,0 +1,47 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon May 06 02:28:56 2019 *
+NOTE DESIGN NAME: topalu00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-4TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outFlagInst0 : 39 : inout *
+NOTE PINS clk00 : 61 : out *
+NOTE PINS enable0 : 1 : in *
+NOTE PINS outFlagac0 : 41 : out *
+NOTE PINS outalu0[7] : 59 : out *
+NOTE PINS outalu0[6] : 57 : out *
+NOTE PINS outalu0[5] : 56 : out *
+NOTE PINS outalu0[4] : 54 : out *
+NOTE PINS outalu0[3] : 55 : out *
+NOTE PINS outalu0[2] : 52 : out *
+NOTE PINS outalu0[1] : 50 : out *
+NOTE PINS outalu0[0] : 48 : out *
+NOTE PINS inregRT0[7] : 26 : in *
+NOTE PINS inregRT0[6] : 25 : in *
+NOTE PINS inregRT0[5] : 28 : in *
+NOTE PINS inregRT0[4] : 27 : in *
+NOTE PINS inregRT0[3] : 33 : in *
+NOTE PINS inregRT0[2] : 32 : in *
+NOTE PINS inregRT0[1] : 35 : in *
+NOTE PINS inregRT0[0] : 34 : in *
+NOTE PINS inregRS0[7] : 19 : in *
+NOTE PINS inregRS0[6] : 20 : in *
+NOTE PINS inregRS0[5] : 21 : in *
+NOTE PINS inregRS0[4] : 22 : in *
+NOTE PINS inregRS0[3] : 132 : in *
+NOTE PINS inregRS0[2] : 133 : in *
+NOTE PINS inregRS0[1] : 24 : in *
+NOTE PINS inregRS0[0] : 23 : in *
+NOTE PINS funct0[5] : 9 : in *
+NOTE PINS funct0[4] : 10 : in *
+NOTE PINS funct0[3] : 11 : in *
+NOTE PINS funct0[2] : 12 : in *
+NOTE PINS funct0[1] : 13 : in *
+NOTE PINS funct0[0] : 14 : in *
+NOTE PINS cdiv00[4] : 2 : in *
+NOTE PINS cdiv00[3] : 3 : in *
+NOTE PINS cdiv00[2] : 4 : in *
+NOTE PINS cdiv00[1] : 5 : in *
+NOTE PINS cdiv00[0] : 6 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  mult4bit00  -multisrs  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_comp.srs  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synwork\mult8bit00_mult8bit00_mult.srs  -log  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\mult8bit00\mult8bit00\synlog\mult8bit00_mult8bit00_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top mult4bit00 -multisrs ..\synwork\mult8bit00_mult8bit00_comp.srs -osyn ..\synwork\mult8bit00_mult8bit00_mult.srs -log ..\synlog\mult8bit00_mult8bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\mult8bit00_mult8bit00_comp.srs|io:i|time:1551209957|size:8057|exec:0|csum:1B50E518DE719363923461DCCC587AC1
+file:..\synwork\mult8bit00_mult8bit00_mult.srs|io:o|time:1551209959|size:5515|exec:0|csum:
+file:..\synlog\mult8bit00_mult8bit00_multi_srs_gen.srr|io:o|time:1551209959|size:556|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

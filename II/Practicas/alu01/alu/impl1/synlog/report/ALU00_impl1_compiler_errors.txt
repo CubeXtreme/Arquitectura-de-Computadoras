@@ -1,0 +1,2 @@
+@E: CD326 :"C:\Users\kioki\Desktop\Arqui3CM4\P15_ALU\ALU\topalu00.vhdl":92:3:92:6|Port inacmult8bits of entity work.ac00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

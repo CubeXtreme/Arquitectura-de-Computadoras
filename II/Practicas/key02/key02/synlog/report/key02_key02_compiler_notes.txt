@@ -1,0 +1,19 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\elite\OneDrive\Escritorio\key02\topkey00.vhd":8:7:8:14|Top entity is set to topkey00.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\topkey00.vhd":8:7:8:14|Synthesizing work.topkey00.topkey0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":8:7:8:14|Synthesizing work.muxletra.muxletra0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\muxletra.vhd":32:2:32:3|Register bit sinkeyA is always 0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":7:7:7:16|Synthesizing work.contring00.contring0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(3) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(2) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\contring.vhd":20:4:20:5|Register bit outtransis(1) is always 0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\elite\OneDrive\Escritorio\key02\osc00.vhd":9:7:9:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":20:2:20:3|Register bit sdiv(21) is always 0.
+@N: CL189 :"C:\Users\elite\OneDrive\Escritorio\key02\div00.vhd":20:2:20:3|Register bit sdiv(22) is always 0.
+@N|Running in 64-bit mode
+

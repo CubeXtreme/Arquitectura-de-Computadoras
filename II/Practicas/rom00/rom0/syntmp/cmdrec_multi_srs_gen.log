@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  toprom00  -multisrs  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_comp.srs  -osyn  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synwork\rom00_rom0_mult.srs  -log  C:\Users\elite\OneDrive\Escritorio\rom00\rom0\synlog\rom00_rom0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top toprom00 -multisrs ..\synwork\rom00_rom0_comp.srs -osyn ..\synwork\rom00_rom0_mult.srs -log ..\synlog\rom00_rom0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\rom00_rom0_comp.srs|io:i|time:1553189502|size:7667|exec:0|csum:B229AEDF360AE8809B3FF9C070C81338
+file:..\synwork\rom00_rom0_mult.srs|io:o|time:1553189504|size:2948|exec:0|csum:
+file:..\synlog\rom00_rom0_multi_srs_gen.srr|io:o|time:1553189504|size:511|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

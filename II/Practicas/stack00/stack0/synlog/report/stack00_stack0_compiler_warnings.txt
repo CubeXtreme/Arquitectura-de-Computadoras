@@ -1,0 +1,4 @@
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\stack00\contring00.vhd":18:2:18:3|Pruning register bits 2 to 0 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL279 :"C:\Users\elite\OneDrive\Escritorio\stack00\div00.vhd":20:2:20:3|Pruning register bits 22 to 21 of sdiv(22 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

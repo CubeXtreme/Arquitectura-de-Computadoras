@@ -1,0 +1,7 @@
+#Start recording tcl command: 6/6/2019 21:16:24
+#Project Location: C:/Users/kioki/Desktop/Arqui3CM4/P15_ALU/ALU; Project name: ALU00
+prj_project open "C:/Users/kioki/Desktop/Arqui3CM4/P15_ALU/ALU/ALU00.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 6/6/2019 21:34:05
